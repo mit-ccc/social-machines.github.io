@@ -1,11 +1,11 @@
 # Site settings
-title: Monochrome | A minimal, responsive Jekyll blog theme
-description: "A minimal, responsive, ready to use blog template, built with Jekyll."
-url: "http://www.dyutibarma.github.io/monochrome"
+title: Social Machines
+description: "Lab description here"
+url: "social-machines.github.io"
 author:
-  name: "The Review Index"
-  email: "dyutibarma@gmail.com"
-  url: "https://thereviewindex.com"
+  name: "Lab for Social Machines"
+  email: ""
+  url: ""
 
 # Build settings
 baseurl: / # Change this to your relative path (ex: /blog/), or leave just a /
