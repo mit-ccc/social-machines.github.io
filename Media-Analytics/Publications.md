@@ -5,12 +5,25 @@ description: This page is under construction
 ---
 ## Publications
 
-### 2017
-Soroush Vosoughi*, Prashanth Vijayaraghavan*, Ann Yuan, and Deb Roy. (2017). Mapping Twitter Conversation Landscapes. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. *Equal Contribution. [PDF](/PDFs/ICWSM-2017.pdf)
+{% comment %}Start with the full set of publications{% endcomment %}
+{% assign filtered_publications = site.data.publications %}
+{% comment %}
+	Use this version to filter to only a group's publications.
+	{% assign filtered_publications = site.data.publications | where: 'group', 'learning' %}
+{% endcomment %}
 
-Iris Chin, Matthew S. Goodwin, Soroush Vosoughi, Deb Roy, and Letita R. Naigles. (2017). Dense home-based recordings reveal typical and atypical development of tense/aspect in a child with delayed language development. Journal of Child Language (2017): 1-34. [PDF](shr_jcl_2017.pdf)
+{% assign pub_by_year = filtered_publications | group_by: 'publication_year' %}
+{% for pub_year in pub_by_year  %}
+### {{ pub_year.name }}
 
-Prashanth Vijayaraghavan, Soroush Vosoughi, Ann Yuan, and Deb Roy. (2017). TweetVista: An AI-Powered Interactive Tool for Exploring Conversations on Twitter. In Proceedings of the 22nd International Conference on Intelligent User Interfaces Companion, pp. 145-148. ACM, 2017. [PDF](iuidp0166-vijayaraghavanA.pdf)
+{% for pub in pub_year.items %}
+{{ pub.citation }} {% if pub.pdf_file %}[PDF]({{ pub.pdf_file }}){% endif %}
+{% endfor %}
+
+{% endfor %}
+
+
+# OLD STUFF BELOW
 
 ### 2016
 Prashanth Vijayaraghavan, Ivan Sysoev, Soroush Vosoughi and Deb Roy. (2016). DeepStance at SemEval-2016 Task 6: Detecting Stance in Tweets Using Character and Word-Level CNNs. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016). San Diego, California. [PDF](
