@@ -1,0 +1,37 @@
+---
+layout: default
+---
+<div class="projects">
+  <h1>{{ page.title }}</h1>
+
+  {% comment %}Start with the full set of projects{% endcomment %}
+  {% assign filtered_projects = site.data.projects %}
+
+  {% if page.group %}
+    {% assign filtered_projects = site.data.projects | where: 'group', page.group %}
+  {% endif %}
+
+  {% for project in filtered_projects %}
+    <div class="project">
+      <h3>{{ project.name }}</h3>
+      {% if project.people %}
+        <p><b>People:</b> {{ project.people }}</p>
+      {% endif %}
+
+      {% if project.alumni %}
+        <p><b>Alumni:</b> {{ project.alumni }}</p>
+      {% endif %}
+
+      {% if project.image %}
+        <img src="{{ project.image }}" />
+      {% endif %}
+
+      {{ project.description | markdownify }}
+    </div>
+  {% endfor %}
+
+
+  <div>
+    {{ content }}
+  </div>
+</div>

@@ -1,6 +1,6 @@
 ---
-layout: page
+layout: projects
 title: Media Analytics Projects
-description: This page is under construction 
+description: This page is under construction
+group: media analytics
 ---
-index and sub folder of projects will go here
