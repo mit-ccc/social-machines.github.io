@@ -1,26 +1,9 @@
 ---
-layout: page
+layout: publications
 title: Media Analytics Publications
 description: This page is under construction
 ---
 ## Publications
-
-{% comment %}Start with the full set of publications{% endcomment %}
-{% assign filtered_publications = site.data.publications %}
-{% comment %}
-	Use this version to filter to only a group's publications.
-	{% assign filtered_publications = site.data.publications | where: 'group', 'learning' %}
-{% endcomment %}
-
-{% assign pub_by_year = filtered_publications | group_by: 'publication_year' %}
-{% for pub_year in pub_by_year  %}
-### {{ pub_year.name }}
-
-{% for pub in pub_year.items %}
-{{ pub.citation }} {% if pub.pdf_file %}[PDF]({{ pub.pdf_file }}){% endif %}
-{% endfor %}
-
-{% endfor %}
 
 
 # OLD STUFF BELOW
