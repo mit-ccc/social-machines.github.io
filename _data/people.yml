@@ -5,6 +5,7 @@
 #   title (e.g. "Masters Student")
 #   image
 #   url
+#   alumni (true or false or just not there if not)
 
 - name: Preeta Bansal
   title: Lecturer And Senior Advisor
@@ -12,6 +13,7 @@
   groups: 
     - media analytics
     - learning
+  url: http://mit.edu
 
 
 - name: Eric Chu
@@ -28,6 +30,8 @@
   groups: 
     - media analytics
     - learning
+    - cortico
+
 
 
 - name: Amber Franey
@@ -84,6 +88,7 @@
   groups: 
     - media analytics
     - learning
+  alumni: true 
 
 
 - name: James Kondo
@@ -116,6 +121,7 @@
   groups: 
     - media analytics
     - learning
+  alumni: true  
 
 
 - name: Juliana Nazaré
@@ -156,6 +162,7 @@
   groups: 
     - media analytics
     - learning
+    - cortico 
 
 
 - name: Martin Saveski
