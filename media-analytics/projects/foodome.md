@@ -1,10 +1,9 @@
 ---
-layout: default
+layout: project-page
 title: Foodome
+header: "The Foodome: Building a Comprehensive Knowledge Graph of Food"
+people: Neo (Mostafa) Mohsenvand, Prashanth Vijayaraghavan, Soroush Vosoughi, Goulong Luke Wang, Russell Stevens and Deb Roy
 ---
-
-### The Foodome: Building a Comprehensive Knowledge Graph of Food
-*Neo (Mostafa) Mohsenvand, Prashanth Vijayaraghavan, Soroush Vosoughi, Goulong Luke Wang, Russell Stevens and Deb Roy*
 
 The “Foodome” addresses how we might create deeper understanding and predictive intelligence about the relationships between how we talk about food, how we learn about food and what we actually eat. Our aim is to build a food learning machine that comprehensively maps, for any given food, its form, function, production, distribution, marketing, science, policy, history and culture (as well as the connections among all of these aspects).
 

@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div class="project-page">
+	<h3>{{ page.header }}</h3>
+	<p><em>{{ page.people }}</em></p>
+	{% if page.alumni %}
+		<p>
+			Project Alumni:
+			<em>{{ page.alumni }}</em>
+		</p>
+	{% endif %}
+	<div>
+		{{ content }}
+	</div>
+</div>
