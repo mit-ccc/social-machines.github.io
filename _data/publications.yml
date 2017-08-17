@@ -34,4 +34,11 @@
     Sample learning project
   publication_year: 2016
   pdf_file: test.pdf
-  group: learning
+  group: learning 
+
+- citation: |
+    Shana testing
+  publication_year: 2016
+  pdf_file: testtest.pdf
+  group: learning 
+
