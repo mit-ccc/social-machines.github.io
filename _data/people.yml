@@ -1,0 +1,28 @@
+# List all people here
+# Each person has the following items
+# - name
+#   groups ("media analytics" or "learning")
+#   title (e.g. "Masters Student")
+#   image
+#   url
+
+- name: Person One
+  groups:
+    - learning
+    - media analytics
+  title: Masters Student
+  image: http://via.placeholder.com/200x200
+  url: http://www.themostamazingwebsiteontheinternet.com/
+
+- name: Person two
+  groups:
+    - media analytics
+  title: PhD Student
+  image: http://via.placeholder.com/200x200
+
+- name: Person three
+  groups:
+    - learning
+  title: PhD Student
+  image: http://via.placeholder.com/200x200
+  url: http://www.theworldsworstwebsiteever.com/

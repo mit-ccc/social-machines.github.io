@@ -7,4 +7,4 @@ This is the media analytics world homepage/index
 
 * [Publications](publications.html)
 * [Projects](projects.html)
-* [Team](team.html)
+* [People](people.html)
