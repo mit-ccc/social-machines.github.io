@@ -1,19 +1,15 @@
 ---
 layout: default
-group: 'learning'
 ---
 <div class="publications">
+	<h1>{{ page.title }}</h1>
 
 	{% comment %}Start with the full set of publications{% endcomment %}
 	{% assign filtered_publications = site.data.publications %}
-	{% comment %}
-		Use this version to filter to only a group's publications.
-		{% assign filtered_publications = site.data.publications | where: 'group', 'learning' %}
-	{% endcomment %}
 
-
-	{% assign filtered_publications = site.data.publications | where: 'group', 'media analytics' %}
-
+	{% if page.group %}
+		{% assign filtered_publications = site.data.publications | where: 'group', page.group %}
+	{% endif %}
 
 	{% assign pub_by_year = filtered_publications | group_by: 'publication_year' %}
 	{% for pub_year in pub_by_year  %}
