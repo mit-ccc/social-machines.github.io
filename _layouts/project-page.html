@@ -10,6 +10,11 @@ layout: default
 			<em>{{ page.alumni }}</em>
 		</p>
 	{% endif %}
+	{% if page.subheader %}
+		<p>
+			<strong>{{ page.subheader }}</strong>
+		</p>
+	{% endif %} 	
 	<div>
 		{{ content }}
 	</div>
