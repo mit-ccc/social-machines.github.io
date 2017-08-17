@@ -42,7 +42,7 @@
   group: media analytics
 
 - citation: |
-    Soroush Vosough*, Prashanth Vijayaraghavan* and Deb Roy. (2016). Tweet2Vec: Learning Tweet Embeddings using Character-level CNN-LSTM Encoder-Decoder. Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2016). Pisa, Italy. *Equal Contribution.
+    Soroush Vosough\*, Prashanth Vijayaraghavan\* and Deb Roy. (2016). Tweet2Vec: Learning Tweet Embeddings using Character-level CNN-LSTM Encoder-Decoder. Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2016). Pisa, Italy. \*Equal Contribution.
   publication_year: 2016
   pdf_file: /media-analytics/pdfs/tweet2vec_vvr.pdf
   group: media analytics
@@ -54,7 +54,7 @@
   group: media analytics
 
 - citation: |
-    Prashanth Vijayaraghavan*, Soroush Vosoughi*, and Deb Roy. (2016). Automatic Detection and Categorization of Election-Related Tweets. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany. *Equal Contribution.
+    Prashanth Vijayaraghavan\*, Soroush Vosoughi\*, and Deb Roy. (2016). Automatic Detection and Categorization of Election-Related Tweets. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany. \*Equal Contribution.
   publication_year: 2016
   pdf_file: /media-analytics/pdfs/pv_sv_dr_icwsm2016.pdf
   group: media analytics
