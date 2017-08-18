@@ -24,6 +24,11 @@ defaults:
       type: "posts"
     values:
       layout: "post"
+  - scope:
+      path: ""
+      type: "projects"
+    values:
+      layout: "project-page"
 
 # Plugins
 plugins:
@@ -37,3 +42,8 @@ version: "1.0.0"
 custom_header: false
 custom_nav_footer: false
 reverse: false
+
+
+collections:
+  projects:
+    output: true

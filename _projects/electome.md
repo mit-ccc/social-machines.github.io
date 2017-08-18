@@ -1,9 +1,9 @@
 ---
-layout: project-page
 title: Electome
 header: "The Electome: Fueling the Horse Race of Ideas in the 2016 Election"
 people: Soroush Vosoughi, Prashanth Vijayaraghavan, Margaret Hughes, William Powers, Andrew Heyward, Russell Stevens and Deb Roy
 alumni: Sophie Chou, Perng-Hwa Kung, Eric Chu, Neo (Mostafa) Mohsenvand, Raphael Schaad
+group: media analytics
 ---
 The “Electome” is a comprehensive mapping of the content and network connections among the campaign’s three core public sphere voices: the Candidates, the Media, and the Public. This mapping is used to trace the election’s narratives as they form, spread, morph and decline among these three groups – identifying who and what influences these dynamics. We are developing metrics that show how responsive the Candidates and Media are to the issues that the Public find most relevant and important.
 

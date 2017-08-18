@@ -5,15 +5,15 @@ layout: default
   <h1>{{ page.title }}</h1>
 
   {% comment %}Start with the full set of projects{% endcomment %}
-  {% assign filtered_projects = site.data.projects %}
+  {% assign filtered_projects = site.projects %}
 
   {% if page.group %}
-    {% assign filtered_projects = site.data.projects | where: 'group', page.group %}
+    {% assign filtered_projects = site.projects | where: 'group', page.group %}
   {% endif %}
 
   {% for project in filtered_projects %}
     <div class="project">
-      <h3>{{ project.name }}</h3>
+      <h3><a href="{{ project.url }}">{{ project.header }}</a></h3>
       {% if project.people %}
         <p><b>People:</b> {{ project.people }}</p>
       {% endif %}
@@ -26,7 +26,7 @@ layout: default
         <img src="{{ project.image }}" />
       {% endif %}
 
-      {{ project.description | markdownify }}
+      {{ project.content | truncatewords: 50 }}
     </div>
   {% endfor %}
 

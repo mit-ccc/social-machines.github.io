@@ -1,9 +1,9 @@
 ---
-layout: project-page
 title: Visible Communities
 header: "Visible Communities"
-people: Raphael Schaad, Michael Koehrsen and Deb Roy 
+people: Raphael Schaad, Michael Koehrsen and Deb Roy
 subheader: Enabling rural communities to put themselves on the map
+group: media analytics
 ---
 Vast regions of the world are unmapped by com­mercial services, and communities living there are digitally invisible.
 
