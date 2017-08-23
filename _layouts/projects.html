@@ -12,8 +12,8 @@ layout: default
   {% endif %}
 
   {% for project in filtered_projects %}
-    <div class="project">
-      <h3><a href="{{ project.url }}">{{ project.header }}</a></h3>
+    <div class="project-item">
+      <h3 class="project-item-header"><a href="{{ project.url }}">{{ project.header }}</a></h3>
       {% if project.people %}
         <p><b>People:</b> {{ project.people }}</p>
       {% endif %}
