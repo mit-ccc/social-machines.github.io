@@ -1,17 +1,12 @@
 ---
 layout: default
 ---
-<!-- Posts -->
-<ul id="posts">
+Pithy copy about the lab and Deb goes here.<br><br>
 
-	{% for post in paginator.posts %}
 
-	  <li class="post">
-	  	<h2><a href="{% if site.baseurl == "/" %}{{ post.url }}{% else %}{{ post.url | prepend: site.baseurl }}{% endif %}">{%if post.header %}{{ post.header }}{% else %}{{ post.title }}{% endif %}</a></h2>
-      <time datetime="{{ post.date | date_to_xmlschema }}" class="by-line"> <i>{{ post.date | date_to_string }}</i> </time>
-	  	<p>{{ post.content | strip_html | truncatewords:50 }}</p>
-	  </li>
+<a href="/media-analytics">Media Analytics</a><br>
+<a href="http://playfulwords.org">Learning</a><br>
+<a href="/cortico">Cortico</a><br>
+<a href="/admissions">Admissions</a><br>
+<a href="/life-at-the-lab">Life at the Lab</a> 
 
-    {% endfor %}
-
-</ul>
