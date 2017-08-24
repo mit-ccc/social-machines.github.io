@@ -11,25 +11,34 @@ layout: default
     {% assign filtered_projects = site.projects | where: 'group', page.group %}
   {% endif %}
 
+  <div class="ui items">
   {% for project in filtered_projects %}
-    <div class="project-item">
-      <h3 class="project-item-header"><a href="{{ project.url }}">{{ project.header }}</a></h3>
-      {% if project.people %}
-        <p><b>People:</b> {{ project.people }}</p>
-      {% endif %}
-
-      {% if project.alumni %}
-        <p><b>Alumni:</b> {{ project.alumni }}</p>
-      {% endif %}
-
+    <div class="item">
       {% if project.image %}
-        <img src="{{ project.image }}" />
+        <div class="image">
+          <img src="{{ project.image }}" />
+        </div>
       {% endif %}
 
-      {{ project.content | truncatewords: 50 }}
+      <div class="content">
+        <a class="header" href="{{ project.url }}">{{ project.header }}</a>
+        <div class="meta">
+          {% if project.people %}
+            <p><b>People:</b> {{ project.people }}</p>
+          {% endif %}
+
+          {% if project.alumni %}
+            <p><b>Alumni:</b> {{ project.alumni }}</p>
+          {% endif %}
+        </div>
+
+        <div class="description">
+          {{ project.content | truncatewords: 50 }}
+        </div>
+      </div>
     </div>
   {% endfor %}
-
+  </div>
 
   <div>
     {{ content }}
