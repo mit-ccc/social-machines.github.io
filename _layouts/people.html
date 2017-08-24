@@ -11,26 +11,32 @@ layout: default
     {% assign filtered_people = site.data.people | where_exp: 'person', 'person.groups contains page.group' %}
   {% endif %}
 
-
+  <div class="ui cards">
   {% for person in filtered_people %}
-    <div class="person">
-      <h3>{{ person.name }}</h3>
-      <p>{{ person.title }}</p>
-
+    <div class="card">
       {% if person.image %}
-        <img src="{{ person.image }}" />
+        <div class="image">
+          <img src="{{ person.image }}" />
+        </div>
       {% endif %}
 
-      {% if person.groups %}
-        <p><b>Groups:</b> {{ person.groups | array_to_sentence_string }}</p>
-      {% endif %}
-
+      <div class="content">
+        <div class="header">{{ person.name }}</div>
+        <div class="meta">
+          <a>{{ person.title }}</a>
+        </div>
+        <div class="description">
+          <b>Groups:</b> {{ person.groups | array_to_sentence_string }}
+        </div>
+      </div>
       {% if person.url %}
-        <p><a href="{{ person.url }}">Website</a></p>
+      <div class="extra content">
+        <a href="{{ person.url }}">Website</a>
+      </div>
       {% endif %}
     </div>
   {% endfor %}
-
+  </div>
 
   <div>
     {{ content }}
