@@ -2,5 +2,25 @@
 # Front matter comment to ensure Jekyll properly reads file.
 ---
 
-//Import
-@import "base", "mixin", "typography", "layout", "syntax.scss", "custom.scss";
+body {
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+.main-header {
+  .ui.menu {
+    border-radius: 0;
+  }
+
+  .ui.menu .item .logo {
+    margin-right: 1.5em;
+  }
+}
+
+.main-footer {
+
+}
+
+.main-content {
+  padding: 3rem 0;
+}

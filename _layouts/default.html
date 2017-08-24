@@ -1,69 +1,53 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <!-- Meta -->
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-{% include head.html %}
+    <title>{%if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="description" content="{%if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
 
+    <!-- CSS & fonts -->
+    <link rel="stylesheet" href="{{ "/css/semantic.css" | prepend: site.baseurl | replace: '//', '/' }}">
+    <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl | replace: '//', '/' }}">
+
+    <!-- RSS -->
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="ATOM Feed" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+  </head>
 <body>
-	<div id="wrap">
-	  	
-    <!-- Icon menu -->
-	  <a {% if site.reverse == true %}id="nav-menu-left"{% else %}id="nav-menu"{% endif %}>
-	  	<div id="menu"></div>
-	  </a>
+  <!-- Header -->
+  <header class="main-header">
+    <div class="ui inverted menu">
+      <div class="ui container">
+        <a href="{{ site.baseurl }}" class="header item">
+          <img class="logo" src="/img/lsm-logo.png">
+          Lab for Social Machines
+        </a>
+        {% for link in site.data.nav.links %}
+          <a class="item" href="{{ link.url }}">{{ link.label }}</a>
+        {% endfor %}
+      </div>
+    </div>
+  </header>
 
-      <!-- Header -->
-      {% if site.custom_header == true %}
-        {% include header-custom.html %}
-      {% else %}
-        {% include header.html %}
-      {% endif %}
+  <div class="main-content">
+    <div class="ui grid container">
+      {{ content }}
+    </div>
+  </div>
 
-    <!-- Main content -->
-	  <div id="container">
-		  
-		<main>
+  <footer class="ui vertical segment inverted">
+    <div class="ui container">
+      &copy; {{ 'now' | date: '%Y' }} Lab for Social Machines
+    </div>
+  </footer>
 
-			{{ content }}
 
-	  </main>
-		
-		  <!-- Pagination links -->
-      {% if paginator.total_pages > 1 %}
-        <div class="pagination">
-          {% if paginator.previous_page == 1 %}
-            <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% elsif paginator.previous_page%}
-            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&laquo;</a>
-          {% else %}
-            <span class="page-item">&laquo;</span>
-          {% endif %}
-        
-          {% for page in (1..paginator.total_pages) %}
-            {% if page == paginator.page %}
-              <span class="page-item">{{ page }}</span>
-            {% elsif page == 1 %}
-              <a href="{{ '/' | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">{{ page }}</a>
-            {% else %}
-              <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}" class="page-item">{{ page }}</a>
-            {% endif %}
-          {% endfor %}
-        
-          {% if paginator.next_page %}
-            <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="page-item">&raquo;</a>
-          {% else %}
-            <span class="page-item">&raquo;</span>
-          {% endif %}
-        </div>
-        {% endif %}
-
-	  </div>
-	    
-	    <!-- Footer -->
-	    {% include footer.html %}
-
-	    <!-- Script -->
-      {% include script.html %}
-
-	</div>
+  <!-- Script -->
+  <script src="{{ "/js/main.js" | prepend: site.baseurl | replace: '//', '/' }}"></script>
 </body>
 </html>
