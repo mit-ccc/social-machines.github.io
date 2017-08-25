@@ -1,24 +1,69 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+html {
+  font-size: 16px;
+}
 
 body {
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 1.6;
+  // letter-spacing: 1px;
+  font-weight: 300;
+  font-family: Nunito, sans-serif;
+  color: #333;
+  -webkit-font-smoothing: antialiased;
+}
+
+.ui.menu {
+  font-family: Nunito, sans-serif;
 }
 
 .main-header {
+  .header-second {
+    font-weight: 600;
+  }
   .ui.menu {
     border-radius: 0;
+    box-shadow: none;
+    border: 0;
+
+    .item {
+      color: #666;
+    }
   }
 
-  .ui.menu .item .logo {
-    margin-right: 1.5em;
+  .ui.menu .header.item {
+    font-size: 2.2rem;
+    padding: 0.6em 0.5em;
+    font-weight: 300;
+    color: #666;
+
+  }
+
+  .ui.menu .header.item .logo {
+    height: 0.9em;
+    width: 0.9em;
+    margin-right: 0.4em;
   }
 }
 
-.main-footer {
 
+.ui.inverted.segment.main-footer {
+  background: #33373c;
+  color: rgba(255,255,255,.6);
+  font-size: 0.95rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  -webkit-font-smoothing: subpixel-antialiased;
+
+  a {
+    color: rgba(255,255,255,.8);
+
+    &:hover {
+      color: rgba(255,255,255,.9);
+    }
+  }
 }
 
 .main-content {
@@ -27,8 +72,7 @@ body {
 
 
 .boxes {
-  padding: 0 1rem;
-  margin-bottom: 3rem;
+  padding: 2rem 1rem 3rem;
 }
 
 .box {
