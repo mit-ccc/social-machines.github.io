@@ -1,7 +1,7 @@
 ---
 layout: default
 ---
-<div class="projects">
+<div class="projects ui text container">
   <h1>{{ page.title }}</h1>
 
   {% comment %}Start with the full set of projects{% endcomment %}
@@ -11,7 +11,7 @@ layout: default
     {% assign filtered_projects = site.projects | where: 'group', page.group %}
   {% endif %}
 
-  <div class="ui items">
+  <div class="ui items large-spacing">
   {% for project in filtered_projects %}
     <div class="item">
       {% if project.image %}

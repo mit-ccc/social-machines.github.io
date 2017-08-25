@@ -10,8 +10,9 @@ layout: default
   {% if page.group %}
     {% assign filtered_people = site.data.people | where_exp: 'person', 'person.groups contains page.group' %}
   {% endif %}
+  {% assign first = filtered_people | first %}
 
-  <div class="ui cards">
+  <div class="ui five doubling cards">
   {% for person in filtered_people %}
     <div class="card">
       {% if person.image %}
@@ -21,19 +22,37 @@ layout: default
       {% endif %}
 
       <div class="content">
-        <div class="header">{{ person.name }}</div>
+        <div class="header">
+          {% if person.url %}
+            <a href="{{ person.url }}">{{ person.name }}</a>
+          {% else %}
+            {{ person.name }}
+          {% endif %}
+        </div>
         <div class="meta">
-          <a>{{ person.title }}</a>
+          {{ person.title }}
         </div>
+        {% if person.bio %}
         <div class="description">
-          <b>Groups:</b> {{ person.groups | array_to_sentence_string }}
+          {{ person.bio }}
         </div>
+        {% endif %}
       </div>
-      {% if person.url %}
       <div class="extra content">
-        <a href="{{ person.url }}">Website</a>
+        {% comment %}Capitalize each word for groups{% endcomment %}
+        {% assign groupsArray = "" | split: "" %}
+        {% for group in person.groups %}
+          {% assign groupTokens = group | split: ' ' %}
+          {% assign capitalized = "" | split: "" %}
+          {% for token in groupTokens %}
+            {% assign g = token | capitalize %}
+            {% assign capitalized = capitalized | push: g %}
+          {% endfor %}
+          {% assign joined = capitalized | join: ' ' %}
+          {% assign groupsArray = groupsArray | push: joined %}
+        {% endfor %}
+        {{ groupsArray | array_to_sentence_string }}
       </div>
-      {% endif %}
     </div>
   {% endfor %}
   </div>

@@ -1,13 +1,9 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
-html {
-  font-size: 16px;
-}
-
 body {
   font-size: 1.2rem;
-  line-height: 1.6;
+  line-height: 1.55;
   // letter-spacing: 1px;
   font-weight: 300;
   font-family: Nunito, sans-serif;
@@ -15,6 +11,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+p {
+  line-height: 1.55;
+}
+
+h1, h2, h3, h4, h5, h6,
+.ui.header,
 .ui.menu {
   font-family: Nunito, sans-serif;
 }
@@ -30,6 +32,7 @@ body {
 
     .item {
       color: #666;
+      font-size: 1.2rem;
     }
   }
 
@@ -111,4 +114,17 @@ body {
 
 .column:nth-child(5) .box {
   background-image: url(http://placebear.com/570/300);
+}
+
+
+.ui.list.long-text li {
+  line-height: 1.6;
+}
+
+.ui.items.large-spacing > .item {
+  margin-bottom: 3em;
+}
+
+.image-gallery .ui.cards>.card {
+  box-shadow: none;
 }

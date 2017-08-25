@@ -1,0 +1,14 @@
+---
+layout: page
+# requires a list of images under `images` in thep age
+---
+{{ content }}
+<div class="image-gallery">
+  <div class="ui six doubling cards">
+  {% for image in page.images %}
+    <div class="card">
+      <a class="image" href="{{ image }}" target="_blank" rel="nofollow noopener noreferrer"><img src="{{ image }}" /></a>
+    </div>
+  {% endfor %}
+  </div>
+</div>

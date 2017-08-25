@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: image-gallery
 title: Life at the Lab
 description: This page will be pretty soon.
 images:
@@ -11,10 +11,3 @@ images:
  - ../img/saquib-eclipse.jpg
  - ../img/sesame-talk.jpg
 ---
-<div class="ui four column grid">
-{% for image in page.images %}
-  <div class="column">
-    <img src="{{ image }}" class="ui medium image" />
-  </div>
-{% endfor %}
-</div>
