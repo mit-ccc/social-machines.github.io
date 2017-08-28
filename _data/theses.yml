@@ -1,0 +1,199 @@
+# List all theses here
+# Each thesis has the following items (similar to publications)
+# - citation
+#   publication_year
+#   pdf_file
+#   group ("media analytics" or "learning")
+#   type ("phd_thesis", "master_thesis")
+
+# PhD Theses
+
+- citation: |
+    Soroush Vosoughi. (2015). **Automatic Detection and Verification of Rumors on Twitter**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2015
+  type: phd_thesis
+  group: media analytics
+
+- citation: |
+    Brandon C. Roy. (2013). **The Birth of a Word**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2013
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Jeff Orkin. (2013). **Collective Artificial Intelligence: Simulated Role-Playing from Crowdsourced Data**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2013
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Rony Kubat. (2012). **Will They Buy?** Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2012
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Philip DeCamp. (2012). **Data Visualization in the First Person**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2012
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Stefanie Tellex. (2010). **Natural Language and Spatial Reasoning**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2010
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Michael Ben Fleischman. (2008). **Grounding Language in Events**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2008
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Kai-yuh Hsiao. (2007). **Embodied Object Schemas for Grounding Language Use**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2007
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Peter Gorniak. (2005). **The Affordance-Based Concept**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2005
+  type: phd_thesis
+  group: learning
+
+- citation: |
+    Deb Roy. (1999). **Learning from Sights and Sounds: A Computational Model**. Ph.D. in Media Arts and Sciences, MIT.
+  publication_year: 1999
+  type: phd_thesis
+  group: learning
+
+
+# Master Theses
+- citation: |
+    Pau Perng-Hwa Kung. (2016). **Detecting and Analyzing Bursty Events on Twitter**. M.Sc. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2016
+  type: master_thesis
+  group: media analytics
+
+- citation: |
+    Sophie Chou. (2016). **Reading Between the (Party) Lines: How Political News is Seen and Shared**. M.Sc. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2016
+  type: master_thesis
+  group: media analytics
+
+- citation: |
+    Prashanth Vijayaraghavan. (2016). **Automatic Identification of Representative Content on Twitter**. M.Sc. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2016
+  type: master_thesis
+  group: media analytics
+
+- citation: |
+    Matthew Miller. (2011). **Semantic Spaces: Behavior, Language and Word Learning in the Human Speechome Corpus**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2011
+  type: master_thesis
+  group: learning
+
+- citation: |
+    George Macaulay Shaw. (2011). **A Taxonomy of Situated Language in Natural Contexts**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2011
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Kleovoulos Tsourides. (2010). **Visually Grounded Virtual Accelerometers: A Longitudinal Video Investigation of Dyadic Bodily Dynamics around the time of Word Acquisition**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2010
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Soroush Vosoughi. (2010). **Interactions of caregiver speech and early word learning in the Speechome Corpus: Computational Explorations**. M.Sc. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2010
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Sophia Yuditskaya. (2010). **Automatic Vocal Recognition of a Child’s Perceived Emotional State within the Speechome Corpus**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2010
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Sheng-Ying Pao. (2010). **Connected Strangers: Manipulating Social Perceptions to Study Trust**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2010
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Philip DeCamp. (2007). **HeadLock: Wide-Range Head Pose Estimation for Low Resolution Video**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2007
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Jeff Orkin. (2007). **Learning Plan Networks in Conversational Video Games**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2007
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Philipp Robbel. (2007). **Exploiting Object Dynamics for Recognition and Control**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2007
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Brandon Roy. (2007). **Human-Machine Collaboration for Rapid Speech Transcription**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2007
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Andre Ribeiro. (2005). **Graph Dynamics: Learning and Representation**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2005
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Charles Kehoe. (2005). **Indexical Grounding for a Mobile Robot**. M.Eng. EECS Thesis.
+  publication_year: 2005
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Niloy Mukherjee. (2003). **Spontenous Speech Recognition Using Visual Context-Aware Language Models**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2003
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Sheel Sanjay Dhande. (2003). **A Computational Model to Connect Gestalt Perception and Natural Language**. M.Sc. in Media Arts and Sciences Thesis.
+  publication_year: 2003
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Ewa Dominowska. (2002). **A Communication Aid with Context-Aware Vocabulary Prediction**. M.Eng. EECS Thesis.
+  publication_year: 2002
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Norimasa Yoshida. (2002). **Automatic Utterance Segmentation in Spontaneous Speech**. M.Eng. EECS Thesis.
+  publication_year: 2002
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Ben Yoder. (2001). **Spontaneous Speech Recognition Using Hidden Markov Models**. M.Eng. EECS Thesis.
+  publication_year: 2001
+  type: master_thesis
+  group: learning
+
+- citation: |
+    Deb Roy. (1995). NewsComm: A Hand-Held Device for Interactive Access to Structured Audio. M.Sc. in Media Arts and Sciences, MIT.
+  publication_year: 1995
+  type: master_thesis
+  group: learning
+
+

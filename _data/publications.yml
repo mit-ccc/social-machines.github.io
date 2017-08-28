@@ -4,6 +4,9 @@
 #   publication_year
 #   pdf_file
 #   group ("media analytics" or "learning")
+#
+# PhD and Master theses are defined in theses.yml
+
 
 - citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
