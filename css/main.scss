@@ -36,7 +36,9 @@ strong {
 
     .item {
       color: #666;
-      font-size: 1.2rem;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+
     }
   }
 
@@ -45,6 +47,7 @@ strong {
     padding: 0.6em 0.5em;
     font-weight: 300;
     color: #666;
+    text-transform: none;
 
   }
 
@@ -59,7 +62,7 @@ strong {
 .ui.inverted.segment.main-footer {
   background: #33373c;
   color: rgba(255,255,255,.6);
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   padding: 2rem;
   margin-top: 4rem;
   -webkit-font-smoothing: subpixel-antialiased;
