@@ -8,55 +8,59 @@
 - citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
   publication_year: 2017
-  pdf_file: /media-analytics/pdfs/ICWSM-2017.pdf
+  pdf_file: /papers/ICWSM-2017.pdf
   group: media analytics
 
 - citation: |
-    Iris Chin, Matthew S. Goodwin, Soroush Vosoughi, Deb Roy, and Letita R. Naigles. (2017). **Dense home-based   recordings reveal typical and atypical development of tense/aspect in a child with delayed language development**. Journal of Child Language (2017): 1-34.
+    Iris Chin, Matthew S. Goodwin, Soroush Vosoughi, Deb Roy, and Letita R. Naigles. (2017). **Dense home-based recordings reveal typical and atypical development of tense/aspect in a child with delayed language development**. Journal of Child Language (2017): 1-34.
   publication_year: 2017
-  pdf_file: /media-analytics/pdfs/shr_jcl_2017.pdf
-  group: media analytics
+  pdf_file: /papers/shr_jcl_2017.pdf
+  group: learning
 
 - citation: |
     Prashanth Vijayaraghavan, Soroush Vosoughi, Ann Yuan, and Deb Roy. (2017). **TweetVista: An AI-Powered Interactive Tool for Exploring Conversations on Twitter**. In Proceedings of the 22nd International Conference on Intelligent User Interfaces Companion, pp. 145-148. ACM, 2017.
   publication_year: 2017
-  pdf_file: /media-analytics/pdfs/iuidp0166-vijayaraghavanA.pdf
-  group: media analytics
-
-### 2016
-- citation: |
-    Prashanth Vijayaraghavan, Ivan Sysoev, Soroush Vosoughi and Deb Roy. (2016). **DeepStance at SemEval-2016 Task 6: Detecting Stance in Tweets Using Character and Word-Level CNNs**. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016). San Diego, California.
-  publication_year: 2016
+  pdf_file: /papers/iuidp0166-vijayaraghavanA.pdf
   group: media analytics
 
 - citation: |
+    Ivan Sysoev, Anneli Hershman, Susan Fine, Deb Roy, Mina Soltangheis, and Brianne Fitzpatrick. (2016). **Exploring SpeechBlocks: Piloting a Constructionist Literacy App with Preschool Children**. Presented at the 2016 American Speech-Language-Hearing Association (ASHA) Conference. Philadelphia, PA.
+  publication_year: 2016
+  group: learning
+
+- citation: |
+    Anneli Hershman, Ivan Sysoev, and Deb Roy. (2016). **SpeechBlocks: Using Literacy Apps as Building Blocks to Analyze Play**. Presented at the Conference for Digital Media and Learning (DML). Irvine, CA.
+  publication_year: 2016
+  group: learning
+
+- citation: |
     Prashanth Vijayaraghavan, Ivan Sysoev, Soroush Vosoughi and Deb Roy. (2016). **DeepStance at SemEval-2016 Task 6: Detecting Stance in Tweets Using Character and Word-Level CNNs**. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016). San Diego, California.
   publication_year: 2016
-  pdf_file: /media-analytics/pdfs/vsvr_semeval2016.pdf
+  pdf_file: /papers/vsvr_semeval2016.pdf
   group: media analytics
 
 - citation: |
     Soroush Vosough and Deb Roy. (2016). **A Semi-automatic Method for Efficient Detection of Stories on Social Media**. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany.
   publication_year: 2016
-  pdf_file: /media-analytics/pdfs/vosoughi_roy_storydetection_icwsm2016.pdf
+  pdf_file: /papers/vosoughi_roy_storydetection_icwsm2016.pdf
   group: media analytics
 
 - citation: |
     Soroush Vosough\*, Prashanth Vijayaraghavan\* and Deb Roy. (2016). **Tweet2Vec: Learning Tweet Embeddings using Character-level CNN-LSTM Encoder-Decoder**. Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2016). Pisa, Italy. \*Equal Contribution.
   publication_year: 2016
-  pdf_file: /media-analytics/pdfs/tweet2vec_vvr.pdf
+  pdf_file: /papers/tweet2vec_vvr.pdf
   group: media analytics
 
 - citation: |
     Martin Saveski, Sophie Chou, and Deb Roy. (2016). **Tracking the Yak: An Empirical Study of Yik Yak**. In proceedings of 10th International Conference on Web Search and Data Mining (ICWSM’16). Cologne, Germany.
   publication_year: 2016
-  pdf_file: /media-analytics/pdfs/yikyak.pdf
+  pdf_file: /papers/yikyak.pdf
   group: media analytics
 
 - citation: |
     Prashanth Vijayaraghavan\*, Soroush Vosoughi\*, and Deb Roy. (2016). **Automatic Detection and Categorization of Election-Related Tweets**. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany. \*Equal Contribution.
   publication_year: 2016
-  pdf_file: /media-analytics/pdfs/pv_sv_dr_icwsm2016.pdf
+  pdf_file: /papers/pv_sv_dr_icwsm2016.pdf
   group: media analytics
 
 - citation: |
@@ -74,3 +78,447 @@
   publication_year: 2016
   group: media analytics
 
+- citation: |
+    Martin Saveski, Eric Chu, Soroush Vosoughi, and Deb Roy. (2016). **Human Atlas: A Tool for Mapping Social Networks**. In proceedings of the 25th International Conference on World Wide Web Companion. Montreal, Canada.
+  publication_year: 2016
+  group: media analytics
+
+- citation: |
+    Soroush Vosoughi, Helen Zhou, and Deb Roy. (2015). **Digital Stylometry: Linking Profiles Across Social Networks**. In proceedings of the 7th International Conference on Social Informatics (SocInfo 2015). Beijing, China.
+  publication_year: 2015
+  group: media analytics
+
+- citation: |
+    Soroush Vosoughi and Deb Roy. (2015). **A Human-Machine Collaborative System for Identifying Rumors on Twitter**. In proceedings of the IEEE ICDM 2015 workshop on Event Analytics using Social Media Data (EASM). Atlantic City, New Jersey.
+  publication_year: 2015
+  group: media analytics
+
+- citation: |
+    Brandon C. Roy, Michael C. Frank, Philip DeCamp, Matthew Miller and Deb Roy. (2015). **Predicting the Birth of a Spoken Word**. Proceedings of the National Academy of Sciences of the United States of America (PNAS). [http://www.pnas.org/content/early/2015/09/15/1419773112](http://www.pnas.org/content/early/2015/09/15/1419773112)
+  publication_year: 2015
+  group: learning
+
+- citation: |
+    Soroush Vosoughi, Helen Zhou, and Deb Roy. (2015). **Enhanced Twitter Sentiment Classification Using Contextual Information**. In proceedings of the EMNLP 2015 workshop on Computational Approaches to Subjectivity, Sentiment & Social Media Analysis (WASSA). Lisboa, Portugal.
+  publication_year: 2015
+  group: media analytics
+
+- citation: |
+    Soroush Vosoughi. (2015). **Automatic Detection and Verification of Rumors on Twitter**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2015
+  group: media analytics
+
+- citation: |
+    Daniel C. Dennett and Deb Roy. (2015). **Our Transparent Future**. Scientific America, March 2015. [https://medium.com/@dkroy/our-transparent-future-aa86a7bcfe85](https://medium.com/@dkroy/our-transparent-future-aa86a7bcfe85)
+  publication_year: 2015
+  group: media analytics
+
+- citation: |
+    Brandon C. Roy, Soroush Vosoughi, and Deb Roy. (2014). **Grounding language models in spatiotemporal context**. Proceedings of Interspeech 2014. Singapore.
+  publication_year: 2014
+  group: learning
+
+- citation: |
+    Soroush Vosoughi. (2014). **Improving automatic speech recognition through head pose driven visual grounding**. Proceedings of the ACM SIGCHI Conference on Human Factors in Computing Systems (CHI ’14). ACM, New York, NY, USA, 3235-3238.
+  publication_year: 2014
+  group: learning
+
+- citation: |
+    Iris Chin, Soroush Vosoughi, Mathew Goodwin, Deb Roy and Letitia Naigles. (2014). **How the Speechome Recorder can change our understanding of developmental trajectories**. Poster presented at the 13th International Congress for the Study of Child Language. Amsterdam, The Netherlands.
+  publication_year: 2014
+  group: learning
+
+- citation: |
+    Iris Chin, Soroush Vosoughi, Mathew Goodwin, Deb Roy and Letitia Naigles. (2013). **Dense Data Collection Through the Speechome Recorder Better Reveals Developmental Trajectories**. In the Extended Abstract of the International Meeting for Autism Research (IMFAR) 2013. San Sebastián, Spain.
+  publication_year: 2013
+  group: learning
+
+- citation: |
+    Iris Chin, Soroush Vosoughi, Emily Potrzeba, Mathew Goodwin, Deb Roy and Letitia Naigles. (2013). **Verb use in a child previously diagnosed with ASD: Dense recordings reveal typical and atypical development**. In the Extended Abstract of the Biennial Meeting of the Society for Research in Child Development (SRCD) 2013. Seattle, Washington.
+  publication_year: 2013
+  group: learning
+
+- citation: |
+    Brandon C. Roy. (2013). **The Birth of a Word**. Ph.D. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2013
+  group: learning
+
+- citation: |
+    Soroush Vosoughi, Matthew S. Goodwin, Bill Washabaugh, and Deb Roy. (2012). **A portable audio/video recorder for longitudinal study of child development**. In Proceedings of the 14th ACM International Conference on Multimodal Interaction (ICMI ’12). ACM, New York, NY, USA, 193-200.
+  publication_year: 2012
+  group: learning
+
+- citation: |
+    Jeff Orkin and Deb Roy. (2012). **Understanding Speech in Interactive Narratives with Crowdsourced Data**. Proceedings of the Artificial Intelligence and Interactive Digital Entertainment Conference (AIIDE).
+  publication_year: 2012
+  group: learning
+
+- citation: |
+    Soroush Vosoughi and Deb Roy. (2012). **An Automatic Child-Directed Speech Detector for the Study of Child Language Development**. Proceedings of Interspeech 2012. Portland, Oregon.
+  publication_year: 2012
+  group: learning
+
+- citation: |
+    Brandon C. Roy, Michael C. Frank, and Deb Roy. (2012). **Relating Activity Contexts to Early Word Learning in Dense Longitudinal Data**. Proceedings of the 34th Annual Meeting of the Cognitive Science Society. Sapporo, Japan. (Correction to Figure 4, 5/18/13)
+  publication_year: 2012
+  group: learning
+
+- citation: |
+    Soroush Vosoughi and Deb Roy. (2012). **A longitudinal study of prosodic exaggeration in child-directed speech**. Proceedings of the 6th International Conference on Speech Prosody. Shanghai, China.
+  publication_year: 2012
+  group: learning
+
+- citation: |
+    Iris Chin, Devin Rubin, Andrea Tovar, Soroush Vosoughi, Michelle Cheng, Emily Potrzeba, Mathew Goodwin, Deb Roy, Letitia Naigles. (2012). **Dense Recordings of Naturalistic Interactions Reveal both Typical and Atypical Speech in One Child with ASD**. Proceedings of the International Meeting for Autism Research (IMFAR). Toronto, Canada.
+  publication_year: 2012
+  group: learning
+
+- citation: |
+    Hilke Reckman, Jeff Orkin and Deb Roy. (2011). **Extracting aspects of determiner meaning from dialogue in a virtual world environment**. Proceedings of the International Conference on Computational Semantics (IWCS). Oxford, England.
+  publication_year: 2011
+  group: learning
+
+- citation: |
+    Naigles, L. R., Chin, I., Vosoughi, S., Goodwin, M., & Roy, D. (2011). **Final Report for 3R01DC007428 – 04S1 Collaborative research supplement and infrastructure and research equipment for advancement of science**.
+  publication_year: 2011
+  group: learning
+
+- citation: |
+    Stefanie Tellex, Thomas Kollar, George Shaw, Nicholas Roy and Deb Roy. (2010). **Grounding Spatial Language for Video Search**. Proceedings of the Twelfth International Conference on Multimodal Interfaces (ICMI). Beijing, China.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Best Student Paper Award Philip DeCamp, George Shaw, Rony Kubat and Deb Roy. (2010). **An Immersive System for Browsing and Visualizing Surveillance Video**. Proceedings of ACM Multimedia 2010. Florence, Italy.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Albert Huang, Stefanie Tellex, Abraham Bachrach, Thomas Kollar, Deb Roy, and Nick Roy. (2010). **Natural Language Command of an Autonomous Micro-Air Vehicle**. Proceedings of the International Conference on Intelligent Robots and Systems (IROS). Taipei, Taiwan.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Meredith Meyer, Philip DeCamp, Bridgette Hard, Dare Baldwin and Deb Roy. (2010). **Assessing Behavioral and Computational Approaches to Naturalistic Action Segmentation**. Proceedings of the 32nd Annual Cognitive Science Conference. Portland, Oregon.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Brandon C. Roy\*, Soroush Vosoughi\*, and Deb Roy. (2010). **Automatic Estimation of Transcription Accuracy and Difficulty**. Proceedings of Interspeech 2010. Makuhari, Japan.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Hilke Reckman, Jeff Orkin and Deb Roy. (2010). **Learning meanings of words and constructions, grounded in a virtual game**. Proceedings of the 10th Conference on Natural Language Processing (KONVENS). Saarbrücken, Germany.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Soroush Vosoughi, Brandon C. Roy, Michael C. Frank, and Deb Roy. (2010). **Contributions of Prosodic and Distributional Features of Caregivers’ Speech in Early Word Learning**. Proceedings of the 32nd Annual Cognitive Science Conference. Portland, Oregon.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Jeff Orkin, Tynan Smith, Hilke Reckman, and Deb Roy. (2010). **Semi-Automatic Task Recognition for Interactive Narratives with EAT & RUN**. Proceedings of the 3rd Intelligent Narrative Technologies Workshop at the 5th International Conference on Foundations of Digital Games (FDG), Monterey, CA.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Jeff Orkin and Deb Roy. (2010). **Semi-Automated Dialogue Act Classification for Situated Social Agents in Games**. Proceedings of the Agents for Games & Simulations Workshop at the 9th International Conference on Autonomous Agents and Multiagent Systems (AAMAS), Toronto, Canada.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Soroush Vosoughi, Brandon C. Roy, Michael C. Frank, and Deb Roy. (2010). **Effects of Caregiver Prosody on Child Language Acquisition**. Proceedings of the 5th International Conference on Speech Prosody. Chicago, IL.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Thomas Kollar, Stefanie Tellex, Deb Roy, and Nick Roy. (2010). **Toward Understanding Natural Language Directions**. Proceedings of Human Robot Interaction Conference 2010 (HRI-2010). Osaka, Japan.
+  publication_year: 2010
+  group: learning
+
+- citation: |
+    Stefanie Tellex and Deb Roy. (2009). **Grounding Spatial Prepositions for Video Search**. Proceedings of the Eleventh International Conference on Multimodal Interfaces (ICMI-2009). Cambridge, MA.
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Deb Roy. (2009). **New Horizons in the Study of Child Language Acquisition**.Proceedings of Interspeech 2009. Brighton, England.
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Brandon C. Roy and Deb Roy. (2009). **Fast transcription of unstructured audio recordings**. Proceedings of Interspeech 2009. Brighton, England.
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Rony Kubat, Daniel Mirman and Deb Roy. (2009). **Semantic context effects on color categorization**. Proceedings of the 31st Annual Cognitive Science Society Meeting.
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Brandon C. Roy, Michael C. Frank and Deb Roy. (2009). **Exploring word learning in a high-density longitudinal corpus**. Proceedings of the 31st Annual Meeting of the Cognitive Science Society.
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Philip DeCamp and Deb Roy. (2009). **A Human-Machine Collaborative Approach to Tracking Human Movement in Multi-Camera Video**. Proceedings of the 2009 International Conference on Content-based Image and Video Retrieval (CIVR).
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Stefanie Tellex and Deb Roy. (2009). **Towards Surveillance Video Search by Natural Language Query**. Proceedings of the ACM International Conference on Image and Video Retrieval.
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Jeff Orkin and Deb Roy. (2009). **Automatic Learning and Generation of Social Behavior from Collective Human Gameplay**. Proceedings of the 8th International Conference on Autonomous Agents and Multiagent Systems (AAMAS).
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Kai-yuh Hsiao, and Soroush Vosoughi. (2009). **The Object Schema Model and Situational Context**.
+  publication_year: 2009
+  group: learning
+
+- citation: |
+    Deb Roy. (2008). **A Mechanistic Model of Three Facets of Meaning**. Symbols, Embodiment, and Meaning, de Vega, Glenberg, and Graesser, eds.
+  publication_year: 2008
+  group: learning
+
+- citation: |
+    Michael Fleischman and Deb Roy. (2008). **Grounded Language Modeling for Automatic Speech Recognition of Sports Video**. HLT/NAACL. Columbus, OH.
+  publication_year: 2008
+  group: learning
+
+- citation: |
+    Kai-yuh Hsiao, Stefanie Tellex, Soroush Vosoughi, Rony Kubat, and Deb Roy. (2008). **Object Schemas for Grounding Language in a Responsive Robot**. Connection Science 20, 4 (Dec.2008), 253-276.
+  publication_year: 2008
+  group: learning
+
+- citation: |
+    Kai-yuh Hsiao, Soroush Vosoughi, Stefanie Tellex, Rony Kubat, and Deb Roy. (2008). **Object Schemas for Responsive Robotic Language Use**. Proceedings of the 3rd ACM/IEEE International Conference on Human-Robot Interaction.
+  publication_year: 2008
+  group: learning
+
+- citation: |
+    Jeff Orkin and Deb Roy. (2007). **The Restaurant Game: Learning Social Behavior and Language from Thousands of Players Online**. Journal of Game Development, 3(1), 39-60.
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Rony Kubat, Philip DeCamp, Brandon Roy, and Deb Roy. (2007). **TotalRecall: Visualization and Semi-Automatic Annotation of Very Large Audio-Visual Corpora**.Ninth International Conference on Multimodal Interfaces (ICMI 2007).
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Michael Fleischman and Deb Roy. (2007). **Unsupervised Content-Based Indexing of Sports Video Retrieval**. 9th ACM Workshop on Multimedia Information Retrieval (MIR). Augsburg, Germany.
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Michael Fleischman, Brandon Roy, and Deb Roy. (2007). **Temporal Feature Induction for Baseball Highlight Classification**. ACM Multimedia Conference. Augsburg, Germany.
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Peter Gorniak and Deb Roy. (2007). **Situated Language Understanding as Filtering Perceived Affordances**. Cognitive Science, 31(2), 197-231.
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Michael Fleischman and Deb Roy. (2007). **Situated Models of Meaning for Sports Video Retrieval**. HLT/ACL 2007, Rochester, NY.
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Stefanie Tellex and Deb Roy. (2007). **Grounding Language in Spatial Routines**.AAAI 2007 Spring Symposia on Control Mechanisms for Spatial Knowledge Processing in Cognitive / Intelligent Systems, Stanford University, Palo Alto CA.
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Michael Levit and Deb Roy. (2007). **Interpretation of Spatial Language in a Map Navigation Task**. IEEE Transactions on Systems, Man, and Cybernetics, Part B, 37(3), 667-679.
+  publication_year: 2007
+  group: learning
+
+- citation: |
+    Michael Fleischman, Philip DeCamp, and Deb Roy. (2006). **Mining Temporal Patterns of Movement for Video Content Classification**. Proceedings of the 8th ACM SIGMM International Workshop on Multimedia Information Retrieval.
+  publication_year: 2006
+  group: learning
+
+- citation: |
+    Deb Roy, Rupal Patel, Philip DeCamp, Rony Kubat, Michael Fleischman, Brandon Roy, Nikolaos Mavridis, Stefanie Tellex, Alexia Salata, Jethran Guinness, Michael Levit, Peter Gorniak. (2006). **The Human Speechome Project**. Proceedings of the 28th Annual Cognitive Science Conference.
+  publication_year: 2006
+  group: learning
+
+- citation: |
+    Peter Gorniak and Deb Roy. (2006). **Perceived Affordances as a Substrate for Linguistic Concepts**. Twenty-eighth Annual Meeting of the Cognitive Science Society, 6 pages.
+  publication_year: 2006
+  group: learning
+
+- citation: |
+    Peter Gorniak, Jeff Orkin, and Deb Roy. (2006). **Speech, Space and Purpose: Situated Language Understanding in Computer Games**. Twenty-eighth Annual Meeting of the Cognitive Science Society Workshop on Computer Games.
+  publication_year: 2006
+  group: learning
+
+- citation: |
+    Nikolaos Mavridis and Deb Roy. (2006). **Grounded Situation Models for Robots: Where Words and Percepts Meet**. Proceedings of the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS).
+  publication_year: 2006
+  group: learning
+
+- citation: |
+    Dong Zhang, Daniel Gatica-Perez, Deb Roy, Samy Bengio. (2006). **Modeling Interactions from Email Communication**. IEEE International Conference on Multimedia & Expo (ICME).
+  publication_year: 2006
+  group: learning
+
+- citation: |
+    Stefanie Tellex and Deb Roy. (2006). **Spatial Routines for a Simulated Speech-Controlled Vehicle**. Proceedings of Human Robot Interaction Conference 2006 (HRI-2006).
+  publication_year: 2006
+  group: learning
+
+- citation: |
+    Philip DeCamp, Amber Frid-Jimenez, Jethran Guiness and Deb Roy. (2005). **Gist Icons: Seeing Meaning in Large Bodies of Literature**. IEEE Info Visualization 2005 Conference.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Kai-yuh Hsiao and Deb Roy. (2005). **A Habit System for an Interactive Robot**.AAAI Fall Symposium 2005: From Reactive to Anticipatory Cognitive Embodied Systems.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Peter Gorniak and Roy (2005). **Probabilistic Grounding of Situated Speech using Plan Recognition and Reference Resolution**. Seventh International Conference on Multimodal Interfaces (ICMI 2005). Best Paper Award.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Michael Fleischman and Deb Roy. (2005). **Intentional Context in Situated Language Learning**. Ninth Conference on Computational Natural Language Learning.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Nick Mavridis and Deb Roy. (2005). **Grounded Situation Models for Robots: Bridging language, Perception, and Action**. AAAI-05 Workshop on Modular Construction of Human-Like Intelligence.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Deb Roy. (2005). **Semiotic Schemas: A Framework for Grounding Language in Action and Perception**. Artificial Intelligence, 167(1-2):170-205.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Michael Fleischman and Deb Roy. (2005). **Why are verbs harder to learner than nouns? Initial insights from a computational model of situated word learning**. 27th Annual Meeting of the Cognitive Science Society.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Deb Roy. (2005). **Grounding words in perception and action: computational insights**. Trends in Cognitive Science, 9(8), 389-396.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Kai-yuh Hsiao, Peter Gorniak, and Deb Roy. (2005). **NetP: A Network API for Building Heterogeneous Modular Intelligent Systems**. Proceedings of AAAI 2005 Workshop in Modular Construction of Human-Like Intelligence,
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Peter Gorniak and Deb Roy. (2005). **Speaking with your Sidekick: Understanding Situated Speech in Computer Role Playing Games**. Proceedings of Artificial Intelligence and Interactive Digital Entertainment, 2005.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Deb Roy and Niloy Mukherjee. (2005). **Towards Situated Speech Understanding: Visual Context Priming of Language Models**. Computer Speech and Language, 19(2), pages 227-248.
+  publication_year: 2005
+  group: learning
+
+- citation: |
+    Joshua Juster and Deb Roy. (2004). **Elvis: Situated Speech and Gesture Understanding for a Robotic Chandelier**. Proc. Int. Conf. Multimodal Interfaces.
+  publication_year: 2004
+  group: learning
+
+- citation: |
+    Deb Roy, Yair Ghitza, Jeff Bartelma, and Charlie Kehoe. (2004). **Visual Memory Augmentation: Using Eye Gaze as an Attention Filter**. Proceedings of the IEEE International Symposium on Wearable Computers.
+  publication_year: 2004
+  group: learning
+
+- citation: |
+    Deb Roy, Kai-Yuh Hsiao, and Nikolaos Mavridis. (2004). **Mental Imagery for  a Conversational Robot**. IEEE Transactions on Systems, Man, and Cybernetics, Part B, 34(3), 1374-1383.
+  publication_year: 2004
+  group: learning
+
+- citation: |
+    Peter Gorniak and Deb Roy. (2004). **Grounded Semantic Composition for Visual Scenes, Journal of Artificial Intelligence Research, Volume 21, pages 429-470**.
+  publication_year: 2004
+  group: learning
+
+- citation: |
+    Peter Gorniak and Deb Roy. (2003). **Augmenting User Interfaces with Adaptive Speech Commands**. In Proceedings of the International Conference for Multimodal Interfaces.
+  publication_year: 2003
+  group: learning
+
+- citation: |
+    Peter Gorniak and Deb Roy. (2003). **A Visually Grounded Natural Language Interface for Reference to Spatial Scenes**. In Proceedings of the International Conference for Multimodal Interfaces.
+  publication_year: 2003
+  group: learning
+
+- citation: |
+    Brian Whitman, Deb Roy, Barry Vercoe. (2003). **Learning Word Meanings and Descriptive Parameter Spaces from Music**. In Proceedings of the HLT-NAACL03 workshop on Learning Word Meaning from Non-Linguistic Data.
+  publication_year: 2003
+  group: learning
+
+- citation: |
+    Kai-yuh Hsiao, Nikolaos Mavridis, Deb Roy. Coupling Perception and Simulation: Steps Towards Conversational Robotics. (2003). **The Proceedings of IEEE/RSJ International Conference on Intelligent Robots and Systems**.
+  publication_year: 2003
+  group: learning
+
+- citation: |
+    Deb Roy, Kai-yuh Hsiao, Nikolaos Mavridis. (2003). **Conversational Robots: Building Blocks for Grounding Word Meanings**. In Proceedings of the HLT-NAACL03 Workshop on Learning Word Meaning from Non-Linguistic Data.
+  publication_year: 2003
+  group: learning
+
+- citation: |
+    Deb Roy. (2003). **Grounded Spoken Language Acquisition: Experiments in Word Learning**. IEEE Transactions on Multimedia, 5(2): 197-209.
+  publication_year: 2003
+  group: learning
+
+- citation: |
+    Peter Gorniak. (2003). **Meaning “I”**. General Exams Paper.
+  publication_year: 2003
+  group: learning
+
+- citation: |
+    Deb Roy, Peter Gorniak, Niloy Mukherjee, and Josh Juster. (2002). **A Trainable Spoken Language Understanding System for Visual Object Selection**. In Proceedings of the International Conference of Spoken Language Processing.
+  publication_year: 2002
+  group: learning
+
+- citation: |
+    Deb Roy. (2002). **A Trainable Visually-Grounded Spoken Language Generation System**. In Proceedings of the International Conference of Spoken Language Processing.
+  publication_year: 2002
+  group: learning
+
+- citation: |
+    Deb Roy. (2002). **Learning Words and Syntax for a Visual Description Task**. Computer Speech and Language.
+  publication_year: 2002
+  group: learning
+
+- citation: |
+    Deb Roy. (2001/2002). **Learning Visually Grounded Words and Syntax of Natural Spoken Language**. Evolution of Communication. 4(1).
+  publication_year: 2001
+  group: learning
+
+- citation: |
+    Deb Roy and Alex Pentland. (2002). **Learning Words from Sights and Sounds: A Computational Model**. Cognitive Science, 26(1), 113-146.
+  publication_year: 2002
+  group: learning
+
+- citation: |
+    Ewa Dominowska, Deb Roy and Rupal Patel. (2002). **An Adaptive Context-Sensitive Communication Aid**. Proceedings for the 17th Annual International Conference “Technology and Persons with Disabilities”.
+  publication_year: 2002
+  group: learning
+
+- citation: |
+    Deb Roy. (2000). **Integration of Speech and Vision using Mutual Information**. Int. Conf. Acoustics, Speech and Signal Processing.
+  publication_year: 2000
+  group: learning
