@@ -6,71 +6,71 @@
 #   group ("media analytics" or "learning")
 
 - citation: |
-    Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). Mapping Twitter Conversation Landscapes. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
+    Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
   publication_year: 2017
   pdf_file: /media-analytics/pdfs/ICWSM-2017.pdf
   group: media analytics
 
 - citation: |
-    Iris Chin, Matthew S. Goodwin, Soroush Vosoughi, Deb Roy, and Letita R. Naigles. (2017). Dense home-based   recordings reveal typical and atypical development of tense/aspect in a child with delayed language development. Journal of Child Language (2017): 1-34.
+    Iris Chin, Matthew S. Goodwin, Soroush Vosoughi, Deb Roy, and Letita R. Naigles. (2017). **Dense home-based   recordings reveal typical and atypical development of tense/aspect in a child with delayed language development**. Journal of Child Language (2017): 1-34.
   publication_year: 2017
   pdf_file: /media-analytics/pdfs/shr_jcl_2017.pdf
   group: media analytics
 
 - citation: |
-    Prashanth Vijayaraghavan, Soroush Vosoughi, Ann Yuan, and Deb Roy. (2017). TweetVista: An AI-Powered Interactive Tool for Exploring Conversations on Twitter. In Proceedings of the 22nd International Conference on Intelligent User Interfaces Companion, pp. 145-148. ACM, 2017.
+    Prashanth Vijayaraghavan, Soroush Vosoughi, Ann Yuan, and Deb Roy. (2017). **TweetVista: An AI-Powered Interactive Tool for Exploring Conversations on Twitter**. In Proceedings of the 22nd International Conference on Intelligent User Interfaces Companion, pp. 145-148. ACM, 2017.
   publication_year: 2017
   pdf_file: /media-analytics/pdfs/iuidp0166-vijayaraghavanA.pdf
   group: media analytics
 
 ### 2016
 - citation: |
-    Prashanth Vijayaraghavan, Ivan Sysoev, Soroush Vosoughi and Deb Roy. (2016). DeepStance at SemEval-2016 Task 6: Detecting Stance in Tweets Using Character and Word-Level CNNs. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016). San Diego, California.
+    Prashanth Vijayaraghavan, Ivan Sysoev, Soroush Vosoughi and Deb Roy. (2016). **DeepStance at SemEval-2016 Task 6: Detecting Stance in Tweets Using Character and Word-Level CNNs**. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016). San Diego, California.
   publication_year: 2016
   group: media analytics
 
 - citation: |
-    Prashanth Vijayaraghavan, Ivan Sysoev, Soroush Vosoughi and Deb Roy. (2016). DeepStance at SemEval-2016 Task 6: Detecting Stance in Tweets Using Character and Word-Level CNNs. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016). San Diego, California.
+    Prashanth Vijayaraghavan, Ivan Sysoev, Soroush Vosoughi and Deb Roy. (2016). **DeepStance at SemEval-2016 Task 6: Detecting Stance in Tweets Using Character and Word-Level CNNs**. In Proceedings of the 10th International Workshop on Semantic Evaluation (SemEval-2016). San Diego, California.
   publication_year: 2016
   pdf_file: /media-analytics/pdfs/vsvr_semeval2016.pdf
   group: media analytics
 
 - citation: |
-    Soroush Vosough and Deb Roy. (2016). A Semi-automatic Method for Efficient Detection of Stories on Social Media. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany.
+    Soroush Vosough and Deb Roy. (2016). **A Semi-automatic Method for Efficient Detection of Stories on Social Media**. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany.
   publication_year: 2016
   pdf_file: /media-analytics/pdfs/vosoughi_roy_storydetection_icwsm2016.pdf
   group: media analytics
 
 - citation: |
-    Soroush Vosough\*, Prashanth Vijayaraghavan\* and Deb Roy. (2016). Tweet2Vec: Learning Tweet Embeddings using Character-level CNN-LSTM Encoder-Decoder. Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2016). Pisa, Italy. \*Equal Contribution.
+    Soroush Vosough\*, Prashanth Vijayaraghavan\* and Deb Roy. (2016). **Tweet2Vec: Learning Tweet Embeddings using Character-level CNN-LSTM Encoder-Decoder**. Proceedings of the 39th International ACM SIGIR Conference on Research and Development in Information Retrieval (SIGIR 2016). Pisa, Italy. \*Equal Contribution.
   publication_year: 2016
   pdf_file: /media-analytics/pdfs/tweet2vec_vvr.pdf
   group: media analytics
 
 - citation: |
-    Martin Saveski, Sophie Chou, and Deb Roy. (2016). Tracking the Yak: An Empirical Study of Yik Yak. In proceedings of 10th International Conference on Web Search and Data Mining (ICWSM’16). Cologne, Germany.
+    Martin Saveski, Sophie Chou, and Deb Roy. (2016). **Tracking the Yak: An Empirical Study of Yik Yak**. In proceedings of 10th International Conference on Web Search and Data Mining (ICWSM’16). Cologne, Germany.
   publication_year: 2016
   pdf_file: /media-analytics/pdfs/yikyak.pdf
   group: media analytics
 
 - citation: |
-    Prashanth Vijayaraghavan\*, Soroush Vosoughi\*, and Deb Roy. (2016). Automatic Detection and Categorization of Election-Related Tweets. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany. \*Equal Contribution.
+    Prashanth Vijayaraghavan\*, Soroush Vosoughi\*, and Deb Roy. (2016). **Automatic Detection and Categorization of Election-Related Tweets**. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany. \*Equal Contribution.
   publication_year: 2016
   pdf_file: /media-analytics/pdfs/pv_sv_dr_icwsm2016.pdf
   group: media analytics
 
 - citation: |
-    David Alvarez-Melis and Martin Saveski. (2016). Topic Modeling in Twitter: Aggregating Tweets by Conversations. In proceedings of 10th International Conference on Web Search and Data Mining (ICWSM’16). Cologne, Germany.
+    David Alvarez-Melis and Martin Saveski. (2016). **Topic Modeling in Twitter: Aggregating Tweets by Conversations**. In proceedings of 10th International Conference on Web Search and Data Mining (ICWSM’16). Cologne, Germany.
   publication_year: 2016
   group: media analytics
 
 - citation: |
-    Soroush Vosoughi, and Deb Roy. (2016). Tweet Acts: A Speech Act Classifier for Twitter. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany. Cologne, Germany.
+    Soroush Vosoughi, and Deb Roy. (2016). **Tweet Acts: A Speech Act Classifier for Twitter**. In Proceedings of the 10th International AAAI Conference on Weblogs and Social Media (ICWSM 2016). Cologne, Germany. Cologne, Germany.
   publication_year: 2016
   group: media analytics
 
 - citation: |
-    Soroush Vosoughi, Russell Stevens, and Deb Roy. (2016). Addressing the Demographic Bias on Twitter. The 71st Annual Conference of the American Association for Public Opinion Research (AAPOR). Austin, Texas.
+    Soroush Vosoughi, Russell Stevens, and Deb Roy. (2016). **Addressing the Demographic Bias on Twitter**. The 71st Annual Conference of the American Association for Public Opinion Research (AAPOR). Austin, Texas.
   publication_year: 2016
   group: media analytics
 
