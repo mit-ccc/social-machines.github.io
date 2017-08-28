@@ -19,7 +19,7 @@ layout: default
 	{% for pub in pub_year.items %}
 		<li>
 			{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
-			{% if pub.pdf_file %}<a class="ui button mini compact basic" href="{{ pub.pdf_file }}"><i class="ui icon download"></i>pdf</a>{% endif %}
+			{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
 		</li>
 	{% endfor %}
 	</ul>
