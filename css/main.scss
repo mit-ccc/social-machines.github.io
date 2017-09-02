@@ -61,11 +61,10 @@ strong {
 
 .ui.inverted.segment.main-footer {
   background: #33373c;
-  color: rgba(255,255,255,.6);
-  font-size: 1.2rem;
+  color: rgba(255,255,255,1);
+  font-size: 1.1rem;
   padding: 2rem;
   margin-top: 4rem;
-  -webkit-font-smoothing: subpixel-antialiased;
 
   a {
     color: rgba(255,255,255,.8);
@@ -73,6 +72,19 @@ strong {
     &:hover {
       color: rgba(255,255,255,.9);
     }
+  }
+
+  .header {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
+
+  }
+
+  .copyright {
+    margin-top: 3rem;
+    opacity: 0.5;
   }
 }
 
