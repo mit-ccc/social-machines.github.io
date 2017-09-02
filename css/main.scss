@@ -7,7 +7,8 @@ body {
   // letter-spacing: 1px;
   font-weight: 400;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+  font-family: "PT Serif", Georgia, serif;
+  color: #565656;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -18,13 +19,22 @@ p {
 h1, h2, h3, h4, h5, h6,
 .ui.header,
 .ui.menu,
-.ui.text.container {
+.ui.text.container,
+.main-footer,
+.card,
+.boxes,
+.projects .meta {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ui.text.container {
+  font-family: "PT Serif", serif;
 }
 
 
 strong {
   font-weight: 600;
+  color: #333;
 }
 
 .main-header {
