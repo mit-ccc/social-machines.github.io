@@ -1,5 +1,21 @@
 ---
 layout: default
+boxes:
+  - label: Media Analytics
+    url: /media-analytics
+    image: https://placebear.com/500/300
+  - label: Learning
+    url: http://playfulwords.org
+    image: http://placebear.com/550/300
+  - label: Cortico
+    url: /cortico
+    image: http://placebear.com/540/300
+  - label: Admissions
+    url: /admissions
+    image: http://placebear.com/530/300
+  - label: Life at the Lab
+    url: /life-at-the-lab
+    image: http://placebear.com/570/300
 ---
 <div class="ui text container">
   <p>
@@ -11,22 +27,4 @@ layout: default
   </p>
 </div>
 
-<div class="boxes">
-  <div class="ui stackable middle aligned two column grid container">
-    <div class="column">
-      <a class="box" href="/media-analytics">Media Analytics</a>
-    </div>
-    <div class="column">
-      <a class="box" href="http://playfulwords.org">Learning</a>
-    </div>
-    <div class="column">
-      <a class="box" href="/cortico">Cortico</a>
-    </div>
-    <div class="column">
-      <a class="box" href="/admissions">Admissions</a>
-    </div>
-    <div class="column">
-      <a class="box" href="/life-at-the-lab">Life at the Lab</a>
-    </div>
-  </div>
-</div>
+{% include boxes.html boxes=page.boxes %}
