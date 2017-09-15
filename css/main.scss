@@ -180,3 +180,42 @@ strong {
   font-weight: 400;
   text-shadow: 1px 1px #333;
 }
+
+
+.people .ui.cards {
+  margin-top: 2rem;
+}
+
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  width: 80px;
+  height: 80px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #eee;
+}
+
+.ui.card, .ui.cards>.card {
+  box-shadow: none;
+
+  .content {
+    padding: 0;
+
+    img {
+      border-radius: 100%;
+    }
+
+    .left.floated.image {
+      margin-right: 1.5em;
+    }
+  }
+
+  .details {
+    margin-top: 0.5em;
+  }
+}

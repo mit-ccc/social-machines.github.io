@@ -12,16 +12,15 @@ layout: default
   {% endif %}
   {% assign first = filtered_people | first %}
 
-  <div class="ui four stackable cards">
+  <div class="ui two stackable cards">
   {% for person in filtered_people %}
     <div class="card">
-      {% if person.image %}
-        <div class="image">
-          <img src="{{ person.image }}" />
-        </div>
-      {% endif %}
-
       <div class="content">
+        {% if person.image %}
+        <div class="left floated tiny ui image">
+          <div class="profile-img" style="background-image: url({{ person.image }})"></div>
+        </div>
+        {% endif %}
         <div class="header">
           {% if person.url %}
             <a href="{{ person.url }}">{{ person.name }}</a>
@@ -32,27 +31,28 @@ layout: default
         <div class="meta">
           {{ person.title }}
         </div>
+        <div class="details">
         {% if person.bio %}
-        <div class="description">
-          {{ person.bio }}
-        </div>
+          <div>{{ person.bio }}</div>
         {% endif %}
-      </div>
-      <div class="extra content">
-        {% comment %}Capitalize each word for groups{% endcomment %}
-        {% assign groupsArray = "" | split: "" %}
-        {% for group in person.groups %}
-          {% assign groupTokens = group | split: ' ' %}
-          {% assign capitalized = "" | split: "" %}
-          {% for token in groupTokens %}
-            {% assign g = token | capitalize %}
-            {% assign capitalized = capitalized | push: g %}
+          <div>
+          {% comment %}Capitalize each word for groups{% endcomment %}
+          {% assign groupsArray = "" | split: "" %}
+          {% for group in person.groups %}
+            {% assign groupTokens = group | split: ' ' %}
+            {% assign capitalized = "" | split: "" %}
+            {% for token in groupTokens %}
+              {% assign g = token | capitalize %}
+              {% assign capitalized = capitalized | push: g %}
+            {% endfor %}
+            {% assign joined = capitalized | join: ' ' %}
+            {% assign groupsArray = groupsArray | push: joined %}
           {% endfor %}
-          {% assign joined = capitalized | join: ' ' %}
-          {% assign groupsArray = groupsArray | push: joined %}
-        {% endfor %}
-        {{ groupsArray | array_to_sentence_string }}
+          {{ groupsArray | array_to_sentence_string }}
+          </div>
+        </div>
       </div>
+
     </div>
   {% endfor %}
   </div>
