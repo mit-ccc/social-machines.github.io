@@ -12,50 +12,45 @@ layout: default
   {% endif %}
   {% assign first = filtered_people | first %}
 
-  <div class="ui two stackable cards">
-  {% for person in filtered_people %}
-    <div class="card">
-      <div class="content">
-        {% if person.image %}
-        <div class="left floated tiny ui image">
-          <div class="profile-img" style="background-image: url({{ person.image }})"></div>
-        </div>
-        {% endif %}
-        <div class="header">
-          {% if person.url %}
-            <a href="{{ person.url }}">{{ person.name }}</a>
-          {% else %}
-            {{ person.name }}
-          {% endif %}
-        </div>
-        <div class="meta">
-          {{ person.title }}
-        </div>
-        <div class="details">
-        {% if person.bio %}
-          <div>{{ person.bio }}</div>
-        {% endif %}
-          <div>
-          {% comment %}Capitalize each word for groups{% endcomment %}
-          {% assign groupsArray = "" | split: "" %}
-          {% for group in person.groups %}
-            {% assign groupTokens = group | split: ' ' %}
-            {% assign capitalized = "" | split: "" %}
-            {% for token in groupTokens %}
-              {% assign g = token | capitalize %}
-              {% assign capitalized = capitalized | push: g %}
-            {% endfor %}
-            {% assign joined = capitalized | join: ' ' %}
-            {% assign groupsArray = groupsArray | push: joined %}
-          {% endfor %}
-          {{ groupsArray | array_to_sentence_string }}
-          </div>
-        </div>
-      </div>
+  {% comment %}Filter out alumni into their own section{% endcomment %}
+  {% assign alumni = filtered_people | where: 'alumni', true %}
+  {% assign filtered_people = filtered_people | where_exp: 'person', 'person.alumni != true' %}
 
-    </div>
+  {% assign grouped_people = filtered_people | group_by: 'type' %}
+
+  {% for people_group_name in page.people_order  %}
+    {% assign people_group = grouped_people | where: 'name', people_group_name | first %}
+
+    {% assign num_people = people_group.items | size %}
+    {% if num_people > 0 %}
+
+      {% capture label %}
+      {% case people_group.name %}
+          {% when 'leadership' %}__exclude
+          {% when 'faculty' %}
+            Faculty
+          {% when 'visitor' %}
+            Visiting Researchers and Collaborators
+          {% when 'cortico' %}
+            Cortico
+          {% when 'postdoc' %}
+            Post-doctoral Researchers
+          {% when 'student' %}
+            Students
+          {% when 'staff' %}
+            Staff
+          {% else %}
+            Other {{ people_group.name }}
+          {% endcase %}
+      {% endcapture %}
+
+      {% include people_group.html label=label people=people_group.items %}
+
+    {% endif %}
   {% endfor %}
-  </div>
+  {% comment %}End people group for{% endcomment %}
+
+  {% include people_group.html label="Alumni" people=alumni %}
 
   <div>
     {{ content }}

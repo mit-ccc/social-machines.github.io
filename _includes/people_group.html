@@ -1,0 +1,58 @@
+{% assign trimmed_label = include.label | strip %}
+<div class="ui segment vertical people-group people-group-{{ trimmed_label | slugify }}">
+  {% if trimmed_label != '__exclude' %}
+  <h2 class="ui header">
+    {{ trimmed_label }}
+  </h2>
+  {% endif %}
+
+
+  <div class="ui two stackable cards">
+  {% for person in include.people %}
+    <div class="card">
+      <div class="content">
+        {% if person.image %}
+        <div class="left floated ui image">
+          <div class="profile-img" style="background-image: url({{ person.image }})"></div>
+        </div>
+        {% endif %}
+        <div class="header">
+          {% if person.url %}
+            <a href="{{ person.url }}">{{ person.name }}</a>
+          {% else %}
+            {{ person.name }}
+          {% endif %}
+        </div>
+        <div class="meta">
+          {{ person.title }}
+        </div>
+          {% if false %}{% comment %}Remove details for now {% endcomment %}
+        <div class="details">
+        {% if person.bio %}
+          <div>{{ person.bio }}</div>
+        {% endif %}
+
+          <div>
+          {% comment %}Capitalize each word for groups{% endcomment %}
+          {% assign groupsArray = "" | split: "" %}
+          {% for group in person.groups %}
+            {% assign groupTokens = group | split: ' ' %}
+            {% assign capitalized = "" | split: "" %}
+            {% for token in groupTokens %}
+              {% assign g = token | capitalize %}
+              {% assign capitalized = capitalized | push: g %}
+            {% endfor %}
+            {% assign joined = capitalized | join: ' ' %}
+            {% assign groupsArray = groupsArray | push: joined %}
+          {% endfor %}
+          {{ groupsArray | array_to_sentence_string }}
+          </div>
+        </div>
+          {% endif %}
+      </div>
+
+    </div>
+  {% endfor %}
+  {% comment %}End person card for{% endcomment %}
+    </div>
+  </div>

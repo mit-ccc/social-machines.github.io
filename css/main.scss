@@ -192,18 +192,18 @@ strong {
   display: inline-block;
   vertical-align: middle;
   border-radius: 100%;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #eee;
 }
 
-.ui.card, .ui.cards>.card {
+.people-group .ui.card, .people-group .ui.cards>.card {
   box-shadow: none;
 
-  .content {
+  >.content {
     padding: 0;
 
     img {
@@ -211,7 +211,12 @@ strong {
     }
 
     .left.floated.image {
-      margin-right: 1.5em;
+      margin-right: 1em;
+      margin-bottom: 0;
+    }
+
+    >.header {
+      margin-top: 0.4em;
     }
   }
 
