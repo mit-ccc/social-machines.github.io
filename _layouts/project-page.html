@@ -2,20 +2,23 @@
 layout: default
 ---
 <div class="project-page">
-	<h3>{{ page.header }}</h3>
-	<p><em>{{ page.people }}</em></p>
-	{% if page.alumni %}
-		<p>
-			Project Alumni:
-			<em>{{ page.alumni }}</em>
-		</p>
-	{% endif %}
-	{% if page.subheader %}
-		<p>
-			<strong>{{ page.subheader }}</strong>
-		</p>
-	{% endif %} 	
-	<div>
-		{{ content }}
+	<div class="ui text container">
+		<h1 class="ui header">{{ page.header }}</h1>
+		<div class="meta"><p>{{ page.people }}</p>
+		{% if page.alumni %}
+			<p class="muted">
+				Project Alumni:
+				{{ page.alumni }}
+			</p>
+		{% endif %}
+	</div>
+		{% if page.subheader %}
+			<p>
+				<strong>{{ page.subheader }}</strong>
+			</p>
+		{% endif %}
+		<div>
+			{{ content }}
+		</div>
 	</div>
 </div>
