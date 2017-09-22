@@ -1,7 +1,7 @@
 ---
 layout: people
 title: Media Analytics Team
-description: This page is under construction
+description: The Media Analytics team is led by Deb Roy and Russell Stevens.
 group: media analytics
 people_order:
   - leadership

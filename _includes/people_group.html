@@ -1,5 +1,5 @@
 {% assign trimmed_label = include.label | strip %}
-<div class="ui segment vertical people-group people-group-{{ trimmed_label | slugify }}">
+<div class="ui segment vertical basic people-group people-group-{{ trimmed_label | slugify }}">
   {% if trimmed_label != '__exclude' %}
   <h2 class="ui header">
     {{ trimmed_label }}
@@ -7,12 +7,12 @@
   {% endif %}
 
 
-  <div class="ui two stackable cards">
+  <div class="ui cards">
   {% for person in include.people %}
     <div class="card">
       <div class="content">
         {% if person.image %}
-        <div class="left floated ui image">
+        <div class="ui image">
           <div class="profile-img" style="background-image: url({{ person.image }})"></div>
         </div>
         {% endif %}

@@ -182,26 +182,29 @@ strong {
 }
 
 
-.people .ui.cards {
-  margin-top: 2rem;
-}
-
 .profile-img {
   max-width: 100%;
   height: auto;
   display: inline-block;
   vertical-align: middle;
   border-radius: 100%;
-  width: 60px;
-  height: 60px;
+  width: 120px;
+  height: 120px;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-color: #eee;
 }
 
+.people-group .ui.header {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+}
+
 .people-group .ui.card, .people-group .ui.cards>.card {
   box-shadow: none;
+  text-align: center;
+  width: 210px;
 
   >.content {
     padding: 0;
