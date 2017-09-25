@@ -14,7 +14,7 @@ layout: default
 		{% assign filtered_publications = site.data.publications | where: 'group', page.group %}
 	{% endif %}
 
-	{% assign pub_by_year = filtered_publications | group_by: 'publication_year' %}
+	{% assign pub_by_year = filtered_publications | group_by: 'publication_year' | sort: 'name' | reverse %}
 	{% for pub_year in pub_by_year  %}
 	<h3 class="ui header">{{ pub_year.name }}</h3>
 
