@@ -4,6 +4,8 @@
 #   publication_year
 #   pdf_file
 #   group ("media analytics" or "learning")
+#   academic (true or false)
+#   tags (a list of tags)
 #
 # PhD and Master theses are defined in theses.yml
 
@@ -520,7 +522,7 @@
   group: learning
 
 - citation: |
-    Peter Gorniak and Deb Roy. (2004). **Grounded Semantic Composition for Visual Scenes, Journal of Artificial Intelligence Research, Volume 21, pages 429-470**.
+    Peter Gorniak and Deb Roy. (2004). **Grounded Semantic Composition for Visual Scenes**. Journal of Artificial Intelligence Research, Volume 21, pages 429-470.
   publication_year: 2004
   pdf_file: /papers/bishop.pdf
   group: learning
@@ -608,3 +610,10 @@
   publication_year: 2000
   pdf_file: /papers/icassp2000.pdf
   group: learning
+
+
+- citation: |
+    B. N. Chodirker, D. Roy, C. R. Greenberg, M. Cheang, J. A. Evans, & M. H. Reed. (1991). **Computer assisted analysis of hand radiographs in infantile hypophosphatasia carriers**. Pediatric Radiology, 21(3): 216-219.
+  publication_year: 1991
+  pdf_file: https://www.media.mit.edu/~dkroy/papers/pdf/chodirker_roy_1991.pdf
+  academic: true
