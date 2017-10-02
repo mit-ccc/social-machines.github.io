@@ -24,7 +24,8 @@ h1, h2, h3, h4, h5, h6,
 .card,
 .boxes,
 .projects .meta,
-.project-page .meta {
+.project-page .meta,
+.filter-tags .ui.label {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
@@ -231,4 +232,9 @@ strong {
   .details {
     margin-top: 0.5em;
   }
+}
+
+
+.filter-tags {
+  margin: 0.4em 0 1.5em;
 }
