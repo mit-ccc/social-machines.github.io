@@ -18,9 +18,9 @@ layout: default
 	{% for pub_year in pub_by_year  %}
 	<h3 class="ui header">{{ pub_year.name }}</h3>
 
-	<ul class="ui list long-text">
+	<ul class="ui list long-text publication-list">
 	{% for pub in pub_year.items %}
-		<li>
+		<li class="publication">
 			{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
 			{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
 		</li>
@@ -38,7 +38,6 @@ layout: default
 	{% endif %}
 
 	{% assign theses_by_type = filtered_theses | group_by: 'type' %}
-
 	<h2 class="ui header">Theses</h2>
 	{% for thesis_type in theses_by_type  %}
 	<h3 class="ui header">
@@ -47,7 +46,7 @@ layout: default
 
 	<ul class="ui list long-text">
 	{% for thesis in thesis_type.items %}
-		<li>
+		<li class="thesis">
 			{{ thesis.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
 			{% if thesis.pdf_file %}<a href="{{ thesis.pdf_file }}">pdf</a>{% endif %}
 		</li>
@@ -58,9 +57,36 @@ layout: default
 
 
 	<script type="text/javascript">
-		var publications = {{ filtered_publications | jsonify }};
+		{% comment %} generate JSON version of the publications adding in ID and HTML{% endcomment %}
+		var publications = [
+		{% assign last_id = 0 %}
+		{% for pub_year in pub_by_year %}
+			{% for pub in pub_year.items %}
+				{% capture jsonpub %}{{ pub | jsonify }}{% endcapture %}
+				{% assign jsonpubsize = jsonpub | size | minus: 1 %}
+				{% capture pubhtml %}
+					{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+					{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
+				{% endcapture %}
+				{{ jsonpub | slice: 0, jsonpubsize }}, "id": {{ last_id }}, "html": "{{ pubhtml | replace: '"', '\"' | strip_newlines | strip }}"},
+			{% assign last_id = last_id | plus: 1 %}
+			{% endfor %}
+		{% endfor %}
+		];
 	</script>
+<script>
+	clearData('.publications');
+	createFilterableList({
+	  rootSelector: '.publications',
+	  title: '{{ page.title }}',
+	  data: publications,
+	  tagKey: 'group',
+	  groupBy: 'publication_year',
+	  listClass: 'ui list long-text publication-list',
+	  renderItem: item => item.html,
+	});
 
+</script>
 
 	<div>
 		{{ content }}
