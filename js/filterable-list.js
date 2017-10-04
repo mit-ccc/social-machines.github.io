@@ -1,3 +1,16 @@
+/**
+ * This code needs to be built to be used in production. Run the
+ * following command at the command line to build:
+ *
+ *   buble filterable-list.js | uglifyjs --compress --mangle > filterable-list.min.js
+ *
+ * (Note: you can run ./build.sh in the root directory to do this)
+ *
+ * If you do not have these programs installed, you can install them with:
+ *
+ *   npm install -g buble uglify-js
+ *
+ */
 function createFilterableList({
   rootSelector,
   title,
@@ -166,8 +179,10 @@ function createFilterableList({
       tagValue = [tagValue];
     }
 
-    for (const value of tagValue) {
-      for (const activeTag of activeTags) {
+    for (let i = 0; i < tagValue.length; ++i) {
+      const value = tagValue[i];
+      for (let j = 0; j < activeTags.length; ++j) {
+        const activeTag = activeTags[j];
         if (value === activeTag) {
           return true;
         }
@@ -182,7 +197,7 @@ function createFilterableList({
       return true;
     }
 
-    const excludedKeys = ['html'];
+    const excludedKeys = ['html', 'id'];
 
     const itemStringValue = Object.keys(item)
       .filter(key => !excludedKeys.includes(key))
