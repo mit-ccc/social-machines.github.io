@@ -26,6 +26,8 @@ function createFilterableList({
   let filteredData;
   let groupedFilteredData;
 
+  readStateFromUrl();
+
   /** initialize **/
 
   const root = d3.select(rootSelector);
@@ -40,6 +42,7 @@ function createFilterableList({
     .append('input')
     .attr('type', 'text')
     .attr('class', 'filter-input')
+    .attr('value', inputString)
     .on('change keyup', function() {
       changeInputValue(this.value);
     });
@@ -67,6 +70,9 @@ function createFilterableList({
     // re-filter data
     filterData();
     render();
+
+    // update URL state
+    writeStateToUrl();
   }
 
   /** render helpers **/
@@ -119,8 +125,6 @@ function createFilterableList({
         'filtered-list-group-list ' + (listClass ? listClass : '')
       );
 
-    // TODO - handle data binding
-
     // render the lists
     const itemBinding = entering
       .merge(binding)
@@ -134,6 +138,34 @@ function createFilterableList({
       .attr('class', 'filtered-list-item')
       .merge(itemBinding)
       .html(renderItem);
+  }
+
+  /** URL encoding and decoding**/
+  function writeStateToUrl() {
+    const encodedInputString = inputString.length
+      ? encodeURIComponent(inputString)
+      : undefined;
+    const encodedTags = activeTags.length
+      ? encodeURIComponent(activeTags.join('__'))
+      : undefined;
+
+    // write inputString to URL
+    let url = window.location.href;
+    url = updateQueryParam(url, 'q', encodedInputString);
+    url = updateQueryParam(url, 'tags', encodedTags);
+
+    window.history.replaceState({ encodedInputString, encodedTags }, '', url);
+  }
+
+  function readStateFromUrl() {
+    const queryParams = getUrlQueryParams();
+
+    inputString = queryParams.q || '';
+    if (queryParams.tags) {
+      activeTags = queryParams.tags.split('__');
+    } else {
+      activeTags = [];
+    }
   }
 
   /** data processing **/
@@ -234,4 +266,50 @@ function createFilterableList({
 
 function clearData(rootSelector) {
   d3.select(rootSelector).html('');
+}
+
+// from https://stackoverflow.com/questions/5999118/how-can-i-add-or-update-a-query-string-parameter
+function updateQueryParam(uri, key, value) {
+  var re = new RegExp('([?&])' + key + '=.*?(&|#|$)', 'i');
+  if (value === undefined) {
+    if (uri.match(re)) {
+      // modified to remove excessive &s and empty ?
+      return uri
+        .replace(re, '$1$2')
+        .replace(/&+/g, '&')
+        .replace(/&$/, '')
+        .replace(/\?$/, '');
+    } else {
+      return uri;
+    }
+  } else {
+    if (uri.match(re)) {
+      return uri.replace(re, '$1' + key + '=' + value + '$2');
+    } else {
+      var hash = '';
+      if (uri.indexOf('#') !== -1) {
+        hash = uri.replace(/.*#/, '#');
+        uri = uri.replace(/#.*/, '');
+      }
+      var separator = uri.indexOf('?') !== -1 ? '&' : '?';
+      return uri + separator + key + '=' + value + hash;
+    }
+  }
+}
+
+// from https://stackoverflow.com/questions/901115/how-can-i-get-query-string-values-in-javascript
+function getUrlQueryParams() {
+  var match,
+    pl = /\+/g, // Regex for replacing addition symbol with a space
+    search = /([^&=]+)=?([^&]*)/g,
+    decode = function(s) {
+      return decodeURIComponent(s.replace(pl, ' '));
+    },
+    query = window.location.search.substring(1);
+
+  urlParams = {};
+  while ((match = search.exec(query)))
+    urlParams[decode(match[1])] = decode(match[2]);
+
+  return urlParams;
 }
