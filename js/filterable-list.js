@@ -42,12 +42,17 @@ function createFilterableList({
     .append('input')
     .attr('type', 'text')
     .attr('class', 'filter-input')
+    .attr('placeholder', 'Search...')
     .attr('value', inputString)
     .on('change keyup', function() {
       changeInputValue(this.value);
     });
 
   const tagList = root.append('div').attr('class', 'filter-tags');
+  tagList
+    .append('div')
+    .attr('class', 'filter-label')
+    .text('Filter by Tag');
 
   const tags = discoverTagsFromData(data);
 

@@ -25,6 +25,7 @@ h1, h2, h3, h4, h5, h6,
 .boxes,
 .projects .meta,
 .project-page .meta,
+.filter-tags,
 .filter-tags .ui.label {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -240,4 +241,10 @@ strong {
 }
 .filter-tags {
   margin: 0.4em 0 1.5em;
+}
+
+.filter-label {
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-top: 0.8em;
 }
