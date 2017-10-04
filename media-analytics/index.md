@@ -1,12 +1,20 @@
 ---
-layout: text-page
+layout: page
 title: Media Analytics
 description: This page is under construction
+boxes:
+  - label: Publications
+    url: publications
+    image: https://placebear.com/500/300
+  - label: Projects
+    url: projects
+    image: http://placebear.com/550/300
+  - label: People
+    url: people
+    image: http://placebear.com/540/300
 ---
-This is the media analytics world homepage/index
+<div class="ui text container">
+  This is the media analytics world homepage/index
+</div>
 
-
-* [Publications](publications.html)
-* [Projects](projects.html)
-* [People](people.html)
-{: .ui.list}
+{% include boxes.html boxes=page.boxes %}
