@@ -9,12 +9,23 @@
 #
 # PhD and Master theses are defined in theses.yml
 
+# possible tags:
+# - Machine Learning
+# - AI
+# - Robotics
+# - Cognitive
+# - Media Analytics
+# - Learning
+# - Food
 
 - citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
   publication_year: 2017
   pdf_file: /papers/ICWSM-2017.pdf
   group: media analytics
+  tags:
+    - Machine Learning
+    - Media Analytics
   academic: true
 
 - citation: |
@@ -22,6 +33,8 @@
   publication_year: 2017
   pdf_file: /papers/shr_jcl_2017.pdf
   group: learning
+  tags:
+    - Learning
   academic: true
 
 - citation: |
@@ -29,6 +42,9 @@
   publication_year: 2017
   pdf_file: /papers/iuidp0166-vijayaraghavanA.pdf
   group: media analytics
+  tags:
+    - AI
+    - Media Analytics
   academic: true
 
 - citation: |
