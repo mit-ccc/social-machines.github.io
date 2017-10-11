@@ -275,11 +275,12 @@
 
 
 - name: John West
-  title: Data Journalist & New Application Developer
-  type: cortico
+  title: Media Technologist
+  type: visitor
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/JOHN-WEST.jpg
   groups:
     - cortico
+    - media analytics
 
 
 - name: Eugene Yi
