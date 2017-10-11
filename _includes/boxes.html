@@ -1,6 +1,6 @@
 {% comment %}A component for rendering a grid of boxes with text in the middle{% endcomment %}
 <div class="boxes {{ include.compact }}">
-  <div class="ui stackable middle aligned {{ include.columns | default: "two" }} column grid container">
+  <div class="ui stackable middle aligned {{ include.columns | default: "two" }} column grid">
     {% assign box_num = 0 %}
   {% for box in include.boxes %}
     <div class="column">

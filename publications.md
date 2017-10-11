@@ -14,6 +14,7 @@ boxes:
 
   - label: Press
     url: "#press"
-
+boxColumns: four
+boxCompact: compact
 # Generated via data in _data/publications.yml and the layout in _layouts/publications.html
 ---

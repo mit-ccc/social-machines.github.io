@@ -9,9 +9,5 @@ boxes:
     url: projects
   - label: People
     url: people
+boxColumns: three
 ---
-<div class="ui container">
-  This is the media analytics world homepage/index
-</div>
-
-{% include boxes.html boxes=page.boxes %}

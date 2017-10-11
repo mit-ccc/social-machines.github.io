@@ -1,5 +1,13 @@
 ---
 layout: default
 ---
+<h1 class="page-header {% if page.boxes %}with-boxes{% endif %}">{{page.title}}</h1>
+{% if page.boxes %}
+<div class="header-box-container">
+  {% include boxes.html boxes=page.boxes columns=page.boxColumns compact=page.boxCompact %}
+</div>
+{% endif %}
 
-{{ content }}
+<div class="ui container">
+  {{ content }}
+</div>
