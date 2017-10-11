@@ -26,6 +26,7 @@ h1, h2, h3, h4, h5, h6,
 .projects .meta,
 .project-page .meta,
 .filter-tags,
+.hero,
 .filter-tags .ui.label {
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
@@ -220,11 +221,20 @@ strong {
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   height: 100%;
   color: #fff;
   font-size: 3rem;
-  font-weight: 400;
+  font-weight: 200;
   text-shadow: 1px 1px #333;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+}
+
+.hero-second {
+  font-weight: 700;
+  display: block;
+  font-size: 3.9rem;
 }
 
 
