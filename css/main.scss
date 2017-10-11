@@ -125,7 +125,13 @@ strong {
 
 .main-content {
   padding: 0 0 2rem;
+
+  > .ui.container {
+    padding-top: 2rem;
+  }
 }
+
+
 
 .box-container {
   margin: 2rem 0;
