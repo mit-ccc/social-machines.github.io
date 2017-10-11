@@ -1,94 +1,99 @@
 ---
 layout: default
 ---
-<div class="publications ui text container">
+<div class="ui container">
 	<h1 class="ui header">{{ page.title }}</h1>
 
-
-	<h2 class="ui header">Papers</h2>
-
-	{% comment %}Start with the full set of publications{% endcomment %}
-	{% assign filtered_publications = site.data.publications %}
-
-	{% if page.group %}
-		{% assign filtered_publications = site.data.publications | where: 'group', page.group %}
+	{% if page.boxes %}
+	{% include boxes.html boxes=page.boxes columns="four" compact="compact" %}
 	{% endif %}
 
-	{% assign pub_by_year = filtered_publications | group_by: 'publication_year' | sort: 'name' | reverse %}
-	{% for pub_year in pub_by_year  %}
-	<h3 class="ui header">{{ pub_year.name }}</h3>
+	<div class="publications">
+		<h2 class="ui header">Papers</h2>
 
-	<ul class="ui list long-text publication-list">
-	{% for pub in pub_year.items %}
-		<li class="publication">
-			{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
-			{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
-		</li>
-	{% endfor %}
-	</ul>
+		{% comment %}Start with the full set of publications{% endcomment %}
+		{% assign filtered_publications = site.data.publications %}
 
-	{% endfor %}
+		{% if page.group %}
+			{% assign filtered_publications = site.data.publications | where: 'group', page.group %}
+		{% endif %}
 
-	{% assign filtered_theses = site.data.theses %}
+		{% assign pub_by_year = filtered_publications | group_by: 'publication_year' | sort: 'name' | reverse %}
+		{% for pub_year in pub_by_year  %}
+		<h3 class="ui header">{{ pub_year.name }}</h3>
 
-
-	{% comment %} Add in theses {% endcomment %}
-	{% if page.group %}
-		{% assign filtered_theses = site.data.theses | where: 'group', page.group %}
-	{% endif %}
-
-	{% assign theses_by_type = filtered_theses | group_by: 'type' %}
-	<h2 class="ui header">Theses</h2>
-	{% for thesis_type in theses_by_type  %}
-	<h3 class="ui header">
-		{% if thesis_type.name == 'phd_thesis' %}Ph.D.{% else %}M.Sc / M.Eng.{% endif %}
-	</h3>
-
-	<ul class="ui list long-text">
-	{% for thesis in thesis_type.items %}
-		<li class="thesis">
-			{{ thesis.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
-			{% if thesis.pdf_file %}<a href="{{ thesis.pdf_file }}">pdf</a>{% endif %}
-		</li>
-	{% endfor %}
-	</ul>
-
-	{% endfor %}
-
-
-	<script type="text/javascript">
-		{% comment %} generate JSON version of the publications adding in ID and HTML{% endcomment %}
-		var publications = [
-		{% assign last_id = 0 %}
-		{% for pub_year in pub_by_year %}
-			{% for pub in pub_year.items %}
-				{% capture jsonpub %}{{ pub | jsonify }}{% endcapture %}
-				{% assign jsonpubsize = jsonpub | size | minus: 1 %}
-				{% capture pubhtml %}
-					{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
-					{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
-				{% endcapture %}
-				{{ jsonpub | slice: 0, jsonpubsize }}, "id": {{ last_id }}, "html": "{{ pubhtml | replace: '"', '\"' | strip_newlines | strip }}"},
-			{% assign last_id = last_id | plus: 1 %}
-			{% endfor %}
+		<ul class="ui list long-text publication-list">
+		{% for pub in pub_year.items %}
+			<li class="publication">
+				{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+				{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
+			</li>
 		{% endfor %}
-		];
+		</ul>
+
+		{% endfor %}
+
+		{% assign filtered_theses = site.data.theses %}
+
+
+		{% comment %} Add in theses {% endcomment %}
+		{% if page.group %}
+			{% assign filtered_theses = site.data.theses | where: 'group', page.group %}
+		{% endif %}
+
+		{% assign theses_by_type = filtered_theses | group_by: 'type' %}
+		<h2 class="ui header">Theses</h2>
+		{% for thesis_type in theses_by_type  %}
+		<h3 class="ui header">
+			{% if thesis_type.name == 'phd_thesis' %}Ph.D.{% else %}M.Sc / M.Eng.{% endif %}
+		</h3>
+
+		<ul class="ui list long-text">
+		{% for thesis in thesis_type.items %}
+			<li class="thesis">
+				{{ thesis.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+				{% if thesis.pdf_file %}<a href="{{ thesis.pdf_file }}">pdf</a>{% endif %}
+			</li>
+		{% endfor %}
+		</ul>
+
+		{% endfor %}
+
+
+		<script type="text/javascript">
+			{% comment %} generate JSON version of the publications adding in ID and HTML{% endcomment %}
+			var publications = [
+			{% assign last_id = 0 %}
+			{% for pub_year in pub_by_year %}
+				{% for pub in pub_year.items %}
+					{% capture jsonpub %}{{ pub | jsonify }}{% endcapture %}
+					{% assign jsonpubsize = jsonpub | size | minus: 1 %}
+					{% capture pubhtml %}
+						{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+						{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
+					{% endcapture %}
+					{{ jsonpub | slice: 0, jsonpubsize }}, "id": {{ last_id }}, "html": "{{ pubhtml | replace: '"', '\"' | strip_newlines | strip }}"},
+				{% assign last_id = last_id | plus: 1 %}
+				{% endfor %}
+			{% endfor %}
+			];
+		</script>
+	<script>
+		clearData('.publications');
+		createFilterableList({
+		  rootSelector: '.publications',
+		  title: '{{ page.title }}',
+		  data: publications,
+		  tagKey: 'tags',
+		  groupBy: 'publication_year',
+		  listClass: 'ui list long-text publication-list',
+		  renderItem: item => item.html,
+		});
+
 	</script>
-<script>
-	clearData('.publications');
-	createFilterableList({
-	  rootSelector: '.publications',
-	  title: '{{ page.title }}',
-	  data: publications,
-	  tagKey: 'tags',
-	  groupBy: 'publication_year',
-	  listClass: 'ui list long-text publication-list',
-	  renderItem: item => item.html,
-	});
 
-</script>
-
-	<div>
-		{{ content }}
+		<div>
+			{{ content }}
+		</div>
 	</div>
 </div>

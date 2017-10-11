@@ -31,10 +31,6 @@ function createFilterableList({
   /** initialize **/
 
   const root = d3.select(rootSelector);
-  root
-    .append('h1')
-    .attr('class', 'ui header')
-    .text(title);
 
   const inputContainer = root.append('div').attr('class', 'ui input');
 
