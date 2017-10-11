@@ -45,8 +45,10 @@ strong {
   color: #333;
 }
 
+$navBackground: #eee;
 .main-header {
-  border-bottom: 1px solid #eee;
+  border-bottom: 1px solid darken($navBackground, 5%);
+  min-height: 56px;
 
   .header-second {
     font-weight: 600;
@@ -56,6 +58,7 @@ strong {
     border-radius: 0;
     box-shadow: none;
     border: 0;
+    background-color: $navBackground;
 
     .item {
       color: #666;
@@ -75,7 +78,7 @@ strong {
     font-size: 1.8rem;
 
     &:hover {
-      background: #fff;
+      background: $navBackground;
       color: #555;
     }
   }
@@ -90,6 +93,10 @@ strong {
 @media only screen and (max-width: 768px) {
   .main-header .ui.menu .header.item {
     padding-left: 0.6em;
+  }
+
+  .main-header .ui.fixed.menu {
+    position: static; // remove fixed positioning for mobile
   }
 }
 
@@ -276,9 +283,26 @@ $boxColor: #1a1b1d;
   margin-bottom: 3em;
 }
 
-.image-gallery .ui.cards>.card {
-  box-shadow: none;
+.image-gallery-image {
+  display: block;
+  width: auto;
+  height: 0;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: -1rem; // counter-act the grid
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+
+  &:hover {
+    opacity: 0.92;
+  }
 }
+
+.image-gallery {
+  padding: 1rem; // counter-act the grid
+}
+
 
 .muted {
   color: #888;
