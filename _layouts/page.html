@@ -3,7 +3,9 @@ layout: default
 ---
 
 <div class="ui container">
-<h1 class="page-header {% if page.boxes %}with-boxes{% endif %}">{{page.title}}</h1>
+<h1 class="page-header {% if page.boxes %}with-boxes{% endif %}">
+  {% if page.header %}{{page.header}}{% else %}{{page.title}}{% endif %}
+</h1>
 {% if page.boxes %}
 <div class="header-box-container">
   {% include boxes.html boxes=page.boxes columns=page.boxColumns compact=page.boxCompact %}

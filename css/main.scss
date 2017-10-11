@@ -243,6 +243,7 @@ $boxColor: #1a1b1d;
   color: #fff;
   text-align: center;
   background-color: lighten($boxColor, 7.5%);
+  margin-bottom: 2.5rem;
 
   &.with-boxes {
     margin-bottom: 0;
