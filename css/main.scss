@@ -151,8 +151,8 @@ strong {
   background-color: #1a1b1d;
   color: #fff;
   font-size: 2.2rem;
-  font-weight: 400;
-  letter-spacing: 0.8px;
+  font-weight: 200;
+  letter-spacing: 3px;
   text-transform: uppercase;
   background-position: center;
   text-shadow: 1px 1px #333;
@@ -184,6 +184,15 @@ strong {
 
   &.box-5:hover {
     background-color: #6b2c4c;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .boxes {
+    .box {
+      height: 100px;
+      font-size: 1.6rem;
+    }
   }
 }
 
@@ -234,8 +243,19 @@ strong {
 .hero-second {
   font-weight: 700;
   display: block;
-  font-size: 3.9rem;
+  font-size: 1.28em;
 }
+
+@media only screen and (max-width: 768px) {
+  .hero .hero-content {
+    font-size: 1.7rem;
+  }
+
+  .hero {
+    height: 260px;
+  }
+}
+
 
 
 .profile-img {
