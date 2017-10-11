@@ -48,6 +48,12 @@
   academic: true
 
 - citation: |
+    Misha Sra, Prashanth Vijayaraghavan, Ognjen Rudovic, Pattie Maes, and Deb Roy. (2017). **DeepSpace: Mood-Based Image Texture Generation for Virtual Reality from Music**. IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW), 10 pages.
+  publication_year: 2017
+  pdf_file: /papers/deepspace.pdf
+  academic: true
+
+- citation: |
     Ivan Sysoev, Anneli Hershman, Susan Fine, Deb Roy, Mina Soltangheis, and Brianne Fitzpatrick. (2016). **Exploring SpeechBlocks: Piloting a Constructionist Literacy App with Preschool Children**. Presented at the 2016 American Speech-Language-Hearing Association (ASHA) Conference. Philadelphia, PA.
   publication_year: 2016
   pdf_file: /papers/AshaPaperFinal.pdf
@@ -181,6 +187,12 @@
   academic: true
 
 - citation: |
+    Thomas Kollar, Stefanie Tellex, Deb Roy, and Nicholas Roy. (2014). **Grounding verbs of motion in natural language commands to robots.** Experimental robotics. Springer Berlin Heidelberg.
+  publication_year: 2014
+  pdf_file: https://www.researchgate.net/profile/Stefanie_Tellex/publication/228755892_Grounding_Verbs_of_Motion_in_Natural_Language_Commands_to_Robots/links/0fcfd50bf792ea1405000000.pdf
+  academic: true
+
+- citation: |
     Iris Chin, Soroush Vosoughi, Mathew Goodwin, Deb Roy and Letitia Naigles. (2013). **Dense Data Collection Through the Speechome Recorder Better Reveals Developmental Trajectories**. In the Extended Abstract of the International Meeting for Autism Research (IMFAR) 2013. San Sebastián, Spain.
   publication_year: 2013
   pdf_file: /papers/Chin_et_al_IMFAR2013_Abstract.pdf
@@ -192,6 +204,12 @@
   publication_year: 2013
   pdf_file: /papers/Chin_et_al_SRCD2013_Abstract.pdf
   group: learning
+  academic: true
+
+- citation: |
+    Thomas Kollar, Stefanie Tellex, Matthew R. Walter, Albert Huang, Abraham Bachrach, Sachi Hemachandra, Emma Brunskill, Ashis Banerjee, Deb Roy, Seth Teller, and Nicholas Roy. (2013). **Generalized grounding graphs: A probabilistic framework for understanding grounded language**. Journal of Artificial Intelligence Research (JAIR). 35 pages.
+  publication_year: 2013
+  pdf_file: https://people.csail.mit.edu/sachih/home/wp-content/uploads/2014/04/G3_JAIR.pdf
   academic: true
 
 - citation: |
@@ -328,6 +346,13 @@
   academic: true
 
 - citation: |
+    Philipp Robbel and Deb Roy. (2010). **Exploiting feature dynamics for active object recognition**. 11th International Conference on Control Automation Robotics & Vision (ICARCV), 7 pages.
+  pdf_file: https://dspace.mit.edu/bitstream/handle/1721.1/80839/Roy_Exploiting%20Feature.pdf
+  publication_year: 2010
+  academic: true
+
+
+- citation: |
     Stefanie Tellex and Deb Roy. (2009). **Grounding Spatial Prepositions for Video Search**. Proceedings of the Eleventh International Conference on Multimodal Interfaces (ICMI-2009). Cambridge, MA.
   publication_year: 2009
   pdf_file: /papers/stefie10-icmi2009-2.pdf
@@ -417,6 +442,12 @@
   pdf_file: /papers/trisk_hri08.pdf
   group: learning
   academic: true
+
+- citation: |
+    Rony Kubat, Kai-yuh Hsiao, and Deb Roy. (2008). **Connecting Language to Robot Behaviour: An Architecture of Object Schemas**.
+  publication_year: 2008
+  academic: true
+
 
 - citation: |
     Jeff Orkin and Deb Roy. (2007). **The Restaurant Game: Learning Social Behavior and Language from Thousands of Players Online**. Journal of Game Development, 3(1), 39-60.
@@ -600,12 +631,32 @@
   group: learning
   academic: true
 
+
+- citation: |
+    Deb Roy and Ehud Reiter. (2005). **Connecting Language to the World**. Artificial Intelligence, 167(1-2): 1-12.
+  publication_year: 2005
+  pdf_file: http://www.sciencedirect.com/science/article/pii/S0004370205001049/pdf?md5=4be0440b8e068da8e06f2126aa12e595&pid=1-s2.0-S0004370205001049-main.pdf
+  academic: true
+
+
+- citation: |
+    Anna V. Fisher, Michael Fleischman, Deb Roy, and Vladimir M. Sloutsky. (2005). **Effects of Category Labels on Induction and Visual Processing: Support or Interference?** Twenty-seventh Annual Meeting of the Cognitive Science Society, 6 pages.
+  publication_year: 2005
+  pdf_file: /papers/effects_of_category_labels.pdf
+  academic: true
+
+- citation: |
+    Deb Roy. (2005). **Grounding language in the world: Schema theory meets semiotics**. Special Issue of Artificial Intelligence Journal: Connecting Language to the World.
+  publication_year: 2005
+  academic: true
+
 - citation: |
     Joshua Juster and Deb Roy. (2004). **Elvis: Situated Speech and Gesture Understanding for a Robotic Chandelier**. Proc. Int. Conf. Multimodal Interfaces.
   publication_year: 2004
   pdf_file: /papers/elvis_icmi_2004_final.pdf
   group: learning
   academic: true
+
 
 - citation: |
     Deb Roy, Yair Ghitza, Jeff Bartelma, and Charlie Kehoe. (2004). **Visual Memory Augmentation: Using Eye Gaze as an Attention Filter**. Proceedings of the IEEE International Symposium on Wearable Computers.
@@ -700,6 +751,12 @@
   academic: true
 
 - citation: |
+    Deb Roy, Kai-Yuh Hsiao, Peter Gorniak, and Niloy Mukherjee. (2002). **Grounding natural spoken language semantics in visual perception and motor control**. AAAI Technical Report FS-02-03.
+  publication_year: 2002
+  pdf_file: http://www.aaai.org/Papers/Symposia/Fall/2002/FS-02-03/FS02-03-010.pdf
+  academic: true
+
+- citation: |
     Deb Roy. (2001/2002). **Learning Visually Grounded Words and Syntax of Natural Spoken Language**. Evolution of Communication. 4(1).
   publication_year: 2001
   pdf_file: /papers/evol_comm_2002.pdf
@@ -725,6 +782,12 @@
   publication_year: 2000
   pdf_file: /papers/icassp2000.pdf
   group: learning
+  academic: true
+
+- citation: |
+    Deb Roy. (2000). **Grounded Speech Communication**. Proceedings of the International Conference on Spoken Language Processing, 5 pages.
+  publication_year: 2000
+  pdf_file: http://web.media.mit.edu/~dkroy/papers/pdf/roy_2000_a.pdf
   academic: true
 
 
