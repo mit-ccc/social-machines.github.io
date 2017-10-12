@@ -269,6 +269,18 @@
   academic: true
 
 - citation: |
+    George Shaw, Deb Roy. (2011). **An Interface for Visualization and Exploration of Spatial Distributions**. Scalable Integration of Analytics and Visualization.
+  publication_year: 2011
+  pdf_file: http://www.aaai.org/ocs/index.php/WS/AAAIW11/paper/viewFile/3928/4324
+  academic: true
+
+- citation: |
+    Jeff Orkin, Tynan Smith, and Deb Roy. (2010). **Behavior Compilation for AI in Games**. Proceedings of the Artificial Intelligence and Interactive Digital Entertainment Conference (AIIDE).
+  publication_year: 2010
+  pdf_file: https://www.aaai.org/ocs/index.php/AIIDE/AIIDE10/paper/viewFile/2115/2562
+  academic: true
+
+- citation: |
     Stefanie Tellex, Thomas Kollar, George Shaw, Nicholas Roy and Deb Roy. (2010). **Grounding Spatial Language for Video Search**. Proceedings of the Twelfth International Conference on Multimodal Interfaces (ICMI). Beijing, China.
   publication_year: 2010
   pdf_file: /papers/tellex10.pdf
@@ -680,6 +692,45 @@
   group: learning
   academic: true
 
+
+- citation: |
+    Deb Roy. (2004). **10x: Human-machine Symbiosis**. BT Technology Journal, 22(4): 121-124.
+  publication_year: 2004
+  pdf_file: https://pdfs.semanticscholar.org/b829/9102ee2252b67ad37f433336256ddd039c7c.pdf
+  academic: true
+
+- citation: |
+    Rosalind W Picard, Seymour Papert, Walter Bender, Bruce Blumberg, Cynthia Breazeal, David Cavallo, Tod Machover, Mitchel Resnick, Deb Roy, Carol Strohecker (2004). **Affective learning—a manifesto**. BT Technology Journal, 22(4): 253-269.
+  publication_year: 2004
+  pdf_file: https://www.researchgate.net/profile/Walter_Bender/publication/245229950_Affective_Learning_-_A_Manifesto/links/551943330cf21b5da3b8061d.pdf
+  academic: true
+
+- citation: |
+    Peter Gorniak, Deb Roy. (2004). **BISHOP|BLENDER: Spatially Grounded Language Understanding in 3D Modelling Software**. In Proceedings of the NAACL, 2 pages.
+  publication_year: 2004
+  pdf_file: https://pdfs.semanticscholar.org/fe52/c0de3bb141a0299f9b8080058163578c400b.pdf
+  academic: true
+
+
+- citation: |
+    Rupal Patel, Sam Pilato, and Deb Roy. (2004). **Beyond Linear Syntax: An Image-Oriented Communication Aid**. Journal of Assistive Technology Outcomes and Benefits, 1(1): 57-66
+  publication_year: 2004
+  pdf_file: http://files.eric.ed.gov/fulltext/EJ1002114.pdf
+  academic: true
+
+- citation: |
+    Jeff Orkin, Deb Roy. (2004). **Capturing and generating social behavior with the restaurant game**. Proceedings of the 9th International Conference on Autonomous Agents and Multiagent Systems.
+  publication_year: 2004
+  pdf_file: https://www.media.mit.edu/cogmac/publications/orkin_demo_aamas2010.pdf
+  academic: true
+
+
+- citation: |
+    Niloy Mukherjee and Deb Roy. (2003). **A Visual Context-Aware Multimodal System for Spoken Language Processing**. Proc. Eurospeech, 6 pages.
+  publication_year: 2003
+  pdf_file: https://pdfs.semanticscholar.org/eda8/43e744a79a655bc06a5c86468ab2e21cd869.pdf
+  academic: true
+
 - citation: |
     Peter Gorniak and Deb Roy. (2003). **Augmenting User Interfaces with Adaptive Speech Commands**. In Proceedings of the International Conference for Multimodal Interfaces.
   publication_year: 2003
@@ -778,35 +829,24 @@
   academic: true
 
 - citation: |
+    Deb Roy. (2002). **A System that Learns to Describe Objects in Visual Scenes**. Proc. Seventh International Conference on Spoken Language Processing, 4 pages.
+  publication_year: 2002
+  pdf_file: https://pdfs.semanticscholar.org/9698/86510691962fc52e5d00daa56f4fa1b06266.pdf
+  academic: true
+
+
+- citation: |
     Deb Roy. (2000). **Integration of Speech and Vision using Mutual Information**. Int. Conf. Acoustics, Speech and Signal Processing.
   publication_year: 2000
   pdf_file: /papers/icassp2000.pdf
   group: learning
   academic: true
 
+
 - citation: |
     Deb Roy. (2000). **Grounded Speech Communication**. Proceedings of the International Conference on Spoken Language Processing, 5 pages.
   publication_year: 2000
   pdf_file: http://web.media.mit.edu/~dkroy/papers/pdf/roy_2000_a.pdf
-  academic: true
-
-
-- citation: |
-    B. N. Chodirker, D. Roy, C. R. Greenberg, M. Cheang, J. A. Evans, & M. H. Reed. (1991). **Computer assisted analysis of hand radiographs in infantile hypophosphatasia carriers**. Pediatric Radiology, 21(3): 216-219.
-  publication_year: 1991
-  pdf_file: https://www.media.mit.edu/~dkroy/papers/pdf/chodirker_roy_1991.pdf
-  academic: true
-
-- citation: |
-    Deb Roy. (2004). **10x: Human-machine Symbiosis**. BT Technology Journal, 22(4): 121-124.
-  publication_year: 2004
-  pdf_file: https://pdfs.semanticscholar.org/b829/9102ee2252b67ad37f433336256ddd039c7c.pdf
-  academic: true
-
-- citation: |
-    Deb Roy. (2002). **A System that Learns to Describe Objects in Visual Scenes**. Proc. Seventh International Conference on Spoken Language Processing, 4 pages.
-  publication_year: 2002
-  pdf_file: https://pdfs.semanticscholar.org/9698/86510691962fc52e5d00daa56f4fa1b06266.pdf
   academic: true
 
 - citation: |
@@ -821,23 +861,12 @@
   pdf_file: /papers/phoneme1998.pdf
   academic: true
 
-- citation: |
-    Niloy Mukherjee and Deb Roy. (2003). **A Visual Context-Aware Multimodal System for Spoken Language Processing**. Proc. Eurospeech, 6 pages.
-  publication_year: 2003
-  pdf_file: https://pdfs.semanticscholar.org/eda8/43e744a79a655bc06a5c86468ab2e21cd869.pdf
-  academic: true
 
 - citation: |
-    Rosalind W Picard, Seymour Papert, Walter Bender, Bruce Blumberg, Cynthia Breazeal, David Cavallo, Tod Machover, Mitchel Resnick, Deb Roy, Carol Strohecker (2004). **Affective learning—a manifesto**. BT Technology Journal, 22(4): 253-269.
-  publication_year: 2004
-  pdf_file: https://www.researchgate.net/profile/Walter_Bender/publication/245229950_Affective_Learning_-_A_Manifesto/links/551943330cf21b5da3b8061d.pdf
+    Deb Roy and Carl Malamud. (1997). **Integration of a large text and audio corpus using speaker identification**. Proceedings of the AAAI Spring Symposium on the Intelligent Integration and Use of Text, Image, Video and Audio Corpora.
+  publication_year: 1997
   academic: true
 
-- citation: |
-    George Shaw, Deb Roy. (2011). **An Interface for Visualization and Exploration of Spatial Distributions**. Scalable Integration of Analytics and Visualization.
-  publication_year: 2011
-  pdf_file: http://www.aaai.org/ocs/index.php/WS/AAAIW11/paper/viewFile/3928/4324
-  academic: true
 
 - citation: |
     Deb Roy, Alex Pentland. (1996). **Automatic spoken affect classification and analysis**. Proc. Second International Conference on Automatic Face and Gesture Recognition, 6 pages.
@@ -846,26 +875,10 @@
   academic: true
 
 - citation: |
-    Peter Gorniak, Deb Roy. (2004). **BISHOP|BLENDER: Spatially Grounded Language Understanding in 3D Modelling Software**. In Proceedings of the NAACL, 2 pages.
-  publication_year: 2004
-  pdf_file: https://pdfs.semanticscholar.org/fe52/c0de3bb141a0299f9b8080058163578c400b.pdf
+    B. N. Chodirker, D. Roy, C. R. Greenberg, M. Cheang, J. A. Evans, & M. H. Reed. (1991). **Computer assisted analysis of hand radiographs in infantile hypophosphatasia carriers**. Pediatric Radiology, 21(3): 216-219.
+  publication_year: 1991
+  pdf_file: https://www.media.mit.edu/~dkroy/papers/pdf/chodirker_roy_1991.pdf
   academic: true
 
-- citation: |
-    Jeff Orkin, Tynan Smith, and Deb Roy. (2010). **Behavior Compilation for AI in Games**. Proceedings of the Artificial Intelligence and Interactive Digital Entertainment Conference (AIIDE).
-  publication_year: 2010
-  pdf_file: https://www.aaai.org/ocs/index.php/AIIDE/AIIDE10/paper/viewFile/2115/2562
-  academic: true
 
-- citation: |
-    Rupal Patel, Sam Pilato, and Deb Roy. (2004). **Beyond Linear Syntax: An Image-Oriented Communication Aid**. Journal of Assistive Technology Outcomes and Benefits, 1(1): 57-66
-  publication_year: 2004
-  pdf_file: http://files.eric.ed.gov/fulltext/EJ1002114.pdf
-  academic: true
-
-- citation: |
-    Jeff Orkin, Deb Roy. (2004). **Capturing and generating social behavior with the restaurant game**. Proceedings of the 9th International Conference on Autonomous Agents and Multiagent Systems.
-  publication_year: 2004
-  pdf_file: https://www.media.mit.edu/cogmac/publications/orkin_demo_aamas2010.pdf
-  academic: true
 
