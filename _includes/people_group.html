@@ -1,7 +1,7 @@
 {% assign trimmed_label = include.label | strip %}
 <div class="ui segment vertical basic people-group people-group-{{ trimmed_label | slugify }}">
   {% if trimmed_label != '__exclude' %}
-  <h2 class="ui header bordered-header">
+  <h2 class="ui header section-header">
     {{ trimmed_label }}
   </h2>
   {% endif %}

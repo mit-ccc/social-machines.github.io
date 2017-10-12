@@ -368,13 +368,16 @@ $boxColor: #1a1b1d;
   background-color: #eee;
 }
 
-.people-group .ui.header {
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-}
-
 .bordered-header,
 .ui.header.bordered-header {
+  border-bottom: 1px solid #eee;
+}
+
+.section-header.ui.header {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  letter-spacing: 0.03em;
+  font-weight: 400;
   border-bottom: 1px solid #eee;
 }
 
