@@ -373,6 +373,12 @@ $boxColor: #1a1b1d;
   margin-bottom: 1em;
 }
 
+.bordered-header,
+.ui.header.bordered-header {
+  border-bottom: 1px solid #eee;
+}
+
+
 .people-group .ui.card, .people-group .ui.cards>.card {
   box-shadow: none;
   text-align: center;
@@ -413,3 +419,4 @@ $boxColor: #1a1b1d;
   font-weight: 600;
   margin-top: 0.8em;
 }
+
