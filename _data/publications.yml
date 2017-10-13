@@ -54,6 +54,12 @@
   academic: true
 
 - citation: |
+    Soroush Vosoughi, Mostafa 'Neo' Mohsenvand, and Deb Roy. (2017). **Rumor Gauge: Predicting the Veracity of Rumors on Twitter**. ACM Transactions on Knowledge Discovery from Data (TKDD), 36 pages.
+  publication_year: 2017
+  academic: true
+
+
+- citation: |
     Ivan Sysoev, Anneli Hershman, Susan Fine, Deb Roy, Mina Soltangheis, and Brianne Fitzpatrick. (2016). **Exploring SpeechBlocks: Piloting a Constructionist Literacy App with Preschool Children**. Presented at the 2016 American Speech-Language-Hearing Association (ASHA) Conference. Philadelphia, PA.
   publication_year: 2016
   pdf_file: /papers/AshaPaperFinal.pdf
@@ -162,6 +168,13 @@
 - citation: |
     Daniel C. Dennett and Deb Roy. (2015). **Our Transparent Future**. Scientific America, March 2015. [https://medium.com/@dkroy/our-transparent-future-aa86a7bcfe85](https://medium.com/@dkroy/our-transparent-future-aa86a7bcfe85)
   publication_year: 2015
+  group: media analytics
+  academic: true
+
+- citation: |
+    Pau Perng-Hwa Kung, and Deb Roy. (2015). **Measuring Responsiveness in the Online Public Sphere for the 2016 US Election: Concepts**. Workshop on Networks in the Social and Information Sciences NIPS.
+  publication_year: 2015
+  pdf_file: https://arxiv.org/pdf/1511.05842.pdf
   group: media analytics
   academic: true
 
@@ -427,6 +440,14 @@
   group: learning
   academic: true
 
+
+- citation: |
+    David Lazer, Alex Sandy Pentland, Lada Adamic, Sinan Aral, Albert Laszlo Barabasi, Devon Brewer, Nicholas Christakis, Noshir Contractor, James Fowler, Myron Gutmann, Tony Jebara, Gary King, Michael Macy, Deb Roy, and Marshall Van Alstyne. (2009). **Life in the network: the coming age of computational social science**. Science (New York, NY) 323, no. 5915.
+  publication_year: 2009
+  academic: true
+
+
+
 - citation: |
     Deb Roy. (2008). **A Mechanistic Model of Three Facets of Meaning**. Symbols, Embodiment, and Meaning, de Vega, Glenberg, and Graesser, eds.
   publication_year: 2008
@@ -514,6 +535,13 @@
     Michael Levit and Deb Roy. (2007). **Interpretation of Spatial Language in a Map Navigation Task**. IEEE Transactions on Systems, Man, and Cybernetics, Part B, 37(3), 667-679.
   publication_year: 2007
   pdf_file: /papers/IEEE_SMC_2006_inpress.pdf
+  group: learning
+  academic: true
+
+- citation: |
+    Michael Fleischman and Deb Roy. (2007). **Representing Intentions in a Cognitive Model of Language Acquisition: Effects of Phrase Structure on Situated Verb Learning.** AAAI Spring Symposium: Intentions in Intelligent Systems, 6 pages.
+  publication_year: 2007
+  pdf_file: https://vvvvw.aaai.org/Papers/Symposia/Spring/2007/SS-07-03/SS07-03-002.pdf
   group: learning
   academic: true
 
@@ -663,6 +691,14 @@
   academic: true
 
 - citation: |
+    Dong Zhang, Daniel Gatica-Perez, Samy Bengio, and Deb Roy. (2005). **Learning Influence among Interacting Markov Chains**. Neural Information Processing Systems (NIPS), 8 pages.
+  publication_year: 2005
+  pdf_file: http://papers.nips.cc/paper/2918-learning-influence-among-interacting-markov-chains.pdf
+  academic: true
+
+
+
+- citation: |
     Joshua Juster and Deb Roy. (2004). **Elvis: Situated Speech and Gesture Understanding for a Robotic Chandelier**. Proc. Int. Conf. Multimodal Interfaces.
   publication_year: 2004
   pdf_file: /papers/elvis_icmi_2004_final.pdf
@@ -781,6 +817,12 @@
   academic: true
 
 - citation: |
+    Deb Roy, Kai-Yuh Hsiao, Nikolaos Mavridis, and Peter Gorniak. (2003). **Ripley, Hand Me The Cup!(Sensorimotor representations for grounding word meaning)**. International Conference of Automatic Speech Recognition and Understanding, 6 pages.
+  publication_year: 2003
+  pdf_file: https://www.media.mit.edu/cogmac/publications/asru03.pdf
+  academic: true
+
+- citation: |
     Deb Roy, Peter Gorniak, Niloy Mukherjee, and Josh Juster. (2002). **A Trainable Spoken Language Understanding System for Visual Object Selection**. In Proceedings of the International Conference of Spoken Language Processing.
   publication_year: 2002
   pdf_file: /papers/newt_icslp02.pdf
@@ -808,13 +850,6 @@
   academic: true
 
 - citation: |
-    Deb Roy. (2001/2002). **Learning Visually Grounded Words and Syntax of Natural Spoken Language**. Evolution of Communication. 4(1).
-  publication_year: 2001
-  pdf_file: /papers/evol_comm_2002.pdf
-  group: learning
-  academic: true
-
-- citation: |
     Deb Roy and Alex Pentland. (2002). **Learning Words from Sights and Sounds: A Computational Model**. Cognitive Science, 26(1), 113-146.
   publication_year: 2002
   pdf_file: /papers/cogsci_print.pdf
@@ -832,6 +867,20 @@
     Deb Roy. (2002). **A System that Learns to Describe Objects in Visual Scenes**. Proc. Seventh International Conference on Spoken Language Processing, 4 pages.
   publication_year: 2002
   pdf_file: https://pdfs.semanticscholar.org/9698/86510691962fc52e5d00daa56f4fa1b06266.pdf
+  academic: true
+
+- citation: |
+    Deb Roy. (2001/2002). **Learning Visually Grounded Words and Syntax of Natural Spoken Language**. Evolution of Communication. 4(1).
+  publication_year: 2001
+  pdf_file: /papers/evol_comm_2002.pdf
+  group: learning
+  academic: true
+
+
+- citation: |
+    Deb Roy. (2001). **Situation-Aware Spoken Language Processing**. Royal Institute of Acoustics Workshop on Innovation in Speech Processing, Stratford-upon-Avon, England.
+  publication_year: 2001
+  pdf_file: https://pdfs.semanticscholar.org/4c16/9e9ddd2612f8fdc916555f45c7b484ea4826.pdf
   academic: true
 
 
@@ -856,9 +905,27 @@
   academic: true
 
 - citation: |
+    Deb Roy, Bernt Schiele, and Alex Pentland. (1999). **Learning Audio-Visual Associations using Mutual Information**. International Conference on Computer Vision, Workshop on Integrating Speech and Image Understanding.
+  publication_year: 1999
+  pdf_file: /papers/roy99.pdf
+  academic: true
+
+- citation: |
+    Alex Pentland, Deb Roy, and Christopher Richard Wren. (1999). **Perceptual intelligence: learning gestures and words for individualized, adaptive interfaces**. Proceedings of the 8th International Conference on Human-Computer Interaction, 5 pages.
+  publication_year: 1999
+  academic: true
+
+
+- citation: |
     Deb Roy and Alex Pentland. (1998). **A Phoneme Probability Display for Individuals with Hearing Disabilities**. Proceedings of the ACM Conference On Assistive Technologies, 4 pages.
   publication_year: 1998
   pdf_file: /papers/phoneme1998.pdf
+  academic: true
+
+- citation: |
+    Deb Roy and Alex Pentland. (1998). **Learning words from natural audio-visual input**. Fifth International Conference on Spoken Language Processing (ICSLP), 5 pages.
+  publication_year: 1998
+  pdf_file: http://web.media.mit.edu/~dkroy/papers/pdf/roy_pentland_1998.pdf
   academic: true
 
 
@@ -867,11 +934,22 @@
   publication_year: 1997
   academic: true
 
+- citation: |
+    Deb Roy and Alex Pentland. (1997). **Multimodal adaptive interfaces**. MIT Media Laboratory Perceptual Computing Technical Report No. 438.
+  publication_year: 1997
+  pdf_file: http://www.aaai.org/Papers/Symposia/Spring/1998/SS-98-02/SS98-02-018.pdf
+  academic: true
 
 - citation: |
     Deb Roy, Alex Pentland. (1996). **Automatic spoken affect classification and analysis**. Proc. Second International Conference on Automatic Face and Gesture Recognition, 6 pages.
   publication_year: 1996
   pdf_file: http://web.media.mit.edu/~dkroy/papers/pdf/roy_pentland_1996.pdf
+  academic: true
+
+- citation: |
+    Deb Roy and Chris Schmandt. (1996). **NewsComm: A Hand-Held Interface for Interactive Access to Structured Audio**. Proceedings of the ACM Conference on Computer Human Interaction, 9 pages.
+  publication_year: 1996
+  pdf_file: https://www.media.mit.edu/speech/papers/1996/roy_CHI96_NewsComm.pdf
   academic: true
 
 - citation: |
