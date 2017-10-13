@@ -58,6 +58,17 @@
   publication_year: 2017
   academic: true
 
+- citation: |
+    Ivan Sysoev, Anneli Hershman, Susan Fine, Claire Traweek, and Deb Roy. (2017). **SpeechBlocks: A Constructionist Early Literacy App**. Proceedings of the 2017 Conference on Interaction Design and Children, 10 pages.
+  publication_year: 2017
+  academic: true
+
+
+- citation: |
+    Prashanth Vijayaraghavan, Soroush Vosoughi, and Deb Roy. (2017). **Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning**. Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, 6 pages.
+  publication_year: 2017
+  pdf_file: http://www.aclweb.org/anthology/P17-2076
+  academic: true
 
 - citation: |
     Ivan Sysoev, Anneli Hershman, Susan Fine, Deb Roy, Mina Soltangheis, and Brianne Fitzpatrick. (2016). **Exploring SpeechBlocks: Piloting a Constructionist Literacy App with Preschool Children**. Presented at the 2016 American Speech-Language-Hearing Association (ASHA) Conference. Philadelphia, PA.
@@ -376,6 +387,12 @@
   publication_year: 2010
   academic: true
 
+- citation: |
+    Jeff Orkin and Deb Roy. (2010). **Toward an interleaved model of actions and words in social simulation**. Proceedings of the 9th International Conference on Autonomous Agents and Multiagent Systems, 2 pages.
+  pdf_file: https://pdfs.semanticscholar.org/4515/3d4602a5ac80492300d08fb5344d00355047.pdf
+  publication_year: 2010
+  academic: true
+
 
 - citation: |
     Stefanie Tellex and Deb Roy. (2009). **Grounding Spatial Prepositions for Video Search**. Proceedings of the Eleventh International Conference on Multimodal Interfaces (ICMI-2009). Cambridge, MA.
@@ -479,6 +496,12 @@
 - citation: |
     Rony Kubat, Kai-yuh Hsiao, and Deb Roy. (2008). **Connecting Language to Robot Behaviour: An Architecture of Object Schemas**.
   publication_year: 2008
+  academic: true
+
+- citation: |
+    Angelo Cangelosi, Tony Belpaeme, Giulio Sandini, Giorgio Metta, Luciano Fadiga, Gerhard Sagerer, Katherina Rohlfing, Britta Wrede, Stefano Nolfi, Domenico Parisi, Chrystopher Nehaniv, Kerstin Dautenhahn, Joe Saunders, Kerstin Fischer, Jun Tani, and Deb Roy. (2008). **The ITALK project: Integration and Transfer of Action and Language Knowledge in Robots**. Proceedings of Third ACM/IEEE International Conference on Human Robot Interaction (HRI), 2 pages.
+  publication_year: 2008
+  pdf_file: https://s3.amazonaws.com/academia.edu.documents/39952214/The_ITALK_project_Integration_and_Transf20151112-32703-tovo7n.pdf?AWSAccessKeyId=AKIAIWOWYYGZ2Y53UL3A&Expires=1507932137&Signature=MDjjIpIGPBuKgzgSdKZUUBdgpzg%3D&response-content-disposition=inline%3B%20filename%3DThe_ITALK_project_Integration_and_transf.pdf
   academic: true
 
 
@@ -696,6 +719,11 @@
   pdf_file: http://papers.nips.cc/paper/2918-learning-influence-among-interacting-markov-chains.pdf
   academic: true
 
+- citation: |
+    Deb Roy and Niloy Mukherjee. (2005). **Visual Context Driven Semantic Priming of Speech Recognition and Understanding**. Computer Speech and Language., 19(2): 227-248.
+  publication_year: 2005
+  pdf_file: https://www.media.mit.edu/cogmac/publications/fuse03a.pdf
+  academic: true
 
 
 - citation: |
@@ -823,6 +851,12 @@
   academic: true
 
 - citation: |
+    Peter Gorniak and Deb Roy. (2003). **Understanding Complex Visually Referring Utterances**. NAACL Workshop on Word Meaning.
+  publication_year: 2003
+  pdf_file: http://www.aclweb.org/old_anthology/W/W03/W03-0603.pdf
+  academic: true
+
+- citation: |
     Deb Roy, Peter Gorniak, Niloy Mukherjee, and Josh Juster. (2002). **A Trainable Spoken Language Understanding System for Visual Object Selection**. In Proceedings of the International Conference of Spoken Language Processing.
   publication_year: 2002
   pdf_file: /papers/newt_icslp02.pdf
@@ -870,10 +904,16 @@
   academic: true
 
 - citation: |
-    Deb Roy. (2001/2002). **Learning Visually Grounded Words and Syntax of Natural Spoken Language**. Evolution of Communication. 4(1).
-  publication_year: 2001
-  pdf_file: /papers/evol_comm_2002.pdf
-  group: learning
+    Deb Roy. (2002). **A System that Learns to Describe Objects in Visual Scenes**. Proc. Seventh International Conference on Spoken Language Processing, 4 pages.
+  publication_year: 2002
+  pdf_file: https://pdfs.semanticscholar.org/9698/86510691962fc52e5d00daa56f4fa1b06266.pdf
+  academic: true
+
+
+- citation: |
+    Deb Roy. (2002). **Towards visually-grounded spoken language acquisition**. Proc. Fourth International Conference on Multimodal Interfaces, 6 pages.
+  publication_year: 2002
+  pdf_file: http://web.media.mit.edu/~dkroy/papers/pdf/roy_2002_c.pdf
   academic: true
 
 
@@ -883,6 +923,11 @@
   pdf_file: https://pdfs.semanticscholar.org/4c16/9e9ddd2612f8fdc916555f45c7b484ea4826.pdf
   academic: true
 
+- citation: |
+    Fred Cummins and Deb Roy. (2001). **Using Synchronous Speech to Minimize Variability**. Royal Institute of Acoustics Workshop on Innovation in Speech Processing, Stratford-upon-Avon, England.
+  publication_year: 2001
+  pdf_file: https://www.media.mit.edu/cogmac/publications/WISP2001_CumminsRoy.pdf
+  academic: true
 
 - citation: |
     Deb Roy. (2000). **Integration of Speech and Vision using Mutual Information**. Int. Conf. Acoustics, Speech and Signal Processing.
@@ -928,6 +973,17 @@
   pdf_file: http://web.media.mit.edu/~dkroy/papers/pdf/roy_pentland_1998.pdf
   academic: true
 
+- citation: |
+    Rupal Patel and Deb Roy. (1998). **Teachable interfaces for individuals with dysarthric speech and severe physical disabilities**. Proceedings of the AAAI Workshop on Integrating Artificial Intelligence and Assistive Technology, 8 pages.
+  publication_year: 1998
+  pdf_file: https://www.researchgate.net/profile/Rupal_Patel6/publication/2618745_Teachable_Interfaces_for_Individuals_with_Dysarthric_Speech_and_Severe_Physical_Disabilities/links/00b4951e58d82f2ea6000000.pdf
+  academic: true
+
+- citation: |
+    Deb Roy and Alex Pentland. (1998). Word Learning in a Multimodal Environment, Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing, 4 pages.
+  publication_year: 1998
+  pdf_file: https://pdfs.semanticscholar.org/4995/98f0d00acbdbb7594368922997b45d3689d5.pdf
+  academic: true
 
 - citation: |
     Deb Roy and Carl Malamud. (1997). **Integration of a large text and audio corpus using speaker identification**. Proceedings of the AAAI Spring Symposium on the Intelligent Integration and Use of Text, Image, Video and Audio Corpora.
@@ -938,6 +994,30 @@
     Deb Roy and Alex Pentland. (1997). **Multimodal adaptive interfaces**. MIT Media Laboratory Perceptual Computing Technical Report No. 438.
   publication_year: 1997
   pdf_file: http://www.aaai.org/Papers/Symposia/Spring/1998/SS-98-02/SS98-02-018.pdf
+  academic: true
+
+- citation: |
+    Deb Roy and Carl Malamud. (1997). **Speaker identification based test to audio alignment for an audio retrieval system**. Proceedings of the IEEE International Conference on Acoustics, Speech and Signal Processing, Munich, Vol. 2, pp. 1099-1103.
+  publication_year: 1997
+  pdf_file: http://web.media.mit.edu/~dkroy/papers/pdf/roy_malamud_1997.pdf
+  academic: true
+
+- citation: |
+    Deb Roy. (1997). **Speaker indexing using neural network clustering of vowel spectra**. International Journal of Speech Technology, 1(2): 143-149.
+  publication_year: 1997
+  pdf_file: https://www.media.mit.edu/~dkroy/papers/pdf/roy_1995.pdf
+  academic: true
+
+- citation: |
+    Deb Roy, Nitin Sawhney, Chris Schmandt, and Alex Pentland. (1997). **Wearable audio computing: A survey of interaction techniques**. Perceptual Computing Technical Report No. 434, 9 pages.
+  publication_year: 1997
+  pdf_file: https://pdfs.semanticscholar.org/421a/9204eeb9b7b2a2d49a974cfd7531e6b8eac8.pdf
+  academic: true
+
+- citation: |
+    Chris Schmandt and Deb Roy. (1996). **Using acoustic structure in a hand-held audio playback device**. IBM Systems Journal, 35: (3-4).
+  publication_year: 1996
+  pdf_file: https://pdfs.semanticscholar.org/30a5/fb08c571c344850c299ee9dd9e28e2182374.pdf
   academic: true
 
 - citation: |
