@@ -770,7 +770,7 @@
   academic: true
 
 - citation: |
-    Peter Gorniak, Deb Roy. (2004). **BISHOP|BLENDER: Spatially Grounded Language Understanding in 3D Modelling Software**. In Proceedings of the NAACL, 2 pages.
+    Peter Gorniak, Deb Roy. (2004). **BISHOP\|BLENDER: Spatially Grounded Language Understanding in 3D Modelling Software**. In Proceedings of the NAACL, 2 pages.
   publication_year: 2004
   pdf_file: https://pdfs.semanticscholar.org/fe52/c0de3bb141a0299f9b8080058163578c400b.pdf
   academic: true
