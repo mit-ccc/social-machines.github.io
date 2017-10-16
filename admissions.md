@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-with-text
 title: 2017 Admissions
 description: Admissions for the Laboratory for Social Machines at the MIT Media Lab.
 ---
