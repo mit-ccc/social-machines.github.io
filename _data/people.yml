@@ -14,7 +14,15 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/PreetaCropped.jpg
   groups:
     - media analytics
+
+- name: Winston Chen
+  title: Research Affiliate
+  type: visitor
+  image: http://playfulwords.org/images/team/winston-chen.png
+  groups:
+    - media analytics
     - learning
+    - cortico
 
 - name: Eric Chu
   title: Masters Student
@@ -30,9 +38,23 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/IMG_4998-e1454462435442.jpg
   groups:
     - media analytics
-    - learning
     - cortico
   alumni: true
+
+- name: Marc Exposito
+  title: Masters Student
+  type: student
+  image: http://playfulwords.org/images/team/marc-exposito.jpg
+  groups:
+    - learning
+
+- name: Susan Fine
+  title: MA CCC-SLP
+  type: visitor
+  image: http://playfulwords.org/images/team/susan_fine.jpg
+  groups:
+    - learning
+
 
 - name: Amber Franey
   title: Administrative Assistant
@@ -45,7 +67,7 @@
 
 
 - name: Nabeel Gillani
-  title: Masters Student
+  title: PhD Student
   type: student
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Nabeel-150x150.png
   groups:
@@ -66,7 +88,6 @@
   type: student
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Bio_Photo-1-283x300.jpg
   groups:
-    - media analytics
     - learning
 
 
@@ -141,7 +162,6 @@
   type: student
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/juliana-e1467837169133-150x150.jpg
   groups:
-    - media analytics
     - learning
 
 
@@ -215,7 +235,6 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Alex.jpg
   groups:
     - media analytics
-    - learning
 
 
 - name: Russell Stevens
@@ -232,7 +251,6 @@
   type: student
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Mina-Cropped.png
   groups:
-    - media analytics
     - learning
   alumni: true
 
@@ -242,7 +260,6 @@
   type: student
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/08/IvanCropped.jpg
   groups:
-    - media analytics
     - learning
 
 
@@ -252,7 +269,6 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/PrashanthCropped.jpg
   groups:
     - media analytics
-    - learning
 
 
 - name: Soroush Vosoughi
@@ -261,7 +277,6 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/08/SoroushCropped.png
   groups:
     - media analytics
-    - learning
 
 
 - name: Luke Guolong Wang
@@ -275,7 +290,7 @@
 
 
 - name: John West
-  title: Media Technologist
+  title: Narrative Technologist
   type: visitor
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/JOHN-WEST.jpg
   groups:
@@ -297,7 +312,6 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/headshot-150x150.jpg
   groups:
     - media analytics
-    - learning
 
 
 - name: Vicky Zeamer

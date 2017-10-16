@@ -11,11 +11,9 @@
   {% for person in include.people %}
     <div class="card">
       <div class="content">
-        {% if person.image %}
         <div class="ui image">
           <div class="profile-img" style="background-image: url({{ person.image }})"></div>
         </div>
-        {% endif %}
         <div class="header">
           {% if person.url %}
             <a href="{{ person.url }}">{{ person.name }}</a>
