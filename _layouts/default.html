@@ -52,8 +52,10 @@
           <span class="header-second">Social</span>&nbsp;Machines
         </a>
         <div class="right menu">
+        {% assign urlParts = page.url | split: '/' %}
+        {% assign urlBase = '' | append: '/' | append: urlParts[1] %}
         {% for link in site.data.nav.links %}
-          <a class="item" href="{{ link.url }}">{{ link.label }}</a>
+          <a class="item {% if urlBase == link.url %}active{% endif %}" href="{{ link.url }}">{{ link.label }}</a>
         {% endfor %}
         </div>
       </div>
