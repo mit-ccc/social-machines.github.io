@@ -8,16 +8,6 @@ As of September 2017, Social Machines will be seeking graduate students who will
 
 The new lab builds on the work of Deb Roy’s previous research into foundations of language and semantics, but will push off in significantly new directions that incorporate social network and media analysis.
 
-Among the Lab’s [current projects](/media-analytics/projects):
-
-- The **Electome** — A new form of election analysis (in this case the 2016 presidential election) that comprehensively maps the content and network connections among the campaign’s three core public sphere voices: the Candidates, the Media, and the Public.
-- The **Foodome** — Similar to the Electome, a mapping of the public, media and industry conversation about food-related topics using NLP, network analysis and data visualization.
-- **Playful Words** Social Literacy Learning — Child-driven and machine-guided “social learning” technologies that empower human networks to promote literacy growth.
-- **Visible Communities** — Mapping, based on satellite analytics of household and road level data in rural areas, coupled with a mobile app with a navigation interface specifically designed to empower Community Health Workers.
-
-Social Machines group students apply through the Media Lab’s [graduate program application process](http://www.media.mit.edu/admissions/how-to-apply). Postdocs are also welcome to apply.
-
-
 ## Areas of Interest
 
 - **Image Analysis / Computer Vision** — Applicants should have experience with state of the art image analysis / computer vision techniques based on machine learning and applicable to large datasets. We will have a focus on satellite image analysis.
