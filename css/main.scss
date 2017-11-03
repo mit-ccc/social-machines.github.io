@@ -237,6 +237,10 @@ $boxColor: #1a1b1d;
 }
 
 
+.title-image {
+  max-height: 40px;
+}
+
 .page-header {
   font-weight: 200;
   padding: 1.5em 0;
@@ -244,6 +248,10 @@ $boxColor: #1a1b1d;
   text-align: center;
   background-color: lighten($boxColor, 7.5%);
   margin-bottom: 2.5rem;
+
+  &.with-title-image {
+    line-height: 0;
+  }
 
   &.with-boxes {
     margin-bottom: 0;
