@@ -44,6 +44,6 @@ custom_nav_footer: false
 reverse: false
 
 
-collections:
-  projects:
-    output: true
+# collections:
+  # projects:
+  #   output: true

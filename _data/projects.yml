@@ -1,0 +1,38 @@
+- title: "Human-organized Swarms"
+  image: https://dam-prod.media.mit.edu/thumb/2017/10/16/triangle-kit.png.800x800.jpg
+  url: https://www.media.mit.edu/projects/human-organized-swarms/overview/
+  group: learning
+
+- title: "Social Mirror"
+  image: https://dam-prod.media.mit.edu/thumb/2017/07/07/Screen Shot 2017-07-07 at 5.25.39 AM.png.800x800.jpg
+  url: https://www.media.mit.edu/projects/social-media-mirror/overview/
+  group: media analytics
+
+- title: "FlipFeed"
+  image: https://dam-prod.media.mit.edu/thumb/2017/01/18/1_Mk6xr17.jpg.800x800.jpg
+  url: https://www.media.mit.edu/projects/flipfeed/overview/
+  group: media analytics
+
+
+- title: "The Story Learning Machine"
+  image: https://dam-prod.media.mit.edu/thumb/2017/02/23/jp_header.png.800x800.jpg
+  url: https://www.media.mit.edu/projects/story-learning-machine/overview/
+  group: media analytics
+
+
+- title: "Playful Words"
+  image: https://dam-prod.media.mit.edu/thumb/2017/08/04/playfulwords_header.jpeg.800x800.jpeg
+  url: https://www.media.mit.edu/projects/playful-words/overview/
+  group: learning
+
+- title: "The Electome"
+  subtitle: "Measuring Responsiveness in the 2016 Election"
+  image: https://dam-prod.media.mit.edu/thumb/2017/02/21/image(2).png.800x800.jpg
+  url: https://www.media.mit.edu/projects/the-electome-measuring-responsiveness-in-the-2016-election/overview/
+  group: media analytics
+
+- title: "Rumor Gauge"
+  subtitle: "Automatic Detection and Verification of Rumors on Twitter"
+  image: https://dam-prod.media.mit.edu/thumb/2017/10/16/ver_approach_2_3N1N0mP.jpg.800x800.jpg
+  url: https://www.media.mit.edu/projects/rumor-gauge-automatic-detection-and-verification-of-rumors-in-twitter/overview/
+  group: media analytics
