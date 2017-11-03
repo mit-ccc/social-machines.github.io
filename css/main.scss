@@ -23,6 +23,7 @@ h1, h2, h3, h4, h5, h6,
 .main-footer,
 .card,
 .boxes,
+.box-container,
 .projects .meta,
 .project-page .meta,
 .filter-tags,
@@ -141,12 +142,30 @@ $navBackground: #eee;
 
 
 
+$boxColor0: #1b4040;
+$boxColor1: #2e7575;
+$boxColor2: #1f2763;
+$boxColor3: #14193e;
+$boxColor4: #401b2e;
+$boxColor5: #6b2c4c;
+$boxColor: #1a1b1d;
+
+
 .box-container {
   margin: 2rem 0;
+  position: relative;
 }
 .header-box-container {
   margin: 0 0 2rem;
 }
+
+$boxLabelFontSize: 1.8rem;
+$boxLabelWidth: 2 * $boxLabelFontSize;
+
+.box-container.has-labels {
+  padding-left: $boxLabelWidth; // match label width
+}
+
 
 .boxes {
   padding: 1rem; // counter-act the grid's -1rem margins
@@ -159,13 +178,38 @@ $navBackground: #eee;
   }
 }
 
-$boxColor0: #1b4040;
-$boxColor1: #2e7575;
-$boxColor2: #1f2763;
-$boxColor3: #14193e;
-$boxColor4: #401b2e;
-$boxColor5: #6b2c4c;
-$boxColor: #1a1b1d;
+.box-labels {
+  position: absolute;
+  z-index: 2;
+  left: 0;
+}
+
+.box-label {
+  background-color: lighten($boxColor, 7.5%);
+  position: relative;
+  color: #fff;
+  font-size: $boxLabelFontSize;
+  font-weight: 200;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  height: 180px;
+  width: $boxLabelWidth;
+  border-bottom: 1px solid #fff;
+  border-right: 1px solid #fff;
+}
+
+.box-label-text {
+  transform: rotate(-90deg);
+  transform-origin: left bottom 0;
+  color: #fff;
+  position: absolute;
+  font-size: 1.6rem;
+  left: 3rem;
+  width: 180px;
+  text-align: center;
+  bottom: 0;
+}
+
 
 // .boxes > .grid > .column:last-child > .box {
 //   border-right: 0;
@@ -234,6 +278,19 @@ $boxColor: #1a1b1d;
       height: 100px;
       font-size: 1.6rem;
     }
+  }
+
+  .box-labels {
+    left: 1rem;
+  }
+
+  .box-label {
+    height: 200px;
+  }
+  .box-label-text {
+    width: 200px;
+    font-size: 1.5rem;
+    left: 2.8rem;
   }
 }
 
