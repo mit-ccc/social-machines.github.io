@@ -273,6 +273,11 @@ $boxLabelWidth: 2 * $boxLabelFontSize;
 }
 
 @media only screen and (max-width: 768px) {
+  .ui.container .box-container {
+    margin-left: -1rem;
+    margin-right: -1rem;
+  }
+
   .boxes {
     .box {
       height: 100px;
