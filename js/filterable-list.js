@@ -85,24 +85,26 @@ function createFilterableList({
   }
 
   function renderTags() {
+    const countByTag = filteredCountByTag();
     tagList
       .selectAll('.filter-tag-item')
       .classed('active', d => activeTags.includes(d))
-      .classed('teal', d => activeTags.includes(d));
+      .classed('teal', d => activeTags.includes(d))
+      .html(d => `${d} <span class="tag-count">${countByTag[d] || 0}</span>`);
   }
 
-  function renderFilteredList() {
-    const binding = filteredList
-      .selectAll('.filtered-list-item')
-      .data(filteredData, d => d.id);
-    binding.exit().remove();
-    binding
-      .enter()
-      .append('li')
-      .attr('class', 'filtered-list-item')
-      .merge(binding)
-      .html(renderItem);
-  }
+  // function renderFilteredList() {
+  //   const binding = filteredList
+  //     .selectAll('.filtered-list-item')
+  //     .data(filteredData, d => d.id);
+  //   binding.exit().remove();
+  //   binding
+  //     .enter()
+  //     .append('li')
+  //     .attr('class', 'filtered-list-item')
+  //     .merge(binding)
+  //     .html(renderItem);
+  // }
 
   function renderGroupedFilteredList() {
     const binding = filteredList
@@ -170,6 +172,22 @@ function createFilterableList({
   }
 
   /** data processing **/
+  // create a map from tag to count of filtered items
+  function filteredCountByTag() {
+    return filteredData.reduce((accum, item) => {
+      if (item[tagKey]) {
+        item[tagKey].forEach(tag => {
+          if (accum[tag] == null) {
+            accum[tag] = 1;
+          } else {
+            accum[tag] += 1;
+          }
+        });
+      }
+      return accum;
+    }, {});
+  }
+
   function discoverTagsFromData() {
     const tagMap = {};
     data.forEach(d => {
@@ -185,7 +203,7 @@ function createFilterableList({
       }
     });
 
-    return Object.keys(tagMap);
+    return Object.keys(tagMap).sort();
   }
 
   function filterData() {
@@ -207,22 +225,18 @@ function createFilterableList({
       return true;
     }
 
+    // which tags the item has
     let tagValue = item[tagKey];
     if (!Array.isArray(tagValue)) {
       tagValue = [tagValue];
     }
 
-    for (let i = 0; i < tagValue.length; ++i) {
-      const value = tagValue[i];
-      for (let j = 0; j < activeTags.length; ++j) {
-        const activeTag = activeTags[j];
-        if (value === activeTag) {
-          return true;
-        }
-      }
-    }
+    // make sure all the active tags are in the item's tags
+    const hasAllTags = activeTags.every(activeTag =>
+      tagValue.includes(activeTag)
+    );
 
-    return false;
+    return hasAllTags;
   }
 
   function itemMatchesInputString(item) {
