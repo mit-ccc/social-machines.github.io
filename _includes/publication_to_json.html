@@ -1,0 +1,24 @@
+{% comment %} generate JSON version of the publications adding in ID and HTML{% endcomment %}
+[
+{% assign last_id = 0 %}
+{% for item_group in include.grouped_items %}
+  {% for item in item_group.items %}
+    {% capture jsonitem %}{{ item | jsonify }}{% endcapture %}
+    {% assign jsonitemsize = jsonitem | size | minus: 1 %}
+    {% capture itemhtml %}
+      {{ item.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+      {% if item.pdf_file %}<a href="{{ item.pdf_file }}" class="pdf-link">pdf</a>{% endif %}
+      {% if item.tags %}
+        <span class="tags-list">
+        {% assign sorted_tags = item.tags | sort %}
+        {% for tag in sorted_tags %}
+          <span class="ui basic label tag-item">{{ tag }}</span>
+        {% endfor %}
+        </span>
+      {% endif %}
+    {% endcapture %}
+    {{ jsonitem | slice: 0, jsonitemsize }}, "id": {{ last_id }}, "html": "{{ itemhtml | replace: '"', '\"' | strip_newlines | strip }}"},
+  {% assign last_id = last_id | plus: 1 %}
+  {% endfor %}
+{% endfor %}
+];

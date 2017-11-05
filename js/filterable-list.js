@@ -10,6 +10,17 @@
  *
  *   npm install -g buble uglify-js
  *
+ * Note that data is of the form:
+ * [
+ *   {
+       header: "Some Header",
+       id: "something",
+       groupBy: "publication_year",
+       groupByLabels: { key: label, ... },
+       items: [item1, item2, ...]
+     },
+ *   ...
+ * ]
  */
 function createFilterableList({
   rootSelector,
@@ -25,6 +36,7 @@ function createFilterableList({
   let activeTags = [];
   let filteredData;
   let groupedFilteredData;
+  const flatData = data.reduce((accum, entry) => accum.concat(entry.items), []);
 
   readStateFromUrl();
 
@@ -81,7 +93,48 @@ function createFilterableList({
   function render() {
     renderTags();
     // renderFilteredList();
-    renderGroupedFilteredList();
+    renderAllGroups();
+  }
+
+  function renderAllGroups() {
+    const binding = filteredList
+      .selectAll('.filtered-list-super-group')
+      .data(groupedFilteredData);
+    const entering = binding
+      .enter()
+      .append('div')
+      .attr('class', 'filtered-list-super-group');
+
+    entering
+      .append('h2')
+      .attr('class', 'ui header')
+      .attr('id', d => d.id)
+      .text(d => d.header);
+
+    entering
+      .append('p')
+      .attr('class', 'empty-message')
+      .style('display', 'none')
+      .text('No items match the current filters.');
+    entering.append('div').attr('class', 'filtered-list-super-group-items');
+
+    // render the lists
+    entering
+      .merge(binding)
+      .each(function(d) {
+        const groupRoot = d3.select(this);
+        const numVisibleItems = d3.sum(d.groupedItems, d => d.values.length);
+        if (numVisibleItems == 0) {
+          groupRoot.select('.empty-message').style('display', 'block');
+        } else {
+          groupRoot.select('.empty-message').style('display', 'none');
+        }
+      })
+      .select('.filtered-list-super-group-items')
+      .each(function(d) {
+        const groupRoot = d3.select(this);
+        renderGroupedFilteredList(d.groupedItems, groupRoot, d);
+      });
   }
 
   function renderTags() {
@@ -106,20 +159,30 @@ function createFilterableList({
   //     .html(renderItem);
   // }
 
-  function renderGroupedFilteredList() {
-    const binding = filteredList
+  function renderGroupedFilteredList(groupData, root, groupEntry) {
+    const binding = root
       .selectAll('.filtered-list-group')
-      .data(groupedFilteredData, d => d.key);
+      .data(groupData, d => d.key);
     binding.exit().remove();
     const entering = binding
       .enter()
       .append('div')
       .attr('class', 'filtered-list-group');
 
+    const groupByLabels = Object.assign(
+      { __null: 'Other' },
+      groupEntry.groupByLabels
+    );
     entering
       .append('h3')
       .attr('class', 'ui header')
-      .text(d => (d.key === '__null' ? 'Other' : d.key));
+      .text(d => {
+        const label = groupByLabels[d.key];
+        if (label == null) {
+          return d.key;
+        }
+        return label;
+      });
 
     const enteringLists = entering
       .append('ul')
@@ -190,7 +253,7 @@ function createFilterableList({
 
   function discoverTagsFromData() {
     const tagMap = {};
-    data.forEach(d => {
+    flatData.forEach(d => {
       const tagValue = d[tagKey];
       if (tagValue != null) {
         if (!Array.isArray(tagValue)) {
@@ -206,17 +269,31 @@ function createFilterableList({
     return Object.keys(tagMap).sort();
   }
 
+  let allGroupedFilteredData;
+
   function filterData() {
     // filter based on tag
-    filteredData = data
+    filteredData = flatData
       .filter(itemMatchesActiveTags)
       .filter(itemMatchesInputString);
 
-    groupedFilteredData = d3
-      .nest()
-      .key(d => (d[groupBy] == null ? '__null' : d[groupBy]))
-      .entries(filteredData)
-      .sort((a, b) => b.key - a.key);
+    groupedFilteredData = data.map(entry => {
+      const groupFilteredData = entry.items
+        .filter(itemMatchesActiveTags)
+        .filter(itemMatchesInputString);
+
+      const entryGroupBy = entry.groupBy || groupBy;
+
+      const groupedItems = d3
+        .nest()
+        .key(d => (d[entryGroupBy] == null ? '__null' : d[entryGroupBy]))
+        .entries(groupFilteredData)
+        .sort((a, b) => b.key - a.key);
+
+      return Object.assign({}, entry, {
+        groupedItems,
+      });
+    });
   }
 
   // true if the item matches one of the active tags, false otherwise

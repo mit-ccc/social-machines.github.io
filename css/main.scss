@@ -482,12 +482,20 @@ $boxLabelWidth: 2 * $boxLabelFontSize;
 }
 
 
+.filtered-list-super-group {
+  margin-bottom: 3rem;
+}
+
 .filtered-list-group h3.ui.header {
   margin-top: calc(2rem - .14285714em)
 }
 .filtered-list-item {
   margin-bottom: 0.5em;
 }
+.pdf-link {
+  margin-right: 1em;
+}
+
 .tags-list .tag-item {
   opacity: 0.6;
 }
