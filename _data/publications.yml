@@ -20,6 +20,14 @@
 # - Visualization
 
 - citation: |
+    Juliana Nazare\*, Anneli Hershman\*, Ivan Sysoev, and Deb Roy. (2017). **Bilingual SpeechBlocks: Investigating How Bilingual Children Tinker with Words in English and Spanish**. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '17). ACM, Amsterdam, Netherlands, pp. 183-193. \*Equal Contribution.
+  publication_year: 2017
+  pdf_file: /papers/bsb-paper.pdf
+  group: learning
+  tags:
+    - Learning
+
+- citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
   publication_year: 2017
   pdf_file: /papers/ICWSM-2017.pdf
