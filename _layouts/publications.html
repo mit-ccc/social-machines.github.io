@@ -20,7 +20,15 @@ layout: page
 		{% for pub in pub_year.items %}
 			<li class="publication">
 				{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
-				{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
+				{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}" style="margin-right: 1em">pdf</a>{% endif %}
+				{% if pub.tags %}
+					<span class="tags-list">
+					{% assign sorted_tags = pub.tags | sort %}
+					{% for tag in sorted_tags %}
+						<span class="ui basic label tag-item">{{ tag }}</span>
+					{% endfor %}
+					</span>
+				{% endif %}
 			</li>
 		{% endfor %}
 		</ul>
@@ -64,7 +72,15 @@ layout: page
 					{% assign jsonpubsize = jsonpub | size | minus: 1 %}
 					{% capture pubhtml %}
 						{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
-						{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}">pdf</a>{% endif %}
+						{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}" style="margin-right: 1em">pdf</a>{% endif %}
+						{% if pub.tags %}
+							<span class="tags-list">
+							{% assign sorted_tags = pub.tags | sort %}
+							{% for tag in sorted_tags %}
+								<span class="ui basic label tag-item">{{ tag }}</span>
+							{% endfor %}
+							</span>
+						{% endif %}
 					{% endcapture %}
 					{{ jsonpub | slice: 0, jsonpubsize }}, "id": {{ last_id }}, "html": "{{ pubhtml | replace: '"', '\"' | strip_newlines | strip }}"},
 				{% assign last_id = last_id | plus: 1 %}

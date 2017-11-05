@@ -19,6 +19,7 @@ p {
 h1, h2, h3, h4, h5, h6,
 .ui.header,
 .ui.menu,
+.ui.label,
 .ui.text.container,
 .main-footer,
 .card,
@@ -484,6 +485,13 @@ $boxLabelWidth: 2 * $boxLabelFontSize;
 .filtered-list-group h3.ui.header {
   margin-top: calc(2rem - .14285714em)
 }
+.filtered-list-item {
+  margin-bottom: 0.5em;
+}
+.tags-list .tag-item {
+  opacity: 0.6;
+}
+
 .filter-tags {
   margin: 0.4em 0 1.5em;
 }
