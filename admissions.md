@@ -17,3 +17,4 @@ The new lab builds on the work of Deb Roy’s previous research into foundations
 - **Game Design** — Applicants should have experience in the design and implementation of games or “game-ification” for behavior change apps. Our focus will be on language and literacy learning.
 - **Data Visualization** — Applicants should have experience with state of the art data visualization and interaction techniques, and preferably software engineering skills and experience working with large heterogeneous datasets.
 - **Machine Learning & Pattern Analysis** — Applicants should have experience with modern statistical machine learning and pattern analysis techniques (applied to unstructured and structured data), and preferably software engineering skills and experience working with large datasets.
+{:.spaced-list}
