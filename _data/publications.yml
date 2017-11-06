@@ -26,6 +26,7 @@
   group: learning
   tags:
     - Learning
+  academic: true
 
 - citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
