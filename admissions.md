@@ -6,7 +6,9 @@ description: Admissions for the Laboratory for Social Machines at the MIT Media 
 
 As of September 2017, Social Machines will be seeking graduate students who will join a cross-disciplinary team with the goal of using technology to help self-organizing human networks — “social machines” — effect positive change.
 
-The new lab builds on the work of Deb Roy’s previous research into foundations of language and semantics, but will push off in significantly new directions that incorporate social network and media analysis.
+LSM’s [research projects](/media-analytics/projects) build on Deb Roy’s previous work in the foundations of language and semantics, but will push off in significantly new directions that incorporate media analytics (NLP, social network structure, diffusion dynamics, cross-medium interactions) and media design (apps, browser plugins, interactive data visualizations, data-grounded storytelling).
+
+Social Machines group students apply through the Media Lab’s [graduate program application process](http://www.media.mit.edu/admissions/how-to-apply). Postdocs are also welcome to apply.
 
 ## Areas of Interest
 
