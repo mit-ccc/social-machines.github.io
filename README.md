@@ -28,7 +28,43 @@ Here are instructions for doing various types of edits to the site.
 
 ## Add a publication
 
-TODO
+All publication data is stored in **_data/publications.yml** and **_data/theses.yml** if it is a thesis. The contents of that file are used to populate the publications throughout the site, applying different filters based on attributes defined for each publication. For instance, the publications that show up on the [Media Analytics Publications page]() are filtered to those with `group: media analytics`.
+
+1. Open the file **_data/publications.yml**
+1. Add an entry for the new publication at the top of the file (or ideally in sorted reverse chronological order).
+
+An entry for a publications like the following:
+
+```yaml
+- citation: |
+    Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
+  publication_year: 2017
+  pdf_file: /papers/ICWSM-2017.pdf
+  group: media analytics
+  academic: true
+  tags:
+    - Machine Learning
+    - Social Networks
+    - Natural Language Processing
+```
+
+A few things to note:
+
+- The `citation` field is written in Markdown, so asterisks will be interpretted accordingly. For equal contribution, make sure you escape the asterisk with a backslash: **\\\***. Titles should be marked in bold by surrounding them with two asterisks (e.g. \*\*My Paper Title\*\*).
+- The `pdf_file` field is a URL. We are still sorting out where to store papers, but for now, continue using the WordPress admin tool to upload your paper and paste its URL here.
+- The `group` field indicates whether it will show up on the Media Analytics publications page (with value `media analytics`) or the Learning page (with value `learning`)
+- The `academic` field indicates whether the paper is academic (e.g. a conference or journal paper) or not (e.g. a blog post, or a news article)
+- The `tags` field contains a list of tags that can be used to filter the paper. Currently the list of tags to choose from is:
+  - Machine Learning
+  - Robotics
+  - Cognitive Science
+  - Learning
+  - Natural Language Processing
+  - Social Networks
+  - Visualization
+
+  If you think there should be a new tag added, discuss with others first.
+
 
 ## Add a project
 
@@ -43,7 +79,7 @@ TODO
 Say we want to add the image **tim-cook-deb.jpg** to the image gallery.
 
 1. Add the image file to the **img/** directory.
-1. Edit **life-at-the-lab.md** and add to the **images:** list **- ../img/tim-cook-deb.jpg**:
+1. Edit **life-at-the-lab.md** and add to the `images:` list `- ../img/tim-cook-deb.jpg`:
 
 ```yaml
 layout: image-gallery
@@ -55,7 +91,7 @@ images:
  - ../img/tim-cook.jpg
  - ../img/tim-cook-deb.jpg
 ```
-Note that the order of the images in the **images:** list is how they will display on the site.
+Note that the order of the images in the `images:` list is how they will display on the site.
 
 ## Edit the front page
 
