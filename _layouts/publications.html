@@ -22,6 +22,7 @@ layout: page
 		{% for pub in pub_year.items %}
 			<li class="publication">
 				{{ pub.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+				{% if pub.pdf_file_with_videos %}<a href="{{ pub.pdf_file_with_videos }}" class="pdf-link">pdf with videos</a>{% endif %}
 				{% if pub.pdf_file %}<a href="{{ pub.pdf_file }}" class="pdf-link">pdf</a>{% endif %}
 				{% if pub.tags %}
 					<span class="tags-list">
@@ -56,6 +57,7 @@ layout: page
 		{% for thesis in thesis_type.items %}
 			<li class="thesis">
 				{{ thesis.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+				{% if thesis.pdf_file_with_videos %}<a href="{{ thesis.pdf_file_with_videos }}" class="pdf-link">pdf with videos</a>{% endif %}
 				{% if thesis.pdf_file %}<a href="{{ thesis.pdf_file }}" class="pdf-link">pdf</a>{% endif %}
 				{% if thesis.tags %}
 					<span class="tags-list">

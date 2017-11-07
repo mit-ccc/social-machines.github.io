@@ -7,6 +7,7 @@
     {% assign jsonitemsize = jsonitem | size | minus: 1 %}
     {% capture itemhtml %}
       {{ item.citation | markdownify | replace: '<p>', '' | replace: '</p>', '' }}
+      {% if item.pdf_file_with_videos %}<a href="{{ item.pdf_file_with_videos }}" class="pdf-link">pdf with videos</a>{% endif %}
       {% if item.pdf_file %}<a href="{{ item.pdf_file }}" class="pdf-link">pdf</a>{% endif %}
       {% if item.tags %}
         <span class="tags-list">
