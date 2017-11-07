@@ -75,6 +75,12 @@ function createFilterableList({
     .classed('teal', d => activeTags.includes(d))
     .text(d => d);
 
+  const emptyMessage = root
+    .append('p')
+    .attr('class', 'empty-message')
+    .text('No publications match the current filters.')
+    .style('display', 'none');
+
   const filteredList = root.append('div').attr('class', 'filtered-list');
 
   update();
@@ -99,7 +105,8 @@ function createFilterableList({
   function renderAllGroups() {
     const binding = filteredList
       .selectAll('.filtered-list-super-group')
-      .data(groupedFilteredData);
+      .data(groupedFilteredData, d => d.id);
+    binding.exit().remove();
     const entering = binding
       .enter()
       .append('div')
@@ -111,30 +118,22 @@ function createFilterableList({
       .attr('id', d => d.id)
       .text(d => d.header);
 
-    entering
-      .append('p')
-      .attr('class', 'empty-message')
-      .style('display', 'none')
-      .text('No items match the current filters.');
     entering.append('div').attr('class', 'filtered-list-super-group-items');
 
     // render the lists
     entering
       .merge(binding)
-      .each(function(d) {
-        const groupRoot = d3.select(this);
-        const numVisibleItems = d3.sum(d.groupedItems, d => d.values.length);
-        if (numVisibleItems == 0) {
-          groupRoot.select('.empty-message').style('display', 'block');
-        } else {
-          groupRoot.select('.empty-message').style('display', 'none');
-        }
-      })
       .select('.filtered-list-super-group-items')
       .each(function(d) {
         const groupRoot = d3.select(this);
         renderGroupedFilteredList(d.groupedItems, groupRoot, d);
       });
+
+    if (groupedFilteredData.length) {
+      emptyMessage.style('display', 'none');
+    } else {
+      emptyMessage.style('display', '');
+    }
   }
 
   function renderTags() {
@@ -277,23 +276,25 @@ function createFilterableList({
       .filter(itemMatchesActiveTags)
       .filter(itemMatchesInputString);
 
-    groupedFilteredData = data.map(entry => {
-      const groupFilteredData = entry.items
-        .filter(itemMatchesActiveTags)
-        .filter(itemMatchesInputString);
+    groupedFilteredData = data
+      .map(entry => {
+        const groupFilteredData = entry.items
+          .filter(itemMatchesActiveTags)
+          .filter(itemMatchesInputString);
 
-      const entryGroupBy = entry.groupBy || groupBy;
+        const entryGroupBy = entry.groupBy || groupBy;
 
-      const groupedItems = d3
-        .nest()
-        .key(d => (d[entryGroupBy] == null ? '__null' : d[entryGroupBy]))
-        .entries(groupFilteredData)
-        .sort((a, b) => b.key - a.key);
+        const groupedItems = d3
+          .nest()
+          .key(d => (d[entryGroupBy] == null ? '__null' : d[entryGroupBy]))
+          .entries(groupFilteredData)
+          .sort((a, b) => b.key - a.key);
 
-      return Object.assign({}, entry, {
-        groupedItems,
-      });
-    });
+        return Object.assign({}, entry, {
+          groupedItems,
+        });
+      })
+      .filter(groupedData => groupedData.groupedItems.length > 0);
   }
 
   // true if the item matches one of the active tags, false otherwise
