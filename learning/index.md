@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: page-with-text
 title: Learning
 description: This page is under construction
 boxes:
@@ -10,8 +10,9 @@ boxes:
   - label: People
     url: people
 boxColumns: three
+boxCompact: compact
 ---
-Our literacy and storytelling work supports development of early literacy (Speechblocks, Pictureblocks) and storytelling (Storyblocks) for young children through networked family engagement (e.g., coach’s console, coach-parent social networks) 
+Our literacy and storytelling work supports development of early literacy (Speechblocks, Pictureblocks) and storytelling (Storyblocks) for young children through networked family engagement (e.g., coach’s console, coach-parent social networks)
 
 
 Visit the external site for the learning team at [http://playfulwords.org/](http://playfulwords.org/).
