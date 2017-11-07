@@ -84,10 +84,38 @@ An entry for a project looks like the following:
 
 The idea is to save students work from reproducing content for projects everywhere, we can just re-use the title and images required for the Media Lab's site.
 
+Things to note
+
+- The `group` field should be one of `media analytics` or `learning`.
 
 ## Add a person
 
-TODO
+The people data is all stored in **_data/people.yml**.
+
+1. Open the file **_data/people.yml**
+1. Add the entry for the new person to the top of the file.
+
+An entry for a person looks like the following:
+
+```yaml
+- name: Lisa Conn
+  title: Graduate Researcher
+  type: student
+  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/IMG_4998-e1454462435442.jpg
+  groups:
+    - media analytics
+    - cortico
+  alumni: true
+```
+
+Things to note
+
+- The `groups` field should contain any of `media analytics`, `learning`, or `cortico`.
+- Set `alumni: true` when a person leaves the lab. It's okay if this field is not there at all (this implies it is false).
+- The `type` field should be one of: leadership, faculty, staff, visitor, postdoc, student, cortico
+- The order in which people show up on the team pages is determined by a variable called `people_order` on the pages themselves. See **learning/people.md** for an example.
+
+
 
 ## Add an image to the Life at the Lab image gallery
 
@@ -127,3 +155,12 @@ TODO
 ## Edit copy on the Admissions page
 
 TODO
+
+
+## Modify the main navigation items
+
+Edit the entries in **_data/nav.yml**. The order in the file matches the order seen on the site.
+
+## Modifying the Filterable List logic used for Publications
+
+The code for the filterable lists seen on the publications pages is stored in **js/filterable-list.js**. The live version uses a transpiled version of it in **js/filterable-list.min.js**. After making any desired changes, you can recompile the js by running the build script in the root directory called **build.sh**.
