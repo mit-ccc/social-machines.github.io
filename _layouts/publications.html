@@ -87,7 +87,7 @@ layout: page
 			var theses = {% include publication_to_json.html grouped_items=theses_by_type %}
 		</script>
 		<script>
-			clearData('.publications');
+			clearContents('.publications');
 			createFilterableList({
 			  rootSelector: '.publications',
 			  title: '{{ page.title }}',
