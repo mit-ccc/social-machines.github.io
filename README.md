@@ -116,7 +116,6 @@ Things to note
 - The order in which people show up on the team pages is determined by a variable called `people_order` on the pages themselves. See **learning/people.md** for an example.
 
 
-
 ## Add an image to the Life at the Lab image gallery
 
 Say we want to add the image **tim-cook-deb.jpg** to the image gallery.
@@ -138,24 +137,27 @@ Note that the order of the images in the `images:` list is how they will display
 
 ## Edit the front page
 
-TODO
+The content of the front page is stored in **index.html**. This is one of the few files that is written in HTML instead of Markdown.
 
 ## Edit copy on the Media Analytics page
 
-TODO
+The Media Analytics landing page can be edited via the Markdown file at **media-analytics/index.md**.
 
 ## Edit copy on the Learning page
 
-TODO
+The Learning landing page can be edited via the Markdown file at **learning/index.md**.
 
 ## Edit copy on the Cortico page
 
-TODO
+The Cortico page can be edited via the Markdown file at **cortico.md**.
 
 ## Edit copy on the Admissions page
 
-TODO
+The Admissions page can be edited via the Markdown file at **admissions.md**.
 
+## Edit page layouts
+
+All of the different types of pages specify which layouts they use in their front matter. To edit how those layouts are rendered, explore the files in **_layouts/** and the modular components in **_includes/**.
 
 ## Modify the main navigation items
 
