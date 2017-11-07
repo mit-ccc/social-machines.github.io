@@ -28,12 +28,12 @@ Here are instructions for doing various types of edits to the site.
 
 ## Add a publication
 
-All publication data is stored in **_data/publications.yml** and **_data/theses.yml** if it is a thesis. The contents of that file are used to populate the publications throughout the site, applying different filters based on attributes defined for each publication. For instance, the publications that show up on the [Media Analytics Publications page]() are filtered to those with `group: media analytics`.
+All publication data is stored in **_data/publications.yml** and **_data/theses.yml** if it is a thesis. The contents of that file are used to populate the publications throughout the site, applying different filters based on attributes defined for each publication. For instance, the publications that show up on the [Media Analytics Publications page](https://social-machines.github.io/media-analytics/publications) are filtered to those with `group: media analytics`.
 
 1. Open the file **_data/publications.yml**
 1. Add an entry for the new publication at the top of the file (or ideally in sorted reverse chronological order).
 
-An entry for a publications like the following:
+An entry for a publication looks like the following:
 
 ```yaml
 - citation: |
@@ -68,7 +68,22 @@ A few things to note:
 
 ## Add a project
 
-TODO
+Projects are currently very limited in their presentation on the site. They are comprised solely of a title, an image, the group they are under, and a link to the project page on [the Media Lab site](https://www.media.mit.edu/groups/social-machines/projects/). The project data is stored in **_data/projects.yml**.
+
+1. Open the file **_data/projects.yml**
+1. Add the entry for the new project to the top of the file.
+
+An entry for a project looks like the following:
+
+```yaml
+- title: "FlipFeed"
+  image: https://dam-prod.media.mit.edu/thumb/2017/01/18/1_Mk6xr17.jpg.800x800.jpg
+  url: https://www.media.mit.edu/projects/flipfeed/overview/
+  group: media analytics
+```
+
+The idea is to save students work from reproducing content for projects everywhere, we can just re-use the title and images required for the Media Lab's site.
+
 
 ## Add a person
 
