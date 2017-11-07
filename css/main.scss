@@ -20,6 +20,11 @@ p {
   margin-bottom: 0.5em;
 }
 
+ul:first-child,
+ol:first-child {
+  margin-top: 0;
+}
+
 h1, h2, h3, h4, h5, h6,
 .ui.header,
 .ui.menu,
@@ -385,7 +390,7 @@ $boxLabelWidth: 2 * $boxLabelFontSize;
   background-color: #eee;
   width: 100%;
   height: 500px;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
   background-size: cover;
   background-position: center;
 }
