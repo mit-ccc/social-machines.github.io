@@ -1,6 +1,10 @@
 # Lab for Social Machines Jekyll Web Site
 
-https://social-machines.github.io/
+View the live site: https://social-machines.github.io/
+
+---
+
+# Getting Started
 
 This website is created using [Jekyll](https://jekyllrb.com/), a static site generator. The general flow of editing the site is:
 
