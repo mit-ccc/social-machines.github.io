@@ -917,8 +917,7 @@
 - citation: |
     Deb Roy, Yair Ghitza, Jeff Bartelma, and Charlie Kehoe. (2004). **Visual Memory Augmentation: Using Eye Gaze as an Attention Filter**. Proceedings of the IEEE International Symposium on Wearable Computers.
   publication_year: 2004
-  # pdf_file: /papers/roy%20ghitza%20bartelma.pdf
-  # commented out since it is too big to include in repo
+  pdf_file: http://www.media.mit.edu/cogmac/publications/roy%20ghitza%20bartelma.pdf
   academic: true
   tags:
     - Cognitive Science
