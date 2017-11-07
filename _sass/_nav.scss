@@ -1,0 +1,53 @@
+.main-header {
+  min-height: 56px;
+
+  .header-second {
+    font-weight: 600;
+  }
+
+  .ui.menu {
+    border-radius: 0;
+    box-shadow: none;
+    border: 0;
+    border-bottom: 1px solid darken($navBackground, 5%);
+    background-color: $navBackground;
+
+    .item {
+      color: #666;
+      font-size: 1.05rem;
+      text-transform: uppercase;
+    }
+  }
+
+  .ui.menu .header.item {
+    font-size: 2.2rem;
+    padding: 0.6em 0.5em 0.6em 0;
+    font-weight: 300;
+    color: #666;
+    text-transform: none;
+        letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 1.8rem;
+
+    &:hover {
+      background: $navBackground;
+      color: #555;
+    }
+  }
+
+  .ui.menu .header.item .logo {
+    height: 0.9em;
+    width: 0.9em;
+    margin-right: 0.4em;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-header .ui.menu .header.item {
+    padding-left: 0.6em;
+  }
+
+  .main-header .ui.fixed.menu {
+    position: static; // remove fixed positioning for mobile
+  }
+}

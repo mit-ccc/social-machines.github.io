@@ -1,0 +1,19 @@
+.image-gallery-image {
+  display: block;
+  width: auto;
+  height: 0;
+  padding-bottom: 100%;
+  background-size: cover;
+  background-position: center;
+  margin: -1rem; // counter-act the grid
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+
+  &:hover {
+    opacity: 0.92;
+  }
+}
+
+.image-gallery {
+  padding: 1rem; // counter-act the grid
+}

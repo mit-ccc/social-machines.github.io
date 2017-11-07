@@ -1,0 +1,38 @@
+.filtered-list-super-group {
+  margin-bottom: 3rem;
+}
+
+.filtered-list-group h3.ui.header {
+  margin-top: calc(2rem - .14285714em)
+}
+.filtered-list-item {
+  margin-bottom: 0.5em;
+}
+.pdf-link {
+  margin-right: 1em;
+}
+
+.tags-list .tag-item {
+  opacity: 0.6;
+}
+.tag-count {
+  font-weight: 400;
+  opacity: 1;
+  margin-left: 0.3em;
+  &:before {
+    content: '(';
+  }
+  &:after {
+    content: ')';
+  }
+}
+
+.filter-tags {
+  margin: 0.4em 0 1.5em;
+}
+
+.filter-label {
+  font-size: 0.85em;
+  font-weight: 600;
+  margin-top: 0.8em;
+}

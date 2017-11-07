@@ -1,28 +1,27 @@
 ---
 # Front matter comment to ensure Jekyll properly reads file.
 ---
+// NOTE these are stored in _sass/ as per Jekyll's requirements
+@import "variables";
+@import "nav";
+@import "boxes";
+@import "projects";
+@import "people";
+@import "filterable-list";
+@import "image-gallery";
+
 body {
   font-size: 1.2rem;
   line-height: 1.55;
-  // letter-spacing: 1px;
   font-weight: 400;
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-family: "PT Serif", Georgia, serif;
   color: #565656;
   -webkit-font-smoothing: antialiased;
 }
 
-p {
-  line-height: 1.55;
-}
-
-.spaced-list li {
-  margin-bottom: 0.5em;
-}
-
-ul:first-child,
-ol:first-child {
-  margin-top: 0;
+/** Font Overrides */
+body,
+.ui.text.container {
+  font-family: $serifFont;
 }
 
 h1, h2, h3, h4, h5, h6,
@@ -40,108 +39,52 @@ h1, h2, h3, h4, h5, h6,
 .hero,
 .projects .project-title,
 .filter-tags .ui.label {
-  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: $sansSerifFont;
 }
 
-.project-page .meta {
-  margin-bottom: 1em;
+/** Typography */
+.muted {
+  color: #888;
 }
 
-.ui.text.container {
-  font-family: "PT Serif", serif;
+.spaced-list li {
+  margin-bottom: 0.5em;
 }
 
+
+p {
+  line-height: 1.55;
+}
+
+ul:first-child,
+ol:first-child {
+  margin-top: 0;
+}
 
 strong {
   font-weight: 600;
   color: #333;
 }
 
-$navBackground: #eee;
-.main-header {
-  min-height: 56px;
-
-  .header-second {
-    font-weight: 600;
-  }
-
-  .ui.menu {
-    border-radius: 0;
-    box-shadow: none;
-    border: 0;
-    border-bottom: 1px solid darken($navBackground, 5%);
-    background-color: $navBackground;
-
-    .item {
-      color: #666;
-      font-size: 1.05rem;
-      text-transform: uppercase;
-    }
-  }
-
-  .ui.menu .header.item {
-    font-size: 2.2rem;
-    padding: 0.6em 0.5em 0.6em 0;
-    font-weight: 300;
-    color: #666;
-    text-transform: none;
-        letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: 1.8rem;
-
-    &:hover {
-      background: $navBackground;
-      color: #555;
-    }
-  }
-
-  .ui.menu .header.item .logo {
-    height: 0.9em;
-    width: 0.9em;
-    margin-right: 0.4em;
-  }
+.ui.list.long-text li {
+  line-height: 1.6;
 }
 
-@media only screen and (max-width: 768px) {
-  .main-header .ui.menu .header.item {
-    padding-left: 0.6em;
-  }
+.ui.items.large-spacing > .item {
+  margin-bottom: 3em;
+}
 
-  .main-header .ui.fixed.menu {
-    position: static; // remove fixed positioning for mobile
-  }
+.section-header.ui.header {
+  margin-top: 1.5em;
+  margin-bottom: 1em;
+  letter-spacing: 0.03em;
+  font-weight: 400;
+  border-bottom: 1px solid #eee;
 }
 
 
-.ui.inverted.segment.main-footer {
-  background: #1a1b1d;
-  font-weight: 300;
-  font-size: 1.1rem;
-  padding: 2rem;
-  margin-top: 1rem;
 
-  a {
-    color: rgba(255,255,255,.8);
-
-    &:hover {
-      color: rgba(255,255,255,.9);
-    }
-  }
-
-  .header {
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 0.9em;
-    margin-bottom: 0.5em;
-
-  }
-
-  .copyright {
-    margin-top: 3rem;
-    opacity: 0.5;
-  }
-}
-
+/** Main Content */
 .main-content {
   padding: 0 0 2rem;
 
@@ -150,166 +93,7 @@ $navBackground: #eee;
   }
 }
 
-
-
-$boxColor0: #1b4040;
-$boxColor1: #2e7575;
-$boxColor2: #1f2763;
-$boxColor3: #14193e;
-$boxColor4: #401b2e;
-$boxColor5: #6b2c4c;
-$boxColor: #1a1b1d;
-
-
-.box-container {
-  margin: 2rem 0;
-  position: relative;
-}
-.header-box-container {
-  margin: 0 0 2rem;
-}
-
-$boxLabelFontSize: 1.8rem;
-$boxLabelWidth: 2 * $boxLabelFontSize;
-
-.box-container.has-labels {
-  padding-left: $boxLabelWidth; // match label width
-}
-
-
-.boxes {
-  padding: 1rem; // counter-act the grid's -1rem margins
-
-  &.compact {
-    .box {
-      height: 70px;
-      font-size: 1.4rem;
-    }
-  }
-}
-
-.box-labels {
-  position: absolute;
-  z-index: 2;
-  left: 0;
-}
-
-.box-label {
-  background-color: lighten($boxColor, 7.5%);
-  position: relative;
-  color: #fff;
-  font-size: $boxLabelFontSize;
-  font-weight: 200;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  height: 180px;
-  width: $boxLabelWidth;
-  border-bottom: 1px solid #fff;
-  border-right: 1px solid #fff;
-}
-
-.box-label-text {
-  transform: rotate(-90deg);
-  transform-origin: left bottom 0;
-  color: #fff;
-  position: absolute;
-  font-size: 1.6rem;
-  left: 3rem;
-  width: 180px;
-  text-align: center;
-  bottom: 0;
-}
-
-
-// .boxes > .grid > .column:last-child > .box {
-//   border-right: 0;
-// }
-
-.boxes > .grid.two > .column:nth-child(2n+2) > .box,
-.boxes > .grid.three > .column:nth-child(3n+3) > .box,
-.boxes > .grid.four > .column:nth-child(4n+4) > .box {
-  border-right: 0;
-}
-
-
-.box {
-  height: 180px;
-  background: #eee;
-  margin: -1rem;
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: $boxColor;
-  color: #fff;
-  font-size: 2.2rem;
-  font-weight: 200;
-  letter-spacing: 3px;
-  text-transform: uppercase;
-  background-position: center;
-  text-shadow: 1px 1px #333;
-
-
-  &:hover {
-    color: #fff;
-    opacity: 0.92;
-  }
-
-  &.box-0:hover {
-    background-color: $boxColor0;
-  }
-
-  &.box-1:hover {
-    background-color: $boxColor1;
-  }
-
-  &.box-2:hover {
-    background-color: $boxColor2;
-  }
-
-  &.box-3:hover {
-    background-color: $boxColor3;
-  }
-
-  &.box-4:hover {
-    background-color: $boxColor4;
-  }
-
-  &.box-5:hover {
-    background-color: $boxColor5;
-  }
-}
-
-@media only screen and (max-width: 768px) {
-  .boxes {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
-  .boxes {
-    .box {
-      height: 100px;
-      font-size: 1.6rem;
-    }
-  }
-
-  .box-label {
-    height: 200px;
-  }
-  .box-label-text {
-    width: 200px;
-    font-size: 1.5rem;
-    left: 2.8rem;
-  }
-}
-
-
-.title-image {
-  max-height: 40px;
-}
-
+/** Big black box headers at top of each page */
 .page-header {
   font-weight: 200;
   padding: 1.5em 0;
@@ -353,39 +137,12 @@ $boxLabelWidth: 2 * $boxLabelFontSize;
 }
 
 
-.ui.list.long-text li {
-  line-height: 1.6;
+/** Used for Cortico logo in page header */
+.title-image {
+  max-height: 40px;
 }
 
-.ui.items.large-spacing > .item {
-  margin-bottom: 3em;
-}
-
-.image-gallery-image {
-  display: block;
-  width: auto;
-  height: 0;
-  padding-bottom: 100%;
-  background-size: cover;
-  background-position: center;
-  margin: -1rem; // counter-act the grid
-  border-right: 1px solid #fff;
-  border-bottom: 1px solid #fff;
-
-  &:hover {
-    opacity: 0.92;
-  }
-}
-
-.image-gallery {
-  padding: 1rem; // counter-act the grid
-}
-
-
-.muted {
-  color: #888;
-}
-
+/** Hero is used for the main splash on the front page */
 .hero {
   background-color: #eee;
   width: 100%;
@@ -429,159 +186,32 @@ $boxLabelWidth: 2 * $boxLabelFontSize;
   }
 }
 
+/** Footer */
+.ui.inverted.segment.main-footer {
+  background: #1a1b1d;
+  font-weight: 300;
+  font-size: 1.1rem;
+  padding: 2rem;
+  margin-top: 1rem;
 
+  a {
+    color: rgba(255,255,255,.8);
 
-.profile-img {
-  max-width: 100%;
-  height: auto;
-  display: inline-block;
-  vertical-align: middle;
-  border-radius: 100%;
-  width: 120px;
-  height: 120px;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #eee;
-}
-
-.bordered-header,
-.ui.header.bordered-header {
-  border-bottom: 1px solid #eee;
-}
-
-.section-header.ui.header {
-  margin-top: 1.5em;
-  margin-bottom: 1em;
-  letter-spacing: 0.03em;
-  font-weight: 400;
-  border-bottom: 1px solid #eee;
-}
-
-
-.people-group .ui.card, .people-group .ui.cards>.card {
-  box-shadow: none;
-  text-align: center;
-  width: 210px;
-
-  >.content {
-    padding: 0;
-
-    img {
-      border-radius: 100%;
-    }
-
-    .left.floated.image {
-      margin-right: 1em;
-      margin-bottom: 0;
-    }
-
-    >.header {
-      margin-top: 0.4em;
+    &:hover {
+      color: rgba(255,255,255,.9);
     }
   }
 
-  .details {
-    margin-top: 0.5em;
-  }
-}
+  .header {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 0.9em;
+    margin-bottom: 0.5em;
 
-
-.filtered-list-super-group {
-  margin-bottom: 3rem;
-}
-
-.filtered-list-group h3.ui.header {
-  margin-top: calc(2rem - .14285714em)
-}
-.filtered-list-item {
-  margin-bottom: 0.5em;
-}
-.pdf-link {
-  margin-right: 1em;
-}
-
-.tags-list .tag-item {
-  opacity: 0.6;
-}
-.tag-count {
-  font-weight: 400;
-  opacity: 1;
-  margin-left: 0.3em;
-  &:before {
-    content: '(';
-  }
-  &:after {
-    content: ')';
-  }
-}
-
-.filter-tags {
-  margin: 0.4em 0 1.5em;
-}
-
-.filter-label {
-  font-size: 0.85em;
-  font-weight: 600;
-  margin-top: 0.8em;
-}
-
-
-.project-list {
-  font-size: 0;
-}
-.project-item {
-  font-size: 1rem;
-  width: 100%;
-  height: 275px;
-  display: inline-block;
-  background-position: center;
-  background-color: $boxColor;
-  background-size: cover;
-  margin-bottom: 2rem;
-
-  position: relative;
-
-  &:hover {
-    background-color: lighten($boxColor, 7.5%);
   }
 
-  &:hover .project-title {
-    background: lighten($boxColor, 7.5%)
+  .copyright {
+    margin-top: 3rem;
+    opacity: 0.5;
   }
 }
-
-@media only screen and (min-width: 768px) {
-  .project-item {
-    width: calc(33.3333333% - 1px);
-    margin-right: 1px;
-    margin-bottom: 1px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .project-item {
-    width: calc(25% - 1px);
-  }
-  .project-list.three-max .project-item {
-    width: calc(33.3333333% - 1px);
-  }
-}
-
-
-.project-title {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0.5em 0.75em;
-  color: #fff;
-  font-size: 1.4rem;
-  background: $boxColor;
-  text-shadow: 2px 2px 8px rgba(0, 0, 0, 1.0);
-}
-
-.project-subtitle {
-  font-size: 1rem;
-}
-

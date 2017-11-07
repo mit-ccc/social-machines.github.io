@@ -1,0 +1,41 @@
+.profile-img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 100%;
+  width: 120px;
+  height: 120px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #eee;
+}
+
+
+.people-group .ui.card, .people-group .ui.cards>.card {
+  box-shadow: none;
+  text-align: center;
+  width: 210px;
+
+  >.content {
+    padding: 0;
+
+    img {
+      border-radius: 100%;
+    }
+
+    .left.floated.image {
+      margin-right: 1em;
+      margin-bottom: 0;
+    }
+
+    >.header {
+      margin-top: 0.4em;
+    }
+  }
+
+  .details {
+    margin-top: 0.5em;
+  }
+}
