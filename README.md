@@ -32,6 +32,8 @@ Here are instructions for doing various types of edits to the site.
 
 ## Add a publication
 
+[![Add a publication](https://img.youtube.com/vi/NEDEVrn6MVQ/0.jpg) Watch video explanation](https://www.youtube.com/watch?v=NEDEVrn6MVQ)
+
 All publication data is stored in **_data/publications.yml** and **_data/theses.yml** if it is a thesis. The contents of that file are used to populate the publications throughout the site, applying different filters based on attributes defined for each publication. For instance, the publications that show up on the [Media Analytics Publications page](https://social-machines.github.io/media-analytics/publications) are filtered to those with `group: media analytics`.
 
 1. Open the file **_data/publications.yml**
