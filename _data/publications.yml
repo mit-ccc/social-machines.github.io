@@ -19,19 +19,6 @@
 # - Social Networks
 # - Visualization
 
-
-- citation: |
-    Some Author, Some author 2. (2018). **Some Title**.
-  publication_year: 2018
-  pdf_file: http://mypapers.com/somepaper.pdf
-  group: media analytics
-  tags:
-    - Machine Learning
-    - Social Networks
-    - Natural Language Processing
-  academic: true
-
-
 - citation: |
     Juliana Nazare\*, Anneli Hershman\*, Ivan Sysoev, and Deb Roy. (2017). **Bilingual SpeechBlocks: Investigating How Bilingual Children Tinker with Words in English and Spanish**. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '17). ACM, Amsterdam, Netherlands, pp. 183-193. \*Equal Contribution.
   publication_year: 2017
