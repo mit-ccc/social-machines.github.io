@@ -69,6 +69,7 @@
     Soroush Vosoughi, Mostafa 'Neo' Mohsenvand, and Deb Roy. (2017). **Rumor Gauge: Predicting the Veracity of Rumors on Twitter**. ACM Transactions on Knowledge Discovery from Data (TKDD), 36 pages.
   publication_year: 2017
   group: media analytics
+  pdf_file: /papers/a50-vosoughi.pdf
   tags:
     - Machine Learning
     - Social Networks
@@ -84,7 +85,7 @@
 
 
 - citation: |
-    Prashanth Vijayaraghavan, Soroush Vosoughi, and Deb Roy. (2017). **Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning**. Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, 6 pages.
+    Prashanth Vijayaraghavan\*, Soroush Vosoughi\*, and Deb Roy. (2017). **Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning**. Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, 6 pages. \*Equal Contribution
   publication_year: 2017
   group: media analytics
   pdf_file: http://www.aclweb.org/anthology/P17-2076
@@ -436,7 +437,7 @@
 
 
 - citation: |
-    Brandon C. Roy\*, Soroush Vosoughi\*, and Deb Roy. (2010). **Automatic Estimation of Transcription Accuracy and Difficulty**. Proceedings of Interspeech 2010. Makuhari, Japan.
+    Brandon C. Roy\*, Soroush Vosoughi\*, and Deb Roy. (2010). **Automatic Estimation of Transcription Accuracy and Difficulty**. Proceedings of Interspeech 2010. Makuhari, Japan. \*Equal Contribution.
   publication_year: 2010
   pdf_file: /papers/roy-vosoughi-roy_interspeech2010.pdf
   academic: true
