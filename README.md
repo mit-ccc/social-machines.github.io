@@ -86,6 +86,15 @@ Enter **smb://lsm.media.mit.edu** as the Server Address. Optionally click the **
 
 <img src="https://user-images.githubusercontent.com/793847/37048676-9474aa82-213c-11e8-968a-3b4496937f71.png" width="700" />
 
+Click **Connect** when prompted about connecting.
+
+<img src="https://user-images.githubusercontent.com/793847/37049138-f6adba44-213d-11e8-9f17-3c48f32f6d6b.png" width="700" />
+
+Enter your Kerberos login information. You do not need to add an email address, just use your username. Then click **Connect** to continue.
+
+<img src="https://user-images.githubusercontent.com/793847/37049153-0236edea-213e-11e8-924e-b35b616b364e.png" width="700" />
+
+
 Scroll to select **lsm.media.mit.edu** as the volume you'd like to mount (or type "lsm" to quickly get to it).
 
 <img src="https://user-images.githubusercontent.com/793847/37048735-c9c82920-213c-11e8-91cb-a046c8ebb327.png" width="700" />
