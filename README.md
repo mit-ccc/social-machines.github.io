@@ -45,7 +45,7 @@ An entry for a publication looks like the following:
 - citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
   publication_year: 2017
-  pdf_file: /papers/ICWSM-2017.pdf
+  pdf_file: http://lsm.media.mit.edu/papers/ICWSM-2017.pdf
   group: media analytics
   academic: true
   tags:
@@ -57,7 +57,7 @@ An entry for a publication looks like the following:
 A few things to note:
 
 - The `citation` field is written in Markdown, so asterisks will be interpretted accordingly. For equal contribution, make sure you escape the asterisk with a backslash: **\\\***. Titles should be marked in bold by surrounding them with two asterisks (e.g. \*\*My Paper Title\*\*).
-- The `pdf_file` field is a URL. We are still sorting out where to store papers, but for now, continue using the WordPress admin tool to upload your paper and paste its URL here.
+- The `pdf_file` field is a URL and should point to http://lsm.media.mit.edu/papers/YOUR_PAPER_PDF.pdf. You'll need to upload your file to the paper hosting server for this URL to work, as described below in the "Uploading a paper" section.
 - The `group` field indicates whether it will show up on the Media Analytics publications page (with value `media analytics`) or the Learning page (with value `learning`)
 - The `academic` field indicates whether the paper is academic (e.g. a conference or journal paper) or not (e.g. a blog post, or a news article)
 - The `tags` field contains a list of tags that can be used to filter the paper. Currently the list of tags to choose from is:
@@ -70,6 +70,33 @@ A few things to note:
   - Visualization
 
   If you think there should be a new tag added, discuss with others first.
+
+
+### Uploading a paper
+
+We have a separate place where we are storing all our papers since they can be quite large especially when videos are embedded in them. The box was setup for us by NECSYS and is available at **lsm.media.mit.edu**. To upload a paper, you'll need to connect to the server over SMB. If you're not on campus, you'll need to be on the Media Lab VPN ([instructions to connect to VPN](http://wiki.media.mit.edu/view/Necsys/HowToVPN)).
+
+The following instructions explain how to upload a paper to the SMB server on a Mac.
+
+Open **Finder** and select **Go -> Connect to Server...** from the menu bar (or press Cmd+K)
+
+<img src="https://user-images.githubusercontent.com/793847/37048648-82cfad36-213c-11e8-9e97-293f41dace7a.png" width="700" />
+
+Enter **smb://lsm.media.mit.edu** as the Server Address. Optionally click the **+** to save it as a favorite. Click **Connect**.
+
+<img src="https://user-images.githubusercontent.com/793847/37048676-9474aa82-213c-11e8-968a-3b4496937f71.png" width="700" />
+
+Scroll to select **lsm.media.mit.edu** as the volume you'd like to mount (or type "lsm" to quickly get to it).
+
+<img src="https://user-images.githubusercontent.com/793847/37048735-c9c82920-213c-11e8-91cb-a046c8ebb327.png" width="700" />
+
+This opens up a finder window to the mounted SMB server. The **papers** directory is where you should put your PDF file.
+
+<img src="https://user-images.githubusercontent.com/793847/37048802-f70257f8-213c-11e8-8150-0bcc74f4adf5.png" width="700" />
+
+<img src="https://user-images.githubusercontent.com/793847/37048839-0cd8eef2-213d-11e8-9d74-1931b439a4bf.png" width="700" />
+
+That paper is now available to be read at http://lsm.media.mit.edu/papers/a_paper.pdf. Use that URL as the value for `pdf_file` in your citation entry.
 
 
 ## Add a project
