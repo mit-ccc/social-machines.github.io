@@ -20,6 +20,16 @@
 # - Visualization
 
 - citation: |
+    S. Vosoughi, D. Roy, S. Aral. (2018). **The spread of true and false news online**. Science. Vol 359, Iss 6380. Mar 09 2018.
+  publication_year: 2018
+  #pdf_file: http://lsm.media.mit.edu/papers/bsb-paper.pdf
+  group: media analytics
+  tags:
+    - Social Networks
+  academic: true
+
+
+- citation: |
     Juliana Nazare\*, Anneli Hershman\*, Ivan Sysoev, and Deb Roy. (2017). **Bilingual SpeechBlocks: Investigating How Bilingual Children Tinker with Words in English and Spanish**. In Proceedings of the Annual Symposium on Computer-Human Interaction in Play (CHI PLAY '17). ACM, Amsterdam, Netherlands, pp. 183-193. \*Equal Contribution.
   publication_year: 2017
   pdf_file: http://lsm.media.mit.edu/papers/bsb-paper.pdf
