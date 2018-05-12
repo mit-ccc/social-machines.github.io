@@ -40,7 +40,8 @@
 
 - citation: |
     Eric Chu and Deb Roy, **Audio-Visual Sentiment Analysis for Learning Emotional Arcs in Movies**, 2017 IEEE International Conference on Data Mining (ICDM), New Orleans, LA, 2017, pp. 829-834.
-  pdf_file: https://ieeexplore.ieee.org/document/8215563/
+  publication_year: 2017
+  pdf_file: https://arxiv.org/abs/1712.02896
   group: media analytics
   tags:
     - Machine Learning
