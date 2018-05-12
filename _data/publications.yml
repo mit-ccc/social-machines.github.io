@@ -39,6 +39,14 @@
   academic: true
 
 - citation: |
+    Eric Chu and Deb Roy, **Audio-Visual Sentiment Analysis for Learning Emotional Arcs in Movies**, 2017 IEEE International Conference on Data Mining (ICDM), New Orleans, LA, 2017, pp. 829-834.
+  pdf_file: https://ieeexplore.ieee.org/document/8215563/
+  group: media analytics
+  tags:
+    - Machine Learning
+  academic: true
+
+- citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
   publication_year: 2017
   pdf_file: http://lsm.media.mit.edu/papers/ICWSM-2017.pdf
