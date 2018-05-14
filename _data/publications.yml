@@ -18,6 +18,19 @@
 # - Natural Language Processing
 # - Social Networks
 # - Visualization
+# - Randomized Experiment
+
+- citation: |
+    N. Gillani\*, A. Yuan\*, M. Saveski, S. Vosoughi, and D. Roy. (2018). **Me, My Echo Chamber, and I: Introspection on Social Media Polarization**. In WWW 2018: The 2018 Web Conference, April 23–27, 2018, Lyon France. \*Equal Contribution.
+  publication_year: 2018
+  pdf_file: https://arxiv.org/pdf/1803.01731.pdf
+  group: media analytics
+  academic: true
+  tags:
+    - Visualization
+    - Social Networks
+    - Randomized Experiment
+  academic: true
 
 - citation: |
     S. Vosoughi, D. Roy, S. Aral. (2018). **The spread of true and false news online**. Science. Vol 359, Iss 6380. Mar 09 2018.
