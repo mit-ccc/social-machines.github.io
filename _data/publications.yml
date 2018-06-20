@@ -21,6 +21,15 @@
 # - Randomized Experiment
 
 - citation: |
+    Anneli Hershman\*, Juliana Nazare\*, Jie Qi\*, Deb Roy, and Mitchel Resnick. (2018). **Light It Up: Using Paper Circuitry to Enhance Low-Fidelity Paper Prototypes for Children**. In Proceedings of the 17th ACM Conference on Interaction Design and Children. ACM, Trondheim, Norway, pp. 365-372. \*Equal Contribution.
+  publication_year: 2018
+  pdf_file: http://playfulwords.org/papers/hershman_et_al_idc_2018_updated.pdf
+  group: learning
+  tags:
+    - Learning
+  academic: true
+
+- citation: |
     N. Gillani\*, A. Yuan\*, M. Saveski, S. Vosoughi, and D. Roy. (2018). **Me, My Echo Chamber, and I: Introspection on Social Media Polarization**. In WWW 2018: The 2018 Web Conference, April 23–27, 2018, Lyon France. \*Equal Contribution.
   publication_year: 2018
   pdf_file: https://arxiv.org/pdf/1803.01731.pdf
