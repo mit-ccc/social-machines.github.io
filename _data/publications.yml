@@ -23,7 +23,7 @@
 - citation: |
     Juliana Nazare\*, Anneli Hershman\*, Ivan Sysoev, Lauren Fratamico, Juanita Buitrago, Mina Soltangheis, Sneha Makini, Eric Chu, and Deb Roy. (2018). **Child-Coach-Parent Network for Early Literacy Learning**. In Proceedings of the Thirteenth International Conference of Learning Sciences. London, United Kingdom, pp. 1409-1410. \*Equal Contribution.
   publication_year: 2018
-  pdf_file: http://playfulwords.org/papers/nazare_et_al_icls_2018.pdf
+  # pdf_file: http://playfulwords.org/papers/nazare_et_al_icls_2018.pdf
   group: learning
   tags:
     - Learning
