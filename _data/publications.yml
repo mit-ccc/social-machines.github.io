@@ -21,6 +21,16 @@
 # - Randomized Experiment
 
 - citation: |
+    Nazmus Saquib, Deb Roy. (2018). **Children-Centered Sensing in Early Childhood Classrooms**. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems (CHI EA '18). New York, NY, USA, Paper LBW055, 6 pages. DOI: https://doi.org/10.1145/3170427.3188559.
+  publication_year: 2018
+  # pdf_file: http://delivery.acm.org/10.1145/3190000/3188559/LBW055.pdf?ip=18.85.24.101&id=3188559&acc=ACTIVE%20SERVICE&key=7777116298C9657D%2EDE5F786C30E1A3B4%2E4D4702B0C3E38B35%2E4D4702B0C3E38B35&__acm__=1532485253_89862cfc7d31afa8b0df024414428539
+  group: learning
+  tags:
+    - Learning
+    - Robotics
+  academic: true
+
+- citation: |
     Juliana Nazare\*, Anneli Hershman\*, Ivan Sysoev, Lauren Fratamico, Juanita Buitrago, Mina Soltangheis, Sneha Makini, Eric Chu, and Deb Roy. (2018). **Child-Coach-Parent Network for Early Literacy Learning**. In Proceedings of the Thirteenth International Conference of Learning Sciences. London, United Kingdom, pp. 1409-1410. \*Equal Contribution.
   publication_year: 2018
   # pdf_file: http://playfulwords.org/papers/nazare_et_al_icls_2018.pdf
@@ -40,7 +50,7 @@
   academic: true
 
 - citation: |
-    N. Gillani\*, A. Yuan\*, M. Saveski, S. Vosoughi, and D. Roy. (2018). **Me, My Echo Chamber, and I: Introspection on Social Media Polarization**. In WWW 2018: The 2018 Web Conference, April 23–27, 2018, Lyon France. \*Equal Contribution.
+    Nabeel Gillani\*, Ann Yuan\*, Martin Saveski, Soroush Vosoughi, and D. Roy. (2018). **Me, My Echo Chamber, and I: Introspection on Social Media Polarization**. In WWW 2018: The 2018 Web Conference, April 23–27, 2018, Lyon France. \*Equal Contribution.
   publication_year: 2018
   pdf_file: https://arxiv.org/pdf/1803.01731.pdf
   group: media analytics
