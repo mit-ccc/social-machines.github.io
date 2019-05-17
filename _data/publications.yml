@@ -21,6 +21,16 @@
 # - Randomized Experiment
 
 - citation: |
+    Eric Chu\*, Peter J. Liu\*. "MeanSum: A Neural Model for Unsupervised Multi-Document Abstractive Summarization." International Conference on Machine Learning. 2019. \*Equal Contribution.
+  publication_year: 2019
+  pdf_file: https://arxiv.org/abs/1810.05739
+  group: media analytics
+  tags:
+    - Natural Language Processing
+    - Machine Learning
+  academic: true
+
+- citation: |
     Nabeel Gillani, Roger Levy. (2019). **Simple dynamic word embeddings for mapping perceptions in the public sphere**.  In Proceedings of the 3rd workshop on NLP and CSS at the 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics. 
   publication_year: 2019
   pdf_file: https://arxiv.org/pdf/1904.03352.pdf
@@ -38,6 +48,16 @@
   tags:
     - Learning
     - Social Networks
+  academic: true
+
+- citation: |
+    Eric Chu\*, Prashanth Vijayaraghavan\*, and Deb Roy. "Learning Personas from Dialogue with Attentive Memory Networks." Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing. 2018. \*Equal Contribution.
+  publication_year: 2018
+  pdf_file: https://www.aclweb.org/anthology/papers/D/D18/D18-1284/
+  group: media analytics
+  tags:
+    - Natural Language Processing
+    - Machine Learning
   academic: true
 
 - citation: |
