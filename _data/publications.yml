@@ -39,6 +39,17 @@
     - Natural Language Processing
     - Machine Learning
   academic: true
+
+- citation: |
+    Belen Saldias F., Rosalind Picard. **Tweet Moodifier: Towards giving emotional awareness to Twitter users.** In Proceedings of the 8th International Conference on Affective Computing and Intelligent Interaction (ACII 2019). Cambridge, UK.
+  publication_year: 2019
+  pdf_file: https://arxiv.org/abs/1907.11741
+  group: media analytics
+  tags:
+    - Randomized Experiment
+    - Social Networks
+    - Natural Language Processing
+  academic: true
   
 - citation: |
     Anneli Hershman\*, Juliana Nazare\*, Ivan Sysoev, Lauren Fratamico, Juanita Buitrago, Mina Soltangheis, Sneha Makini, Eric Chu, and Deb Roy. (2018). **Family Learning Coach: Engaging Families in Children’s Early Literacy Learning with Computer-Supported Tools**. In Proceedings of the 26th International Conference on Computers in Education. Philippines, pp. 637-646. \*Equal Contribution.
