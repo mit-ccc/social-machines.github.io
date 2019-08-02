@@ -21,6 +21,15 @@
 # - Randomized Experiment
 
 - citation: |
+     Doug Beeferman, William Brannon, and Deb Roy. **RadioTalk: A large-scale corpus of talk radio transcripts.** 20th Conference of the International Speech Communication Association (INTERSPEECH 2019). 2019.
+  publication_year: 2019
+  group: media analytics
+  tags:
+    - Machine Learning
+    - Natural Language Processing
+  academic: true
+
+- citation: |
     Eric Chu\*, Peter J. Liu\*. **MeanSum: A Neural Model for Unsupervised Multi-Document Abstractive Summarization.** International Conference on Machine Learning. 2019. \*Equal Contribution.
   publication_year: 2019
   pdf_file: https://arxiv.org/abs/1810.05739
