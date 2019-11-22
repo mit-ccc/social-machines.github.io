@@ -49,9 +49,8 @@
     - Machine Learning
   academic: true
 
-
 - citation: |
-    Maggie Hughes and Deb Roy. (2019). **RadioSilenced: A Semi-Serendipitous Hyper Local Talk Radio Exploration Tool** In Proceedings of the 22nd Annual ACM Conference on Computer-Supported Cooperative Work and Social Computing. ACM, 2019. Austin, TX, USA.
+    Maggie Hughes, Deb Roy. (2019). **RadioSilenced: A Semi-Serendipitous Hyper Local Talk Radio Exploration Tool** In Proceedings of the 22nd Annual ACM Conference on Computer-Supported Cooperative Work and Social Computing. ACM, 2019. Austin, TX, USA.
   pdf_file: https://dl.acm.org/citation.cfm?id=3359474
   group: media analytics
   tags:
