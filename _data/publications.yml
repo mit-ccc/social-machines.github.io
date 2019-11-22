@@ -70,7 +70,7 @@
   academic: true
 
 - citation: |
-    Rahul Bhargava\*, Anna Chung\*, Neil S. Gaikwad\*, Alexis Hope\*, Dennis Jen\*, Jasmin Rubinovitz\*, Belén Saldías-Fuentes\*, and Ethan Zuckerman\*. **Gobo: A System for Exploring User Control of Invisible Algorithms in Social Media** In Proceedings of the CSCW '19 Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing. Austin, TX, USA. \*Equal Contribution.
+    Rahul Bhargava\*, Anna Chung\*, Neil S. Gaikwad\*, Alexis Hope\*, Dennis Jen\*, Jasmin Rubinovitz\*, Belén Saldías-Fuentes\*, and Ethan Zuckerman\*. **Gobo: A System for Exploring User Control of Invisible Algorithms in Social Media** In Proceedings of the 22nd Annual ACM Conference on Computer-Supported Cooperative Work and Social Computing. ACM, 2019. Austin, TX, USA. \*Equal Contribution.
   publication_year: 2019
   pdf_file: https://dl.acm.org/citation.cfm?id=3359452
   group: media analytics
