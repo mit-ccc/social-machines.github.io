@@ -59,7 +59,16 @@
     - Social Networks
     - Natural Language Processing
   academic: true
-  
+
+- citation: |
+    Rahul Bhargava\*, Anna Chung\*, Neil S. Gaikwad\*, Alexis Hope\*, Dennis Jen\*, Jasmin Rubinovitz\*, Belén Saldías-Fuentes\*, and Ethan Zuckerman\*. **Gobo: A System for Exploring User Control of Invisible Algorithms in Social Media** In Proceedings of the CSCW '19 Conference Companion Publication of the 2019 on Computer Supported Cooperative Work and Social Computing. Austin, TX, USA. \*Equal Contribution.
+  publication_year: 2019
+  pdf_file: https://dl.acm.org/citation.cfm?id=3359452
+  group: media analytics
+  tags:
+    - Social Networks
+  academic: true
+
 - citation: |
     Anneli Hershman\*, Juliana Nazare\*, Ivan Sysoev, Lauren Fratamico, Juanita Buitrago, Mina Soltangheis, Sneha Makini, Eric Chu, and Deb Roy. (2018). **Family Learning Coach: Engaging Families in Children’s Early Literacy Learning with Computer-Supported Tools**. In Proceedings of the 26th International Conference on Computers in Education. Philippines, pp. 637-646. \*Equal Contribution.
   publication_year: 2018
