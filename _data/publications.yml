@@ -168,6 +168,17 @@
   academic: true
 
 - citation: |
+    Ann Yuan\*, Nabeel Gillani\* (2017). **Championing a spirit of genuine inquiry to combat social fragmentation**. Invited paper at “Re-examining the meaning of education in an uncertain world”, Oxford Comparative and International Education, Oxford, UK. \*Equal Contribution.
+  publication_year: 2017
+  pdf_file: https://drive.google.com/open?id=1s52Phb9I8Fn-QjEmbaAKmUXRXU-w-iVd
+  group: media analytics
+  tags:
+    - Learning
+    - Social Networks
+  academic: false
+
+
+- citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
   publication_year: 2017
   pdf_file: http://lsm.media.mit.edu/papers/ICWSM-2017.pdf
