@@ -57,6 +57,13 @@
     - cortico
   alumni: true
 
+- name: Dimitra Dimitrakopoulou
+  title: Visiting Scholar
+  type: visitor
+  image: https://dam-prod.media.mit.edu/thumb/2019/08/20/_MG_3268.jpg.800x800.jpg
+  groups:
+    - media analytics
+
 - name: Marc Exposito
   title: Masters Student
   type: student
