@@ -57,6 +57,13 @@
     - cortico
   alumni: true
 
+- name: Katherine Cramer
+  title: Visiting Professor
+  type: visitor
+  image: https://dam-prod.media.mit.edu/thumb/2018/10/29/Cramer_Kathy_portrait15_6652-1.jpg.800x800.jpg
+  groups:
+    - media analytics
+
 - name: Dimitra Dimitrakopoulou
   title: Visiting Scholar
   type: visitor
