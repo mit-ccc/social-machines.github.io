@@ -18,7 +18,7 @@
 - name: Keyla Blanco
   title: Admin
   type: staff
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/10501805_10152581047961774_928631575297463983_n-150x150.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2017/10/06/IMG_0987_tsMFmZt.JPG.800x800.jpg
   groups:
     - media analytics
     - learning
@@ -35,7 +35,7 @@
 - name: Eric Chu
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Eric-Cropped.jpeg
+  image: https://dam-prod.media.mit.edu/thumb/face/echu.800x800.jpg
   groups:
     - media analytics
     - learning
@@ -85,7 +85,7 @@
 - name: Nabeel Gillani
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Nabeel-150x150.png
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/24/Nabeel-150x150.png.800x800.png
   groups:
     - media analytics
 
@@ -93,7 +93,7 @@
 - name: Allen Gorin
   title: Visiting Scholar
   type: visitor
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Gorin-Cropped.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/19/Gorin-Cropped.jpg.800x800.jpg
   groups:
     - media analytics
     - learning
@@ -102,15 +102,22 @@
 - name: Anneli Hershman
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Bio_Photo-1-283x300.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/19/Bio_Photo-1-283x300_s7svIx4.jpg.800x800.jpg
   groups:
     - learning
+  alumni: true
 
+- name: Anneli Hershman
+  title: Postdoctoral Associate
+  type: postdoc
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/19/Bio_Photo-1-283x300_s7svIx4.jpg.800x800.jpg
+  groups:
+    - learning
 
 - name: Andrew Heyward
   title: Visiting Researcher
   type: visitor
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/thumb_2015-07-19-09.45.57_1024.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/24/thumb_2015-07-19-09.45.57_1024.jpg.800x800.jpg
   groups:
     - media analytics
     - learning
@@ -164,7 +171,7 @@
 - name: Sneha Priscilla Makini
   title: Masters Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/10501805_10152581047961774_928631575297463983_n-150x150.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2019/07/08/mas-headshots-109-2_JbT5zxH.png.800x800.png
   groups:
     - learning
   alumni: true
@@ -172,7 +179,7 @@
 - name: Sneha Priscilla Makini
   title: Product Design & Development Lead
   type: staff
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/10501805_10152581047961774_928631575297463983_n-150x150.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2019/07/08/mas-headshots-109-2_JbT5zxH.png.800x800.png
   groups:
     - media analytics
     - learning
@@ -197,7 +204,7 @@
 - name: Juliana Nazaré
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/juliana-e1467837169133-150x150.jpg
+  image: https://dam-prod.media.mit.edu/thumb/face/jnazare.800x800.jpg
   groups:
     - learning
 
@@ -222,7 +229,7 @@
 - name: Heather Pierce
   title: Senior Administrator
   type: staff
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/HeatherCropped.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/19/HeatherCropped.jpg.800x800.jpg
   groups:
     - media analytics
     - learning
@@ -240,7 +247,7 @@
 - name: Deb Roy
   title: Director
   type: leadership
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/roy_deb_130x142.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2017/02/08/DebFacultyRetreat.jpg.800x800.jpg
   groups:
     - media analytics
     - learning
@@ -256,7 +263,7 @@
 - name: Martin Saveski
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/09/Martin.png
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/20/30.jpg.800x800.jpg
   groups:
     - media analytics
 
@@ -264,7 +271,7 @@
 - name: Nazmus Saquib
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/unnamed-150x150.png
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/21/profile_2016.png.800x800.png
   groups:
     - learning
 
@@ -282,7 +289,7 @@
 - name: Alex Siegenfeld
   title: Graduate Researcher
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/Alex.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2017/02/21/Alex.JPG.800x800.jpg
   groups:
     - media analytics
 
@@ -290,7 +297,7 @@
 - name: Russell Stevens
   title: Deployment Lead
   type: leadership
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/08/RussellCropped.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2016/08/29/B&W Headshot.jpeg.800x800.jpeg
   groups:
     - media analytics
     - learning
@@ -308,7 +315,7 @@
 - name: Ivan Sysoev
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/08/IvanCropped.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2016/12/14/face/isysoev.800x800.jpg
   groups:
     - learning
   alumni: true
@@ -317,7 +324,7 @@
 - name: Prashanth Vijayaraghavan
   title: PhD Student
   type: student
-  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/PrashanthCropped.jpg
+  image: https://dam-prod.media.mit.edu/thumb/2016/10/21/PrashanthCropped.jpg.800x800.jpg
   groups:
     - media analytics
 
