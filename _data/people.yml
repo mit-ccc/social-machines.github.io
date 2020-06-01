@@ -161,6 +161,14 @@
     - learning
   alumni: true
 
+- name: Sneha Priscilla Makini
+  title: Masters Student
+  type: Product Design & Development Lead
+  image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/10501805_10152581047961774_928631575297463983_n-150x150.jpg
+  groups:
+    - media analytics
+    - learning
+
 - name: Bridgit Mendler
   title: PhD Student
   type: student
