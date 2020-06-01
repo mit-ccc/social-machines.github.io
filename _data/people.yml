@@ -330,12 +330,12 @@
 
 
 - name: Soroush Vosoughi
-  title: Postdoctoral Associate
+  title: PhD Student & Postdoctoral Associate
   type: postdoc
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/08/SoroushCropped.png
   groups:
     - media analytics
-
+  alumni: true
 
 - name: Luke Guolong Wang
   title: Masters Student
