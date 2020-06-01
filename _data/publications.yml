@@ -62,6 +62,7 @@
 
 - citation: |
     Maggie Hughes, Deb Roy. (2019). **RadioSilenced: A Semi-Serendipitous Hyper Local Talk Radio Exploration Tool** In Proceedings of the 22nd Annual ACM Conference on Computer-Supported Cooperative Work and Social Computing. ACM, 2019. Austin, TX, USA.
+  publication_year: 2019
   pdf_file: https://dl.acm.org/citation.cfm?id=3359474
   group: media analytics
   tags:
@@ -176,6 +177,17 @@
   tags:
     - Machine Learning
   academic: true
+
+- citation: |
+    Ann Yuan\*, Nabeel Gillani\* (2017). **Championing a spirit of genuine inquiry to combat social fragmentation**. Invited paper at “Re-examining the meaning of education in an uncertain world”, Oxford Comparative and International Education, Oxford, UK. \*Equal Contribution.
+  publication_year: 2017
+  pdf_file: https://drive.google.com/open?id=1s52Phb9I8Fn-QjEmbaAKmUXRXU-w-iVd
+  group: media analytics
+  tags:
+    - Learning
+    - Social Networks
+  academic: false
+
 
 - citation: |
     Soroush Vosoughi\*, Prashanth Vijayaraghavan\*, Ann Yuan, and Deb Roy. (2017). **Mapping Twitter Conversation Landscapes**. In Proceedings of the 11th International AAAI Conference on Weblogs and Social Media (ICWSM 2017). Montreal, Canada. \*Equal Contribution.
