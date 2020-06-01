@@ -202,6 +202,12 @@
     - learning
     - cortico
 
+- name: Belen Saldias
+  title: PhD Student
+  type: student
+  image: https://dam-prod.media.mit.edu/thumb/2018/09/25/MAS39-2.jpg.800x800.jpg
+  groups:
+    - media analytics
 
 - name: Martin Saveski
   title: PhD Student
