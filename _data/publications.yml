@@ -33,6 +33,14 @@
   academic: true
 
 - citation: |
+     Anneli Hershman, Juliana Nazare, Marianna Walker, Heather Pierce, James Gray, Ivan Sysoev, Martin Saveski, Sneha Makini, Eric Chu, Marc Exposito, and Deb Roy. (2019). **Extending the SLP into the Home: Examining Coach-Supported Parent-Child Engagement With an Early Literacy App.** Peer-reviewed talk presented at the November 2019 ASHA Convention.
+  publication_year: 2019
+  group: learning
+  tags:
+    - Learning
+  academic: false
+
+- citation: |
      Doug Beeferman, William Brannon, and Deb Roy. **RadioTalk: A large-scale corpus of talk radio transcripts.** 20th Conference of the International Speech Communication Association (INTERSPEECH 2019). 2019.
   publication_year: 2019
   group: media analytics
@@ -245,6 +253,14 @@
     - Learning
   academic: true
 
+-citation: |
+    Anneli Hershman. (2017). **They're having fun... but are they learning?** Blogpost for Media Lab Learning Initiative, cross-published on Medium. [https://www.media.mit.edu/posts/they-re-having-fun-but-are-they-learning/](https://www.media.mit.edu/posts/they-re-having-fun-but-are-they-learning/)
+  publication_year: 2017
+  group: learning
+  tags:
+    - Learning
+  academic: false
+  
 
 - citation: |
     Prashanth Vijayaraghavan\*, Soroush Vosoughi\*, and Deb Roy. (2017). **Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning**. Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, 6 pages. \*Equal Contribution
