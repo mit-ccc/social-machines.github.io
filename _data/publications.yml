@@ -23,6 +23,7 @@
 - citation: |
      Belen Saldias F., Deb Roy. **Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types.** In Proceedings of the 2020 ACL Workshop on Narrative Understanding, Storylines, and Events (NUSE). ACL, 2020.
   publication_year: 2020
+  pdf_file: https://arxiv.org/pdf/2005.12762.pdf
   group: media analytics
   tags:
     - Machine Learning
