@@ -47,6 +47,7 @@
   image: http://playfulwords.org/images/team/marc-exposito.jpg
   groups:
     - learning
+  alumni: true
 
 - name: Susan Fine
   title: MA CCC-SLP
@@ -54,8 +55,7 @@
   image: http://playfulwords.org/images/team/susan_fine.jpg
   groups:
     - learning
-
-
+  
 - name: Amber Franey
   title: Administrative Assistant
   type: staff
@@ -63,6 +63,14 @@
   groups:
     - media analytics
     - learning
+  alumni: true
+
+- name: Lauren Fratamico
+  title: Masters Student
+  type: student
+  image: https://dam-prod.media.mit.edu/thumb/2017/10/13/DSC_7204.JPG.800x800.jpg
+  groups:
+    - media analytics
   alumni: true
 
 
@@ -100,6 +108,12 @@
     - learning
     - cortico
 
+- name: Maggie Hughes
+  title: PhD Student
+  type: student
+  image: https://dam-prod.media.mit.edu/thumb/2019/03/19/MAS27-2.jpg.800x800.jpg
+  groups:
+    - media analytics
 
 - name: Mike Koehrsen
   title: Research Software Architect
@@ -145,7 +159,14 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/10501805_10152581047961774_928631575297463983_n-150x150.jpg
   groups:
     - learning
+  alumni: true
 
+- name: Bridgit Mendler
+  title: PhD Student
+  type: student
+  image: https://dam-prod.media.mit.edu/thumb/2017/06/21/mendler-b.jpg.800x800.jpg
+  groups:
+    - media analytics
 
 - name: Neo Mohsenvand
   title: PhD Student
@@ -164,6 +185,13 @@
   groups:
     - learning
 
+- name: Shayne O'Brien
+  title: Masters Student
+  type: student
+  image: https://dam-prod.media.mit.edu/thumb/2017/08/29/17424956_643929279144857_4084585996014508679_n.jpg.800x800.jpg
+  groups:
+    - media analytics
+  alumni: true
 
 - name: Eric Pennington
   title: Research Software Engineer
@@ -267,6 +295,7 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/08/IvanCropped.jpg
   groups:
     - learning
+  alumni: true
 
 
 - name: Prashanth Vijayaraghavan
