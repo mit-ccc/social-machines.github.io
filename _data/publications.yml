@@ -21,6 +21,17 @@
 # - Randomized Experiment
 
 - citation: |
+     Belen Saldias F., Deb Roy. **Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types.** In Proceedings of the 2020 ACL Workshop on Narrative Understanding, Storylines, and Events (NUSE). ACL, 2020.
+  publication_year: 2020
+  group: media analytics
+  tags:
+    - Machine Learning
+    - Natural Language Processing
+    - Sociolinguistics
+    - Storytelling
+  academic: true
+
+- citation: |
      Doug Beeferman, William Brannon, and Deb Roy. **RadioTalk: A large-scale corpus of talk radio transcripts.** 20th Conference of the International Speech Communication Association (INTERSPEECH 2019). 2019.
   publication_year: 2019
   group: media analytics
