@@ -355,6 +355,7 @@
   image: http://excedrin.media.mit.edu/socialmachines/wp-content/uploads/sites/27/2014/07/headshot-150x150.jpg
   groups:
     - media analytics
+  alumni: true
 
 
 - name: Vicky Zeamer
