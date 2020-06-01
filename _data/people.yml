@@ -110,7 +110,7 @@
   image: https://dam-prod.media.mit.edu/thumb/2016/10/24/Nabeel-150x150.png.800x800.png
   groups:
     - media analytics
-
+    - learning
 
 - name: Allen Gorin
   title: Visiting Scholar
@@ -151,6 +151,7 @@
   image: https://dam-prod.media.mit.edu/thumb/2019/03/19/MAS27-2.jpg.800x800.jpg
   groups:
     - media analytics
+    - learning
 
 - name: Mike Koehrsen
   title: Research Software Architect
@@ -281,6 +282,7 @@
   image: https://dam-prod.media.mit.edu/thumb/2018/09/25/MAS39-2.jpg.800x800.jpg
   groups:
     - media analytics
+    - learning
 
 - name: Martin Saveski
   title: PhD Student
