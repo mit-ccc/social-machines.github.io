@@ -15,6 +15,14 @@
   groups:
     - media analytics
 
+- name: Sarah Ballinger
+  title: Program Strategist
+  type: staff
+  image: https://dam-prod.media.mit.edu/thumb/2020/05/21/B&WHeadshot.png.800x800.png
+  groups:
+    - media analytics
+    - learning
+
 - name: Keyla Blanco
   title: Admin
   type: staff
