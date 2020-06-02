@@ -379,6 +379,12 @@
     - cortico
     - media analytics
 
+- name: Lilian Xie
+  title: Applied Researcher
+  type: staff
+  image: https://dam-prod.media.mit.edu/thumb/2020/06/02/lily_bbHb2aO.png.800x800.png
+  groups:
+    - media analytics
 
 - name: Eugene Yi
   title: Deployment Strategist
