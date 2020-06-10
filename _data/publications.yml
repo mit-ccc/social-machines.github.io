@@ -70,16 +70,6 @@
   academic: true
 
 - citation: |
-    Nabeel Gillani, Roger Levy. (2019). **Simple dynamic word embeddings for mapping perceptions in the public sphere**.  In Proceedings of the 3rd workshop on NLP and CSS at the 2019 Annual Conference of the North American Chapter of the Association for Computational Linguistics. 
-  publication_year: 2019
-  pdf_file: https://arxiv.org/pdf/1904.03352.pdf
-  group: media analytics
-  tags:
-    - Natural Language Processing
-    - Machine Learning
-  academic: true
-
-- citation: |
     Maggie Hughes, Deb Roy. (2019). **RadioSilenced: A Semi-Serendipitous Hyper Local Talk Radio Exploration Tool** In Proceedings of the 22nd Annual ACM Conference on Computer-Supported Cooperative Work and Social Computing. ACM, 2019. Austin, TX, USA.
   publication_year: 2019
   pdf_file: https://dl.acm.org/citation.cfm?id=3359474
