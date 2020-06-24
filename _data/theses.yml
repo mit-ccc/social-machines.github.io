@@ -145,8 +145,19 @@
 # Master Theses
 
 - citation: |
+    Maggie Hughes. (2020). **KEEPER: Online conversation support scaffolding modeled after ancient and modern social technologies**. M.Sc. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2020
+  pdf_file: https://dam-prod.media.mit.edu/x/2020/05/20/HUGHES-SM-MAS-2020_J2jLZwO.pdf
+  type: master_thesis
+  group: media analytics
+  tags:
+    - Visualization
+    - Facilitation
+
+
+- citation: |
     Bridgit Claire Mendler. (2020). **OurStory \| Dispute System Design Technology for Stakeholder Inclusion**. M.Sc. Thesis, Massachusetts Institute of Technology.
-  publication_year: 2016
+  publication_year: 2020
   pdf_file: http://lsm.media.mit.edu/papers/Mendler-MS-2020.pdf
   type: master_thesis
   group: media analytics
