@@ -168,6 +168,19 @@
     - Systems
 
 - citation: |
+    Sneha Priscilla Makini. (2018). **PictureBlocks: Constructing and Deconstructing Picture-Driven Literacy Development**. M.Sc. Thesis, Massachusetts Institute of Technology.
+  publication_year: 2018
+  pdf_file: https://lsm.media.mit.edu/papers/snehapm_thesis.pdf
+  type: master_thesis
+  group: learning
+  tags:
+    - Learning
+    - Early Childhood Literacy
+    - Natural Language Processing
+    - Social Networks
+    - Self-Expression
+
+- citation: |
     Pau Perng-Hwa Kung. (2016). **Detecting and Analyzing Bursty Events on Twitter**. M.Sc. Thesis, Massachusetts Institute of Technology.
   publication_year: 2016
   pdf_file: http://lsm.media.mit.edu/papers/pau_thesis_final.pdf
