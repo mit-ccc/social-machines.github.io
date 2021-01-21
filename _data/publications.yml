@@ -19,6 +19,16 @@
 # - Social Networks
 # - Visualization
 # - Randomized Experiment
+# - Facilitation
+
+- citation: |
+     Margaret Hughes, Deb Roy. **Keeper: A Synchronous Online Conversation Environment Informed by In-Person Facilitation Practices.** In Proceedings of ACM CHI Conference on Human Factors in Computing Systems (CHI). ACM, 2021.
+  publication_year: 2021
+  group: media analytics
+  tags:
+    - Facilitation
+    - Vizualizaiton
+  academic: true
 
 - citation: |
      Belen Saldias F., Deb Roy. **Exploring aspects of similarity between spoken personal narratives by disentangling them into narrative clause types.** In Proceedings of the 2020 ACL Workshop on Narrative Understanding, Storylines, and Events (NUSE). ACL, 2020.
@@ -31,7 +41,7 @@
     - Sociolinguistics
     - Storytelling
   academic: true
-  
+
 - citation: |
      Sneha Priscilla Makini, Ini Oguntola, and Deb Roy. **Spelling their pictures: the role of visual scaffolds in an authoring app for young children's literacy and creativity.** Proceedings of the Interaction Design and Children Conference (IDC). 2020.
   publication_year: 2020
@@ -271,7 +281,7 @@
   tags:
     - Learning
   academic: false
-  
+
 
 - citation: |
     Prashanth Vijayaraghavan\*, Soroush Vosoughi\*, and Deb Roy. (2017). **Twitter Demographic Classification Using Deep Multi-modal Multi-task Learning**. Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics, 6 pages. \*Equal Contribution
@@ -1487,6 +1497,3 @@
   publication_year: 1991
   pdf_file: http://lsm.media.mit.edu/papers/chodirker_roy_1991.pdf
   academic: true
-
-
-
